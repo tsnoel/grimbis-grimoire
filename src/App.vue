@@ -20,6 +20,7 @@ import { ElIcon } from 'element-plus';
 import SpellCard from './components/SpellCard.vue';
 import Controls from './components/Controls.vue';
 
+import './styles/element-variables.scss';
 
 export default {
     name: 'App',
@@ -49,7 +50,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 :root {
     --bgcolor: #e0e0e0;
 }
@@ -67,13 +68,13 @@ html {
 }
 
 body {
-    margin: 2rem 0 0 2rem;
+    margin: 0;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -85,9 +86,19 @@ body {
     cursor: pointer;
     font-size: 10rem;
     height: 10rem;
-    margin: 0 2rem 2rem 0;
-    padding: 4rem 2.5rem 6rem 2.5rem;
+    margin: 1.5rem;
+    padding: 4.5rem 2.5rem 6.5rem 2.5rem;
     width: 10rem;
+}
+
+.spell-option {
+    .spell-option-name {
+
+    }
+    .spell-option-level {
+        float: right;
+        color: #AAAAAA;
+    }
 }
 
 </style>

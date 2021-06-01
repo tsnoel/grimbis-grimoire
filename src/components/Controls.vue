@@ -41,7 +41,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .controls-container {
     position: fixed;
     right: 1rem;
