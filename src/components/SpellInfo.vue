@@ -1,9 +1,11 @@
 <template>
-    <div class="spell-container" :class="selectedClass">
+    <div class="spell-container"
+        v-if="data.tag.label"
+        :style="{'--color': hexToRgb(data.tag.color)}">
         <div class="spell-header">
-            <div class="name">{{data.name}}</div>
+            <div class="name">{{data.spell.name}}</div>
             <div class="level">
-                {{data.level}} {{data.school}}
+                {{data.spell.level}} {{data.spell.school}}
             </div>
         </div> 
         <div class="spell-body-footer">
@@ -12,21 +14,21 @@
                     v-for="m in meta"
                     :key="m.key">
                     <span>{{m.label}}</span>
-                    <span>{{data[m.key]}}</span>
+                    <span>{{data.spell[m.key]}}</span>
                 </div>
                 <div class="desc">
-                    {{data.desc}}
-                    <span v-if="data.higher_level">
+                    {{data.spell.desc}}
+                    <span v-if="data.spell.higher_level">
                         <br/><br/>
                         <b>At higher levels</b>
                         <br/>
-                        {{data.higher_level}}
+                        {{data.spell.higher_level}}
                     </span>
                 </div>
             </div>
             <div class="spell-footer">
-                <span class="dndclass">{{selectedClass}}</span>
-                <span class="source">{{data.page}}</span>
+                <span class="dndclass">{{data.tag.label}}</span>
+                <span class="source">{{data.spell.page}}</span>
             </div>
         </div>
     </div>
@@ -36,14 +38,16 @@
 // This could be cool
 // https://www.npmjs.com/package/markdown-it-vue
 
+import cardsModel from '../models/cards';
+
 export default {
     name: 'spell-info',
     props: {
-        data: Object,
-        selectedClass: String
+        id: Number
     },
     data() {
         return {
+            data: {},
             meta: [
                 {key: 'casting_time', label: 'Casting Time'},
                 {key: 'range', label: 'Range'},
@@ -51,6 +55,22 @@ export default {
                 {key: 'components', label: 'Components'}
             ]
         };
+    },
+    beforeMount() {
+        this.data = cardsModel.fetch(this.id);
+    },
+    methods: {
+        hexToRgb(hex) {
+            let result =
+                /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ?
+                `${parseInt(result[1], 16)}, ` +
+                `${parseInt(result[2], 16)}, ` +
+                `${parseInt(result[3], 16)}` : '0, 0, 0';
+        },
+        hasLightText(hex) {
+            return !!hex;
+        }
     }
 }
 </script>
@@ -63,109 +83,9 @@ export default {
     position: relative;
     top: -1.5rem;
 
-    > * {
-        border-color: $other;
-        background-color: rgba($other, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($other, 0.5);
-        }
-    }
-
-    &.Artificer > * {
-        border-color: $artificer;
-        background-color: rgba($artificer, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($artificer, 0.3);
-        }
-    }
-    &.Bard > * {
-        border-color: $bard;
-        background-color: rgba($bard, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($bard, 0.3);
-        }
-    }
-    &.Cleric > * {
-        border-color: $cleric;
-        background-color: rgba($cleric, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($cleric, 0.3);
-        }
-    }
-    &.Druid > * {
-        border-color: $druid;
-        background-color: rgba($druid, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($druid, 0.3);
-        }
-    }
-    &.Paladin > * {
-        border-color: $paladin;
-        background-color: rgba($paladin, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($paladin, 0.3);
-        }
-    }
-    &.Ranger > * {
-        border-color: $ranger;
-        background-color: rgba($ranger, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($ranger, 0.3);
-        }
-    }
-    &.Sorcerer > * {
-        border-color: $sorcerer;
-        background-color: rgba($sorcerer, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($sorcerer, 0.3);
-        }
-    }
-    &.Warlock > * {
-        border-color: $warlock;
-        background-color: rgba($warlock, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($warlock, 0.3);
-        }
-    }
-    &.Wizard > * {
-        border-color: $wizard;
-        background-color: rgba($wizard, 0.05);
-
-        .name,
-        .spell-meta,
-        .spell-footer {
-            background-color: rgba($wizard, 0.3);
-        }
-    }
-
     .spell-body-footer, .spell-header {
+        background-color: rgba(var(--color), 0.05);
+        border-color: rgb(var(--color));
         border-width: 2px;
         border-radius: 0.45rem;
         border-style: solid;
@@ -176,6 +96,7 @@ export default {
         height: 2.5rem;
 
         .name {
+            background-color: rgba(var(--color), 0.5);
             text-align: center;
             border-radius:0.25rem;
             font-size: 1rem;
@@ -198,6 +119,7 @@ export default {
             height: calc(100% - 0.9rem);
 
             .spell-meta {
+                background-color: rgba(var(--color), 0.5);
                 border-radius:0.3rem;
                 margin:0.2rem 0.2rem 0;
                 display: flex;
@@ -221,6 +143,7 @@ export default {
         }
 
         .spell-footer {
+            background-color: rgba(var(--color), 0.5);
             display: flex;
             flex-direction: row;
             justify-content: space-between;

@@ -1,60 +1,26 @@
 <template>
     <div class="container">
-        <spell-card
-            v-for="(spell, index) in spells"
-            :key="index + ' ' + refresh"
-            :index="index"
-            :data="spell"
-            @confirm="confirmCard"
-            @remove="removeCard">
-        </spell-card>
-        <div class="new-card" @click="addCard">
-            <i class="el-icon-circle-plus-outline"></i>
-        </div>
-        <!--controls :data="spells"></controls-->
+        <spell-cards></spell-cards>
     </div>
 </template>
 
 <script>
-import { ElIcon } from 'element-plus';
-import SpellCard from './components/SpellCard.vue';
-import Controls from './components/Controls.vue';
+import SpellCards from './components/SpellCards.vue';
 
 import './styles/element-variables.scss';
 
 export default {
     name: 'App',
     components: {
-        [ElIcon.name]: ElIcon,
-        [Controls.name]: Controls,
-        [SpellCard.name]: SpellCard
+        [SpellCards.name]: SpellCards
     },
     data() {
-        return {
-            refresh: 0,
-            spells: [{}]
-        };
-    },
-    methods: {
-        addCard() {
-            this.spells.push({});
-        },
-        confirmCard(data) {
-            this.spells[data.key] = data.data;
-        },
-        removeCard(index) {
-            this.spells.splice(index, 1);
-            this.refresh++;
-        }
+        return {};
     }
 }
 </script>
 
 <style lang="scss">
-:root {
-    --bgcolor: #e0e0e0;
-}
-
 html,
 body,
 #app,
@@ -98,6 +64,16 @@ body {
     .spell-option-level {
         float: right;
         color: #AAAAAA;
+    }
+
+    .tag-option-preview {
+        height: 40%;
+        line-height: 1;
+        margin-top: 3%;
+        float: right;
+        font-size: 0.8rem;
+        padding: 0.25rem;
+        border-radius: 0.25rem;
     }
 }
 
