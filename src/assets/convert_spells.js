@@ -1,4 +1,4 @@
-const data = require('./spells_merged.json');
+const data = require('./spells.json');
 const res = [];
 
 const template = {
@@ -55,12 +55,12 @@ data.forEach((s, i) => {
         level: lvlMap[s.level_int],
         level_int: s.level_int,
         school: s.school[0].toUpperCase() + s.school.slice(1),
-        class: typeof s.class === 'string' ? s.class.split(', ') : s.class,
-        archetype: s.archetype ? s.archetype.split('<br/> ') : undefined,
-        circles: s.circles ? s.circles.split(', ') : undefined,
-        oaths: s.oaths ? s.oaths.split(', ') : undefined,
-        domains: s.domains ? s.domains.split(', ') : undefined,
-        patrons: s.patrons ? s.patrons.split(', ') : undefined
+        class: typeof s.class === 'string' ? s.class.split(', ') : s.class
+        // archetype: s.archetype ? s.archetype.split('<br/> ') : undefined,
+        // circles: s.circles ? s.circles.split(', ') : undefined,
+        // oaths: s.oaths ? s.oaths.split(', ') : undefined,
+        // domains: s.domains ? s.domains.split(', ') : undefined,
+        // patrons: s.patrons ? s.patrons.split(', ') : undefined
     });
 
     // Sniff out missing template items

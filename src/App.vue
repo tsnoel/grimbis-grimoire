@@ -37,13 +37,6 @@ body {
     margin: 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-
 .new-card {
     background-color: white;
     border: 0.2rem dashed lightgray;

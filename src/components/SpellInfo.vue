@@ -1,7 +1,7 @@
 <template>
     <div class="spell-container"
         v-if="data.tag.label"
-        :style="{'--color': hexToRgb(data.tag.color)}">
+        :style="{'--color': hexToRgb(data.tag.color), '--primary-text': isWhiteText(data.tag.color, false), '--secondary-text': isWhiteText(data.tag.color, true)}">
         <div class="spell-header">
             <div class="name">{{data.spell.name}}</div>
             <div class="level">
@@ -68,8 +68,21 @@ export default {
                 `${parseInt(result[2], 16)}, ` +
                 `${parseInt(result[3], 16)}` : '0, 0, 0';
         },
-        hasLightText(hex) {
-            return !!hex;
+        isWhiteText(hex, isSecondary) {
+            let result =
+                /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            let r = result ? [
+                parseInt(result[1], 16),
+                parseInt(result[2], 16),
+                parseInt(result[3], 16)
+            ] : [0, 0, 0];
+            let isLight = (r[0]*0.299 + r[1]*0.587 + r[2]*0.114) <= 186;
+
+            if (isSecondary) {
+                return isLight ? '#ddd' : '#666';
+            }
+
+            return isLight ? '#fff' : '#000';
         }
     }
 }
@@ -84,6 +97,7 @@ export default {
     top: -1.5rem;
 
     .spell-body-footer, .spell-header {
+        color: var(--primary-text);
         background-color: rgba(var(--color), 0.05);
         border-color: rgb(var(--color));
         border-width: 2px;
@@ -96,7 +110,7 @@ export default {
         height: 2.5rem;
 
         .name {
-            background-color: rgba(var(--color), 0.5);
+            background-color: rgba(var(--color), 0.65);
             text-align: center;
             border-radius:0.25rem;
             font-size: 1rem;
@@ -104,6 +118,7 @@ export default {
         }
 
         .level {
+            color: #000;
             text-align: center;
             font-style: italic;
             font-size:0.9rem;
@@ -119,7 +134,7 @@ export default {
             height: calc(100% - 0.9rem);
 
             .spell-meta {
-                background-color: rgba(var(--color), 0.5);
+                background-color: rgba(var(--color), 0.65);
                 border-radius:0.3rem;
                 margin:0.2rem 0.2rem 0;
                 display: flex;
@@ -128,22 +143,24 @@ export default {
 
                 >span:first-child {
                     width:40%;
+                    font-weight: bold;
                     text-align: center;
-                    color: $secondary-text;
+                    color: var(--secondary-text);
                 }
             }
 
             .desc {
+                color: #000;
                 white-space: pre-line;
                 padding: 0.5rem 1rem;
                 font-size: 0.75rem;
-                height: calc(100% - 5.5rem);
+                height: calc(100% - 5.4rem);
                 overflow-y: scroll;
             }
         }
 
         .spell-footer {
-            background-color: rgba(var(--color), 0.5);
+            background-color: rgba(var(--color), 0.65);
             display: flex;
             flex-direction: row;
             justify-content: space-between;

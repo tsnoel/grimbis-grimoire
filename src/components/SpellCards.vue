@@ -2,7 +2,7 @@
     <el-row :gutter="20" class="cards">
         <el-col :xs="24" :sm="8" :md="6" :xl="4"
             v-for="card in all"
-            :key="card.id">
+            :key="card.id" class="single-card">
             <div class="card-container-sakura">
                 <i class="el-icon-error"
                     @click="removeCard(card.id)">
@@ -10,7 +10,7 @@
                 <spell-info :id="card.id"></spell-info>
             </div>
         </el-col>
-        <el-col :xs="24" :sm="8" :md="6" :xl="4">
+        <el-col :xs="24" :sm="8" :md="6" :xl="4" class="single-card">
             <spell-search class="card-container-sakura"
                 @refresh="refresh">
             </spell-search>
@@ -56,13 +56,16 @@ export default {
 @import '../styles/colors.scss';
 
 .cards {
-    margin: 1rem 1rem 0 1rem !important;
-    width: 100%
+    margin: 0 !important;
+    width: 100%;
+
+    .single-card {
+        padding: 0.5rem !important;
+    }
 }
 
 .card-container-sakura {
     height: 20rem;
-    margin-bottom: 1rem;
 
     .el-icon-error {
         background-color: $generic-card;

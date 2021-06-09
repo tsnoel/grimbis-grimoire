@@ -76,7 +76,7 @@
         <div class="confirm-button-container">
             <el-button
                 class="confirm-button"
-                :disabled="!selectedSpell || !selectedTag"
+                :disabled="selectedSpell === undefined || selectedTag === undefined"
                 type="primary"
                 @click="confirmCard">
                 Add Spell
