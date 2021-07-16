@@ -9,6 +9,11 @@ class Cards {
         this.indexCount = 0;
     }
 
+    load(data) {
+        this.all = data ? JSON.parse(data) : [];
+        this.indexCount = this.all.length ? this.all[this.all.length - 1].id + 1 : 0;
+    }
+
     fetch(id) {
         return this.all.find((a) => a.id === id);
     }

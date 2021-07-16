@@ -1,19 +1,14 @@
 <template>
-    <div class="container">
-        <spell-cards></spell-cards>
+    <div>
+        <router-view />
     </div>
 </template>
 
 <script>
-import SpellCards from './components/SpellCards.vue';
-
 import './styles/element-variables.scss';
 
 export default {
     name: 'App',
-    components: {
-        [SpellCards.name]: SpellCards
-    },
     data() {
         return {};
     }

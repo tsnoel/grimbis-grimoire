@@ -5,14 +5,14 @@
             :key="card.id" class="single-card">
             <div class="card-container-sakura">
                 <i class="el-icon-error"
-                    @click="removeCard(card.id)">
+                    @click="removeCard(card.id); saveCookies();">
                 </i>
                 <spell-info :id="card.id"></spell-info>
             </div>
         </el-col>
         <el-col :xs="24" :sm="8" :md="6" :xl="4" class="single-card">
             <spell-search class="card-container-sakura"
-                @refresh="refresh">
+                @refresh="refresh(); saveCookies();">
             </spell-search>
         </el-col>
     </el-row>
@@ -36,10 +36,17 @@ export default {
     data() {
         return {
             cardsModel,
-            all: [...cardsModel.all]
+            all: []
         };
     },
+    beforeMount() {
+        this.loadCookies();
+        this.refresh();
+    },
     methods: {
+        loadCookies() {
+            cardsModel.load(this.$cookies.get('spells'));
+        },
         async refresh() {
             this.all = [...cardsModel.all];
             await this.$nextTick();
@@ -47,6 +54,9 @@ export default {
         async removeCard(id) {
             cardsModel.remove(id);
             await this.refresh();
+        },
+        saveCookies() {
+            this.$cookies.set('spells', JSON.stringify([...cardsModel.all]), Infinity);
         }
     }
 }
