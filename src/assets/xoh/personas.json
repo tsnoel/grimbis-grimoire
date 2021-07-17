@@ -1,0 +1,66 @@
+{
+    "Dok": {
+        "title": "The people's Bugbear",
+        "description": "A bugbear with decidedly un-bugbear goals: to be good, to have integrity, to be balanced, to improve other's conditions. The most likely to start a union."
+    },
+    "Papa Kap": {
+        "title": "The Dwarven Chef",
+        "description": "A grandfatherly dwarf man. Proficient with cook's tools. Shared among the monastery changelings to help with food preparation duties.",
+            "gender": "M",
+            "eyes": "Blue",
+            "hair": "Orange w/ Gray",
+            "skin": "White (Flushed)",
+            "age": "272",
+            "height": "4' 6\"",
+            "weight": "203 lbs."
+    },
+    "Xoh": {
+        "title": "The Neurotic Changeling",
+        "description": "A young woman who uses alternate personas to make up for her perceived shortcomings.",
+        "alignment": "Neutral Good",
+        "race": "Changeling",
+        "gender": "F",
+        "eyes": "White",
+        "size": "Medium",
+        "height": "5' 7\"",
+        "faith": "--",
+        "hair": "White",
+        "skin": "Pale",
+        "age": "18",
+        "weight": "123 lb.",
+        "traits": "I judge people by their actions, not their words.",
+        "ideals": "Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)",
+        "bonds": "I protect those who cannot protect themselves.",
+        "flaws": "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+    },
+    "\"Xed\" (Kevin)": {
+        "title": "The Angsty Drow",
+        "description": "A teenage boy. Lover of dark clothes, fantasy emo, and trying to look cool."
+    },
+    "Gob": {
+        "title": "The Investigative Hobgoblin",
+        "description": "Much shorter than his counterparts, this hobgoblin is much more interested in deduction than violence.",
+        "gender": "M",
+        "eyes": "Yellow",
+        "hair": "Black",
+        "skin": "Red-Orange",
+        "age": "33",
+        "height": "5' 0\"",
+        "weight": "153 lbs."
+    },
+    "Wrett": {
+        "title": "The Beefy Lizardman",
+        "description": "A mute, muscled, anthropomorphic bearded dragon. Used for pranks, tricks, and intimidation."
+    },
+    "Zazz": {
+        "title": "The Human Monk",
+        "description": "A modest young man with shaved head. Athletic build. Loves Horses. Loves light magic. This persona made the pact with a unicorn.",
+        "gender": "M",
+        "eyes": "Dark Green",
+        "hair": "Bald",
+        "skin": "White",
+        "age": "21",
+        "height": "5' 8\"",
+        "weight": "163 lbs."
+    }
+}

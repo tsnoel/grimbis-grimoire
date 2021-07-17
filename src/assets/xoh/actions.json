@@ -1,0 +1,39 @@
+{
+    "Attack (2 per Action)": [
+        "Unarmed Strike, 5', +9 Hit, 1d6+5 Magical Bludgeoning",
+        "Thoughts & Prayers, 5', +9 Hit, 1d6+5 Psychic & Radiant (Alternating)"
+    ],
+    "Cast a Spell": [
+        "Eldritch Blast (2 Blasts per Cast), 120', +6 Hit, 1d10 Force"
+    ],
+    "Combat Actions": [
+        "Disengage",
+        "Dodge",
+        "Grapple",
+        "Help",
+        "Hide",
+        "Improvise",
+        "Ready",
+        "Search",
+        "Shove",
+        "Use an Object"
+    ],
+    "Other Actions": [
+        "Change Appearence",
+        "Stilness of Mind",
+        "Wholeness of Body"
+    ],
+    "Bonus Actions": [
+        "Extra Unarmed / T&P Strike",
+        "Flurry of Blows",
+        "Patient Defense",
+        "Step of the Wind",
+        "Hex"
+    ],
+    "Reactions": [
+        "Deflect Missiles",
+        "Oppertunity Attack",
+        "Slow Fall",
+        "Unsettling Visage"
+    ]
+}

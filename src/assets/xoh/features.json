@@ -1,0 +1,117 @@
+{
+    "Rustic Hospitality": {
+        "source": {"type": "Background", "value": "Folk Hero"},
+        "description": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+    },
+    "Chef": {
+        "source": {"type": "Bonus", "value": "From DM", "book": "Tasha's Cauldron of Everything"},
+        "description": "Time and effort spent mastering the culinary arts has paid off. You gain the following benefits:\n\n- Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n- You gain proficiency with cook’s utensils if you don’t already have it.\n- As part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points.\n- With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus.",
+        "value": "CON"
+    },
+    "Unarmed Defense": {
+        "source": {"type": "Class", "value": "Monk", "level": 1},
+        "description": "Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+    },
+    "Martial Arts": {
+        "source": {"type": "Class", "value": "Monk", "level": 1},
+        "description": "At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don’t have the two-handed or heavy property. \n\nYou gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield: \n\n- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\n- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels: 1d4 (1-4), 1d6 (5-10), 1d8 (11-16), and 1d10 (17-20).\n- When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn."
+    },
+    "Ki": {
+        "source": {"type": "Class", "value": "Monk", "level": 2},
+        "description": "Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points equal to your monk level.\n\nYou can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.\n\nWhen you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.\n\nSome of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows:\n\nKi save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nFlurry of Blows\nImmediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.\n\nPatient Defense\nYou can spend 1 ki point to take the Dodge action as a bonus action on your turn.\n\nStep of the Wind\nYou can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn."
+    },
+    "Unarmored Movement": {
+        "source": {"type": "Class", "value": "Monk", "level": 2},
+        "description": "Starting at 2nd level, your speed increases by 10' while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels: +10' (2-5), +15' (6-9), +20' (10-13), +25' (14-17), +30' (18-20)."
+    },
+    "Open Hand Technique": {
+        "source": {"type": "Class", "value": "Monk", "sub": "Way of the Open Hand", "level": 3},
+        "description": "Starting when you choose this tradition at 3rd level, you can manipulate your enemy’s ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:\n\n- It must succeed on a Dexterity saving throw or be knocked prone.\n- It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.\n- It can’t take reactions until the end of your next turn."
+    },
+    "Deflect Missiles": {
+        "source": {"type": "Class", "value": "Monk", "level": 3},
+        "description": "Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.\n\nIf you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet."
+    },
+    "Ability Score Improvement": {
+        "source": {"type": "Class", "value": "Monk", "level": 4},
+        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.\n\nUsing the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.",
+        "value": "4: DEX, DEX | 8: DEX, DEX"
+    },
+    "Slow Fall": {
+        "source": {"type": "Class", "value": "Monk", "level": 4},
+        "description": "Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+    },
+    "Extra Attack": {
+        "source": {"type": "Class", "value": "Monk", "level": 5},
+        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    "Stunning Strike": {
+        "source": {"type": "Class", "value": "Monk", "level": 5},
+        "description": "Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+    },
+    "Ki-Empowered Strikes": {
+        "source": {"type": "Class", "value": "Monk", "level": 6},
+        "description": "Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+    },
+    "Wholeness of Body": {
+        "source": {"type": "Class", "value": "Monk", "sub": "Way of the Open Hand", "level": 6},
+        "description": "At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again."
+    },
+    "Evasion": {
+        "source": {"type": "Class", "value": "Monk", "level": 7},
+        "description": "At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    },
+    "Stillness of Mind": {
+        "source": {"type": "Class", "value": "Monk", "level": 7},
+        "description": "Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    },
+    "Otherworldly Patron": {
+        "source": {"type": "Class", "value": "Warlock", "level": 1},
+        "description": "At 1st level, you have struck a bargain with an otherworldly being of your choice: the Fiend, which is detailed at the end of the class description, or one from another source. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",
+        "value": "The Celestial\n\nYour patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.\n\nBeing connected to such power can cause changes to your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world."
+    },
+    "Expanded Spell List": {
+        "source": {"type": "Class", "value": "Warlock", "sub": "The Celestial", "level": 1},
+        "description": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n1st: Cure Wounds, Guiding Bolt\n2nd: Flaming Sphere, Lesser Restoration\n3rd: Daylight, Revivify\n4th: Guardian of Faith, Wall of Fire\n5th: Flame Strike, Greater Restoration"
+    },
+    "Bonus Cantrips": {
+        "source": {"type": "Class", "value": "Warlock", "sub": "The Celestial", "level": 1},
+        "description": "At 1st level, you learn the Light and Sacred Flame cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known."
+    },
+    "Healing Light": {
+        "source": {"type": "Class", "value": "Warlock", "sub": "The Celestial", "level": 1},
+        "description": "At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.\n\nAs a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.\n\nYour pool regains all expended dice when you finish a long rest."
+    },
+    "Pact Magic": {
+        "source": {"type": "Class", "value": "Warlock", "level": 1},
+        "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the warlock spell list.\n\nCantrips\nYou know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n\nSpell Slots\nThe Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\n\nSpells Known of 1st Level and Higher\nAt 1st level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus\nYou can use an arcane focus (see the Adventuring Gear section) as a spellcasting focus for your warlock spells."
+    },
+    "Eldritch Invocations": {
+        "source": {"type": "Class", "value": "Warlock", "level": 2},
+        "description": "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.\n\nAt 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.\n\nAdditionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.\n\nIf an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class.",
+        "value": "Devil’s Sight\nYou can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.\n\nEyes of the Rune Keeper\nYou can read all writing."
+    },
+    "Change Appearance": {
+        "source": {"type": "Racial", "value": "Changeling"},
+        "description": "As an action, you can transform your appearance - including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics - or revert to your natural form. You can’t duplicate the appearance of a creature you’ve never seen, and you revert to your natural form if you die. You have advantage on any Deception check you make to avoid detection."
+    },
+    "Changeling Instincts": {
+        "source": {"type": "Racial", "value": "Changeling"},
+        "description": "You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion.",
+        "value": "Insight, Persuasion"
+    },
+    "Unsettling Visage": {
+        "source": {"type": "Racial", "value": "Changeling"},
+        "description": "Once per short rest, when a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses."
+    },
+    "Divergent Persona": {
+        "source": {"type": "Racial", "value": "Changeling"},
+        "description": "You gain proficiency with one tool of your choice. Define a unique identity associated with that proficiency; establish the name, race, gender, age, and other details. While you are in the form of this persona, the related proficiency bonus is doubled for any ability check you make that uses that proficiency.",
+        "value": "Papa Kap - Cook's Utensils"
+    },
+    "Languages": {
+        "source": {"type": "Racial", "value": "Changeling"},
+        "description": "You can speak, read, and write Common and two other languages of your choice.",
+        "value": "Undercommon, Dwarvish"
+    }
+}
