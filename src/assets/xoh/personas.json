@@ -1,18 +1,33 @@
 {
     "Dok": {
         "title": "The people's Bugbear",
-        "description": "A bugbear with decidedly un-bugbear goals: to be good, to have integrity, to be balanced, to improve other's conditions. The most likely to start a union."
+        "description": "A bugbear with decidedly un-bugbear goals: to be good, to have integrity, to be balanced, to improve other's conditions. The most likely to start a union.",
+        "alignment": "",
+        "race": "Bugbear",
+        "gender": "M",
+        "eyes": "",
+        "size": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "skin": "",
+        "age": "",
+        "weight": ""
     },
     "Papa Kap": {
         "title": "The Dwarven Chef",
         "description": "A grandfatherly dwarf man. Proficient with cook's tools. Shared among the monastery changelings to help with food preparation duties.",
-            "gender": "M",
-            "eyes": "Blue",
-            "hair": "Orange w/ Gray",
-            "skin": "White (Flushed)",
-            "age": "272",
-            "height": "4' 6\"",
-            "weight": "203 lbs."
+        "alignment": "",
+        "race": "Dwarf",
+        "gender": "M",
+        "eyes": "Blue",
+        "size": "",
+        "height": "4' 6\"",
+        "faith": "",
+        "hair": "Orange w/ Gray",
+        "skin": "White (Flushed)",
+        "age": "272",
+        "weight": "203 lbs."
     },
     "Xoh": {
         "title": "The Neurotic Changeling",
@@ -23,7 +38,7 @@
         "eyes": "White",
         "size": "Medium",
         "height": "5' 7\"",
-        "faith": "--",
+        "faith": "",
         "hair": "White",
         "skin": "Pale",
         "age": "18",
@@ -35,7 +50,18 @@
     },
     "\"Xed\" (Kevin)": {
         "title": "The Angsty Drow",
-        "description": "A teenage boy. Lover of dark clothes, fantasy emo, and trying to look cool."
+        "description": "A teenage boy. Lover of dark clothes, fantasy emo, and trying to look cool.",
+        "alignment": "",
+        "race": "Drow",
+        "gender": "M",
+        "eyes": "",
+        "size": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "skin": "",
+        "age": "",
+        "weight": ""
     },
     "Gob": {
         "title": "The Investigative Hobgoblin",
@@ -50,17 +76,32 @@
     },
     "Wrett": {
         "title": "The Beefy Lizardman",
-        "description": "A mute, muscled, anthropomorphic bearded dragon. Used for pranks, tricks, and intimidation."
+        "description": "A mute, muscled, anthropomorphic bearded dragon. Used for pranks, tricks, and intimidation.",
+        "alignment": "",
+        "race": "Lizardfolk",
+        "gender": "M",
+        "eyes": "",
+        "size": "",
+        "height": "",
+        "faith": "",
+        "hair": "",
+        "skin": "",
+        "age": "",
+        "weight": ""
     },
     "Zazz": {
         "title": "The Human Monk",
         "description": "A modest young man with shaved head. Athletic build. Loves Horses. Loves light magic. This persona made the pact with a unicorn.",
+        "alignment": "",
+        "race": "Human",
         "gender": "M",
         "eyes": "Dark Green",
+        "size": "",
+        "height": "5' 8\"",
+        "faith": "",
         "hair": "Bald",
         "skin": "White",
         "age": "21",
-        "height": "5' 8\"",
         "weight": "163 lbs."
     }
 }

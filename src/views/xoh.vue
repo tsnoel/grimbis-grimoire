@@ -1,6 +1,8 @@
 <template>
     <el-row class="character">
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <el-divider content-position="left"
+                class="divider">Abilities</el-divider>
             <el-card class="column-card">
                 <div class="ability-row" v-for="(value, ability) in abilities" :key="ability">
                     <div class="ability-label">
@@ -21,6 +23,8 @@
             </el-card>
         </el-col>
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <el-divider content-position="left"
+                class="divider">Skills</el-divider>
             <el-card class="column-card">
                 <div class="skill-row" :class="{prof: value.prof}"
                     v-for="(value, skill) in skills" :key="skill">
@@ -40,7 +44,7 @@
 </template>
 
 <script>
-import { ElCol, ElRow, ElCard } from 'element-plus';
+import { ElCol, ElRow, ElCard, ElDivider } from 'element-plus';
 
 import spells from '../assets/spells.json';
 
@@ -83,7 +87,8 @@ name: 'xoh',
     components: {
         [ElCol.name]: ElCol,
         [ElRow.name]: ElRow,
-        [ElCard.name]: ElCard
+        [ElCard.name]: ElCard,
+        [ElDivider.name]: ElDivider
     },
     data() {
         return {
@@ -204,6 +209,17 @@ name: 'xoh',
 <style scoped lang="scss">
 .character {
     padding: 1rem 0 0 1rem;
+
+    .divider {
+        margin: 1rem 0;
+        width: calc(100% - 1rem);
+    }
+
+    .divider ::v-deep(.el-divider__text) {
+        background-color: #FBFBFB;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 
     .column-card ::v-deep(.el-card__body) {
         padding: 1rem 0.5rem;
