@@ -39,6 +39,35 @@
             </el-card>
         </el-col>
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <el-divider content-position="left"
+                class="divider">Health</el-divider>
+            <el-card class="column-card half-card">
+                max hp, current hp, temp hp, max hit dice, current hit dice
+            </el-card>
+            <el-divider content-position="left"
+                class="divider">Magic</el-divider>
+            <el-card class="column-card half-card">
+                max spellslot, current spellslot, Spell dc/attack/abilitymod
+            </el-card>
+        </el-col>
+        <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <el-divider content-position="left"
+                class="divider">Ki</el-divider>
+            <el-card class="column-card third-card">
+                max and current
+            </el-card>
+            <el-divider content-position="left"
+                class="divider">Movement & Defense</el-divider>
+            <el-card class="column-card third-card">
+                init, speed, ac
+            </el-card>
+            <el-divider content-position="left"
+                class="divider">TBD</el-divider>
+            <el-card class="column-card third-card">
+                idk lol
+            </el-card>
+        </el-col>
+        <el-col :xs="24" :sm="8" :md="6" :xl="4">
         </el-col>
     </el-row>
 </template>
@@ -230,6 +259,16 @@ name: 'xoh',
         height: 30rem;
         margin: 0 1rem 1rem 0;
         width: calc(100% - 1rem);
+
+        &.half-card {
+            height: 13.65rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &.third-card {
+            height: 8.2rem;
+            margin-bottom: 1.5rem;
+        }
 
         .ability-row {
             border: 1px solid darkgray;
