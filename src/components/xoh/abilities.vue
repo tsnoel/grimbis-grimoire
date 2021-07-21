@@ -1,58 +1,131 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+    <div>
+        <el-divider content-position="left"
+            class="divider">Abilities</el-divider>
+        <el-card class="column-card">
+            <div class="ability-row" v-for="(value, ability) in abilities" :key="ability">
+                <div class="ability-label">
+                    <span class="short">{{ability}}</span>
+                    <span class="long">{{value.label}}</span>
+                </div>
+                <div class="ability-val">
+                    <span class="val">{{value.val}}</span>
+                    <span class="mod">{{value.mod > 0 ? '+' : ''}}{{value.mod}}</span>
+                </div>
+                <div class="ability-save" :class="{prof: value.prof}">
+                    <span class="prof-label">{{value.prof ? 'Proficient' : ''}} Save</span>
+                    <span class="save">
+                        {{value.save > 0 ? '+' : ''}}{{value.save}}
+                    </span>
+                </div>
+            </div>
+        </el-card>
+    </div>
 </template>
 
 <script>
+import { ElCard, ElDivider } from 'element-plus';
+
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+    name: 'abilities',
+    components: {
+        [ElCard.name]: ElCard,
+        [ElDivider.name]: ElDivider
+    },
+    props: {
+        abilities: String
+    },
+    data() {
+        return {};
+    }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style scoped lang="scss">
+.divider ::v-deep(.el-divider__text) {
+    background-color: #FBFBFB;
+    font-size: 1rem;
+    font-weight: bold;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.column-card ::v-deep(.el-card__body) {
+    padding: 1rem 0.5rem;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+
+.ability-row {
+    border: 1px solid darkgray;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    height: 4.25rem;
+    margin: 0.25rem 0;
+
+    .ability-label,
+    .ability-val,
+    .ability-save {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ability-label,
+    .ability-save {
+        border-radius: 0.6rem;
+        width: 33%;
+    }
+
+    .ability-label {
+        background-color: gray;
+        border-right: 1px solid darkgray;
+        color: white;
+        font-weight: bold;
+
+        .long {
+            color: lightgray;
+            font-size: 0.65rem;
+        }
+
+        .short {
+            font-size: 1.5rem;
+        }
+    }
+
+    .ability-save {
+        border-left: 1px solid darkgray;
+        font-weight: bold;
+
+        .prof-label {
+            color: gray;
+            font-size: 0.75rem;
+        }
+
+        &.prof {
+            background-color: gray;
+            color: white;
+
+            .prof-label {
+                color: lightgray;
+            }
+        }
+
+        .save {
+            font-size: 1.5rem;
+        }
+    }
+
+    .ability-val {
+        font-weight: bold;
+        width: 34%;
+
+        .mod {
+            color: gray;
+            font-size: 1rem;
+        }
+
+        .val {
+            font-size: 1.5rem;
+        }
+    }
 }
 </style>

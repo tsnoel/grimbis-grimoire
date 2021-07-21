@@ -1,71 +1,30 @@
 <template>
     <el-row class="character">
+        <!-- Abilities -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <el-divider content-position="left"
-                class="divider">Abilities</el-divider>
-            <el-card class="column-card">
-                <div class="ability-row" v-for="(value, ability) in abilities" :key="ability">
-                    <div class="ability-label">
-                        <span class="short">{{ability}}</span>
-                        <span class="long">{{value.label}}</span>
-                    </div>
-                    <div class="ability-val">
-                        <span class="val">{{value.val}}</span>
-                        <span class="mod">{{value.mod > 0 ? '+' : ''}}{{value.mod}}</span>
-                    </div>
-                    <div class="ability-save" :class="{prof: value.prof}">
-                        <span class="prof-label">{{value.prof ? 'Proficient' : ''}} Save</span>
-                        <span class="save">
-                            {{value.save > 0 ? '+' : ''}}{{value.save}}
-                        </span>
-                    </div>
-                </div>
-            </el-card>
+            <abilities :abilities="abilities"></abilities>
         </el-col>
+        <!-- Skills -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <el-divider content-position="left"
-                class="divider">Skills</el-divider>
-            <el-card class="column-card">
-                <div class="skill-row" :class="{prof: value.prof}"
-                    v-for="(value, skill) in skills" :key="skill">
-                    <span>
-                        <span class="skill-ability">{{value.ability}}</span>
-                        <span class="skill-name">{{skill}}</span>
-                    </span>
-                    <span class="skill-mod">
-                        {{value.mod > 0 ? '+' : ''}}{{value.mod}}
-                    </span>
-                </div>
-            </el-card>
+            <skills :skills="skills"></skills>
         </el-col>
+        <!-- Health, Movement, and Defense -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <el-divider content-position="left"
-                class="divider">Health</el-divider>
-            <el-card class="column-card half-card">
-                max hp, current hp, temp hp, max hit dice, current hit dice
-            </el-card>
-            <el-divider content-position="left"
-                class="divider">Magic</el-divider>
-            <el-card class="column-card half-card">
-                max spellslot, current spellslot, Spell dc/attack/abilitymod
-            </el-card>
+            <health
+                :hp="hp" :speed="speed"
+                :ac="ac" :hd="hd"
+                :initative="initative"
+                :wholeness="wholeness"
+                :healing="healing">
+            </health>
         </el-col>
+        <!-- Spirit & Magic -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <el-divider content-position="left"
-                class="divider">Ki</el-divider>
-            <el-card class="column-card third-card">
-                max and current
-            </el-card>
-            <el-divider content-position="left"
-                class="divider">Movement & Defense</el-divider>
-            <el-card class="column-card third-card">
-                init, speed, ac
-            </el-card>
-            <el-divider content-position="left"
-                class="divider">TBD</el-divider>
-            <el-card class="column-card third-card">
-                idk lol
-            </el-card>
+            <magic :ki="ki"
+                :spellMeta="spellMeta"
+                :spellSlots="spellSlots"
+                :uv="unsettling">
+            </magic>
         </el-col>
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
         </el-col>
@@ -73,7 +32,12 @@
 </template>
 
 <script>
-import { ElCol, ElRow, ElCard, ElDivider } from 'element-plus';
+import { ElCol, ElRow } from 'element-plus';
+
+import Abilities from '../components/xoh/abilities';
+import Skills from '../components/xoh/skills';
+import Health from '../components/xoh/health';
+import Magic from '../components/xoh/magic';
 
 import spells from '../assets/spells.json';
 
@@ -112,12 +76,14 @@ const SKILLS = {
 };
 
 export default {
-name: 'xoh',
+    name: 'xoh',
     components: {
         [ElCol.name]: ElCol,
         [ElRow.name]: ElRow,
-        [ElCard.name]: ElCard,
-        [ElDivider.name]: ElDivider
+        [Abilities.name]: Abilities,
+        [Skills.name]: Skills,
+        [Health.name]: Health,
+        [Magic.name]: Magic
     },
     data() {
         return {
@@ -143,6 +109,18 @@ name: 'xoh',
                 current: 7,
                 max: 8
             },
+            unsettling: {
+                current: 1,
+                max: 1
+            },
+            wholeness: {
+                current: 1,
+                max: 1
+            },
+            healing: {
+                current: 3,
+                max: 3
+            },
             abilities: {
                 'STR': {val: 7, prof: true, label: 'Strength'},
                 'DEX': {val: 20, prof: true, label: 'Dexterity'},
@@ -166,7 +144,10 @@ name: 'xoh',
             currentPersona: 'Papa Kap',
             // Derived at runtime
             ac: 0,
-            hd: [],
+            hd: {
+                max: [],
+                current: []
+            },
             initative: 0,
             spellMeta: {},
             skills: {}
@@ -205,9 +186,9 @@ name: 'xoh',
         });
 
         Object.keys(hdMap).forEach((hd) => {
-            this.hd.push(`${hdMap[hd]}d${hd}`);
+            this.hd.max.push(`${hdMap[hd]}d${hd}`);
+            this.hd.current.push(`d${hd}`);
         });
-        this.hd = this.hd.join(', ');
 
         Object.keys(SKILLS).forEach((skill) => {
             const ability = SKILLS[skill].ability;
@@ -235,7 +216,7 @@ name: 'xoh',
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .character {
     padding: 1rem 0 0 1rem;
 
@@ -265,119 +246,14 @@ name: 'xoh',
             margin-bottom: 1.5rem;
         }
 
-        &.third-card {
-            height: 8.2rem;
+        &.two-third-card {
+            height: 19.1rem;
             margin-bottom: 1.5rem;
         }
 
-        .ability-row {
-            border: 1px solid darkgray;
-            border-radius: 0.75rem;
-            display: flex;
-            flex-direction: row;
-            height: 4.25rem;
-            margin: 0.25rem 0;
-
-            .ability-label,
-            .ability-val,
-            .ability-save {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-            }
-
-            .ability-label,
-            .ability-save {
-                border-radius: 0.6rem;
-                width: 33%;
-            }
-
-            .ability-label {
-                background-color: gray;
-                border-right: 1px solid darkgray;
-                color: white;
-                font-weight: bold;
-
-                .long {
-                    color: lightgray;
-                    font-size: 0.65rem;
-                }
-
-                .short {
-                    font-size: 1.5rem;
-                }
-            }
-
-            .ability-save {
-                border-left: 1px solid darkgray;
-                font-weight: bold;
-
-                .prof-label {
-                    color: gray;
-                    font-size: 0.75rem;
-                }
-
-                &.prof {
-                    background-color: gray;
-                    color: white;
-
-                    .prof-label {
-                        color: lightgray;
-                    }
-                }
-
-                .save {
-                    font-size: 1.5rem;
-                }
-            }
-
-            .ability-val {
-                font-weight: bold;
-                width: 34%;
-
-                .mod {
-                    color: gray;
-                    font-size: 1rem;
-                }
-
-                .val {
-                    font-size: 1.5rem;
-                }
-            }
-        }
-
-        .skill-row {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin: 0.2rem 0;
-            padding: 0.05rem 0.5rem;
-
-            .skill-name {
-                font-weight: bold;
-            }
-
-            .skill-ability {
-                font-size: 0.8rem;
-                font-weight: bold;
-                margin-right: 0.25rem;
-                color: darkgray;
-            }
-
-            .skill-mod {
-                margin-right: 0.25rem;
-            }
-
-            &.prof {
-                background-color: gray;
-                border-radius: 0.5rem;
-                color: white;
-
-                .skill-ability {
-                    color: lightgray;
-                }
-            }
+        &.third-card {
+            height: 8.2rem;
+            margin-bottom: 1.5rem;
         }
     }
 }
