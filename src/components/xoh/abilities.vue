@@ -1,9 +1,11 @@
 <template>
     <div>
         <el-divider content-position="left"
-            class="divider">Abilities</el-divider>
-        <el-card class="column-card">
-            <div class="ability-row" v-for="(value, ability) in abilities" :key="ability">
+            class="divider" @click="collapsed = !collapsed">
+            Abilities</el-divider>
+        <el-card v-show="!collapsed" class="column-card">
+            <div class="ability-row" :class="ability"
+                v-for="(value, ability) in character.abilities" :key="ability">
                 <div class="ability-label">
                     <span class="short">{{ability}}</span>
                     <span class="long">{{value.label}}</span>
@@ -25,6 +27,7 @@
 
 <script>
 import { ElCard, ElDivider } from 'element-plus';
+import character from '../../models/xoh';
 
 export default {
     name: 'abilities',
@@ -32,18 +35,20 @@ export default {
         [ElCard.name]: ElCard,
         [ElDivider.name]: ElDivider
     },
-    props: {
-        abilities: String
-    },
     data() {
-        return {};
+        return {
+            character,
+            collapsed: false
+        };
     }
 }
 </script>
 
 <style scoped lang="scss">
+@import '../../styles/colors';
+
 .divider ::v-deep(.el-divider__text) {
-    background-color: #FBFBFB;
+    background-color: color(slate, 50);
     font-size: 1rem;
     font-weight: bold;
 }
@@ -53,7 +58,8 @@ export default {
 }
 
 .ability-row {
-    border: 1px solid darkgray;
+    background-color: color(gray, lightest);
+    // border: 1px solid color(gray, base);
     border-radius: 0.75rem;
     display: flex;
     flex-direction: row;
@@ -76,13 +82,13 @@ export default {
     }
 
     .ability-label {
-        background-color: gray;
-        border-right: 1px solid darkgray;
-        color: white;
+        background-color: color(gray, dark);
+        // border-right: 1px solid color(gray, base);
+        color: color(gray, lighter);
         font-weight: bold;
 
         .long {
-            color: lightgray;
+            color: color(gray, light);
             font-size: 0.65rem;
         }
 
@@ -92,20 +98,21 @@ export default {
     }
 
     .ability-save {
-        border-left: 1px solid darkgray;
+        background-color: color(gray, light);
+        //border-left: 1px solid color(gray, base);
         font-weight: bold;
 
         .prof-label {
-            color: gray;
+            color: color(gray, dark);
             font-size: 0.75rem;
         }
 
         &.prof {
-            background-color: gray;
-            color: white;
+            background-color: color(gray, dark);
+            color: color(gray, lighter);
 
             .prof-label {
-                color: lightgray;
+                color: color(gray, light);
             }
         }
 
@@ -119,7 +126,7 @@ export default {
         width: 34%;
 
         .mod {
-            color: gray;
+            color: color(gray, dark);
             font-size: 1rem;
         }
 

@@ -1,0 +1,65 @@
+$page-background: #FBFBFB;
+
+// Spell Cards
+
+$generic-card: #FFFFFF;
+$secondary-text: #666666;
+
+$artificer: #635331;
+$bard: #AB7DAB;
+$cleric: #8B8C8E;
+$druid: #79853D;
+$paladin: #AF9643;
+$ranger: #49775A;
+$sorcerer: #C25359;
+$warlock: #7944AE;
+$wizard: #265CB6;
+$other: #E2E4E1;
+
+// Character Sheet
+
+@mixin theme($name: plain) {
+    @if $name == str {
+        $base: #FF0000 !global;
+        $darkest: darken($base, 50%) !global;
+        $dark: darken($base, 30%) !global;
+        $light: lighten($base, 30%) !global;
+        $lightest: lighten($base, 50%) !global;
+    } @else if $name == dex {
+        $base: #00FFFF !global;
+        $darkest: darken($base, 50%) !global;
+        $dark: darken($base, 30%) !global;
+        $light: lighten($base, 30%) !global;
+        $lightest: lighten($base, 50%) !global;
+    } @else if $name == con {
+        $base: #00FF00;
+        $darkest: darken($base, 100%);
+        $dark: darken($base, 50%);
+        $light: lighten($base, 50%);
+        $lightest: lighten($base, 100%);
+    } @else if $name == int {
+        $base: #0000FF;
+        $darkest: darken($base, 100%);
+        $dark: darken($base, 50%);
+        $light: lighten($base, 50%);
+        $lightest: lighten($base, 100%);
+    } @else if $name == wis {
+        $base: #FF00FF;
+        $darkest: darken($base, 100%);
+        $dark: darken($base, 50%);
+        $light: lighten($base, 50%);
+        $lightest: lighten($base, 100%);
+    } @else if $name == cha {
+        $base: #FFFF00;
+        $darkest: darken($base, 100%);
+        $dark: darken($base, 50%);
+        $light: lighten($base, 50%);
+        $lightest: lighten($base, 100%);
+    } @else {
+        $darkest: #000000 !global;
+        $dark: #808080 !global;
+        $base: #A9A9A9 !global;
+        $light: #D3D3D3 !global;
+        $lightest: #FFFFFF !global;
+    }
+}

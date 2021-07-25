@@ -4,7 +4,7 @@
             class="divider">Skills</el-divider>
         <el-card class="column-card">
             <div class="skill-row" :class="{prof: value.prof}"
-                v-for="(value, skill) in skills" :key="skill">
+                v-for="(value, skill) in character.skills" :key="skill">
                 <span>
                     <span class="skill-ability">{{value.ability}}</span>
                     <span class="skill-name">{{skill}}</span>
@@ -19,6 +19,7 @@
 
 <script>
 import { ElCard, ElDivider } from 'element-plus';
+import character from '../../models/xoh';
 
 export default {
     name: 'skills',
@@ -26,11 +27,10 @@ export default {
         [ElCard.name]: ElCard,
         [ElDivider.name]: ElDivider
     },
-    props: {
-        skills: Object
-    },
     data() {
-        return {};
+        return {
+            character
+        };
     }
 }
 </script>

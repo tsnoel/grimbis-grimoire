@@ -1,45 +1,42 @@
 <template>
     <div>
         <el-divider content-position="left"
-            class="divider">Spirit</el-divider>
-        <el-card class="column-card third-card">
-            <!-- ki max and current, uv max and current -->
-            <div class="spirit-container">
-                <div class="ki-container">
-                    <span class="label"><span class="label-text">Ki</span>
-                        <span class="max">{{ki.max}}<span>max</span></span>
-                    </span>
-                    <el-input-number
-                        class="current-input"
-                        v-model="current.ki"
-                        controls-position="right"
-                        size="small"
-                        :min="0" :max="ki.max">
-                    </el-input-number>
+            class="divider">Magic & Spirit</el-divider>
+        <el-card class="column-card">
+            <div class="spirit-container"
+                v-for="(widget, index) in widgets"
+                :key="widget.id + widget.value.current">
+                <div class="expendable-container">
+                    <div class="expendable-container-lg">
+                        <div class="expendable-container-md">
+                            <div class="expendable-container-sm">
+                                <div class="max">
+                                    {{widget.value.max}}
+                                    <span>max</span>
+                                </div>
+                            </div>
+                            <div class="current">
+                                {{widget.value.current}}
+                                <span>remaining</span>
+                            </div>
+                        </div>
+                        <div class="btn-container">
+                            <div :class="{disabled: widget.value.current === 0}"
+                                @click="update(widget.value, false)">-</div>
+                            <div :class="{disabled: widget.value.current === widget.value.max}"
+                                @click="update(widget.value, true)">+</div>
+                        </div>
+                    </div>
+                    <div class="expendable-container-top">
+                        <span class="label-text">{{widget.id}}</span>
+                        <span v-if="widget.sub" class="label-sub">{{widget.sub}}</span>
+                    </div>
                 </div>
-                <div class="uv-container">
-                    <span class="label"><span class="label-text">Unsettling<br>Visage</span>
-                        <span class="max">{{uv.max}}<span>max</span></span>
-                    </span>
-                    <el-input-number
-                        class="current-input"
-                        v-model="current.uv"
-                        controls-position="right"
-                        size="small"
-                        :min="0" :max="uv.max">
-                    </el-input-number>
-                </div>
-                <div class="spirit-info">
-                    These refresh after a <b>short rest</b>.
-                </div>
+                <div class="divider-sm" v-if="index !== 1"></div>
             </div>
-        </el-card>
-
-
-        <el-divider content-position="left"
-            class="divider">Magic</el-divider>
-        <el-card class="column-card two-third-card">
-            max spellslot, current spellslot, Spell dc/attack/abilitymod
+            <div class="spirit-info">
+                These refresh after a <b>short rest</b>.
+            </div>
         </el-card>
     </div>
 </template>
@@ -51,6 +48,8 @@ import {
     ElInputNumber
 } from 'element-plus';
 
+import character from '../../models/xoh';
+
 export default {
     name: 'magic',
     components: {
@@ -58,25 +57,32 @@ export default {
         [ElDivider.name]: ElDivider,
         [ElInputNumber.name]: ElInputNumber
     },
-    props: {
-        ki: Object,
-        spellMeta: Object,
-        spellSlots: Object,
-        uv: Object
-    },
     data() {
         return {
-            current: {}
+            character,
+            widgets: [
+                {id: 'Spell Slots', sub: `level ${character.spellLevel}`,
+                    value: character.expendables.spellSlots},
+                {id: 'Ki', value: character.expendables.ki},
+                {id: 'Unsettling Visage',
+                    value: character.expendables.unsettling}
+            ]
         };
     },
-    beforeMount() {
-        this.current.ki = this.ki.current;
-        this.current.uv = this.uv.current;
+    methods: {
+        update(widgetValue, increment = true) {
+            widgetValue.current = widgetValue.current + (increment ? 1 : -1);
+            widgetValue.current = widgetValue.current < 0 ? 0 : widgetValue.current;
+            widgetValue.current = widgetValue.current > widgetValue.max ?
+                widgetValue.max : widgetValue.current;
+        }
     }
 }
 </script>
 
 <style scoped lang="scss">
+@import '../../styles/colors';
+
 .divider ::v-deep(.el-divider__text) {
     background-color: #FBFBFB;
     font-size: 1rem;
@@ -88,64 +94,122 @@ export default {
 }
 
 .spirit-container {
-    display: flex;
-    flex-direction: column;
-    height: 6.2rem;
-    justify-content: space-between;
     width: 100%;
 
-    .ki-container,
-    .uv-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .divider-sm {
+        border-bottom: 1px solid color(gray, light);
+        margin: 1.5rem 35%;
+        width: 30%;
+    }
 
-        .label {
-            background-color: lightgray;
+    .expendable-container {
+        height: 4rem;
+        margin: 0.5rem 0;
+        width: 100%;
+
+        .expendable-container-lg {
+            background-color: color(gray, light);
             border-radius: 0.5rem;
             display: flex;
             flex-direction: row;
-            font-size: 1.5rem;
-            text-align: center;
-            width: 61%;
+            height: 4rem;
+            width: 100%;
 
-            .label-text {
-                background-color: gray;
-                border-radius: 0.5rem;
-                color: white;
-                width: 60%;
-            }
-
+            .current,
             .max {
-                width: 40%;
+                font-size: 1.75rem;
+                position: relative;
+                text-align: center;
 
                 >span {
                     font-size: 0.75rem;
-                    margin-left: 0.25rem;
+                    margin-left: -0.15rem;
+                    text-transform: lowercase;
+                }
+            }
+
+            .btn-container {
+                display: flex;
+                flex-direction: row;
+                height: 2.25rem;
+                position: relative;
+                top: 1.75rem;
+                width: 20%;
+
+                div {
+                    background-color: color(gray, dark);
+                    border-radius: 1rem;
+                    cursor: pointer;
+                    color: color(white);
+                    font-size: 1.35rem;
+                    margin: 0.25rem;
+                    text-align: center;
+                    width: 50%;
+
+                    &.disabled {
+                        background-color: color(gray, base);
+                        color: color(gray, light);
+                        cursor: not-allowed;
+                    }
+                }
+
+                div:first-child {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .expendable-container-md {
+                background-color: color(gray, base);
+                border-radius: 0.5rem;
+                width: 80%;
+
+                .current {
+                    margin-left: 50%;
+                    top: -2.25rem;
+                }
+
+                .expendable-container-sm {
+                    background-color: color(gray, dark);
+                    border-radius: 0.5rem;
+                    height: 100%;
+                    width: 50%;
+
+                    .max {
+                        color: color(white);
+                        top: 1.75rem;
+                    }
                 }
             }
         }
 
-        .current-input {
-            margin-left: 5%;
-            width: 34%;
-        }
-    }
+        .expendable-container-top {
+            background-color: color(gray, darker);
+            border-radius: 0.5rem;
+            height: 1.75rem;
+            left: 0;
+            position: relative;
+            text-align: center;
+            top: -4rem;
+            width: 100%;
 
-    .uv-container {
-        .label {
-            .label-text {
+            .label-sub {
+                color: color(gray, light);
                 font-size: 0.75rem;
-                white-space: normal;
+                margin-left: 0.25rem;
+            }
+
+            .label-text {
+                color: color(white);
+                font-size: 1.25rem;
             }
         }
     }
+}
 
-    .spirit-info {
-        color: darkgray;
-        font-size: 0.75rem;
-        text-align: center;
-        width: 100%;
-    }
+.spirit-info {
+    color: color(gray, dark);
+    font-size: 0.75rem;
+    text-align: center;
+    width: 100%;
 }
 </style>

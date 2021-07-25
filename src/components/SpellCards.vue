@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../styles/colors.scss';
+@import '../styles/colors';
 
 .cards {
     margin: 0 !important;

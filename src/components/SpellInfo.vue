@@ -89,7 +89,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../styles/colors.scss';
+@import '../styles/colors';
 
 .spell-container {
     height: 100%;

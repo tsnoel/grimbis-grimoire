@@ -148,7 +148,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../styles/colors.scss';
+@import '../styles/colors';
 
 .search-n-spell {
     background-color: $generic-card;

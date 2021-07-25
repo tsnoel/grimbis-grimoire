@@ -42,6 +42,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../styles/colors';
+
 .controls-container {
     position: fixed;
     right: 1rem;
@@ -55,7 +57,7 @@ export default {
 
 i {
     font-size: 1.5rem;
-    color: lightgray;
+    color: $light;
     margin: 0.25rem;
 }
 </style>

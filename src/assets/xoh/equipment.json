@@ -1,0 +1,52 @@
+{
+    "bag": "large backpack (leather, 60lb capacity)",
+    "clue pocket": [
+        "dusty 300 ml flask full of black hair from kalabash's room",
+        "90 gold/ 30 silver in coin purse (clue)",
+        "corked clear glass container (clue)",
+        "vial of ink & quill & 17 sheets of fine parchment (clue)",
+        "note - \"suspects for the murder of crissann: willow, ball of light, giant bees\"",
+        "note - \"suspects for death of murzah: sword, faemaar?\"",
+        "six 2x3 scrolls with images of warriors (4) & horses (2)"
+    ],
+    "clothes pocket": [
+        "deerstalker hat",
+        "pipe",
+        "travelers robes",
+        "black robes (equipped)"
+    ],
+    "book pocket": [
+        "horse care x2",
+        "mushroom encyclopedia"
+    ],
+    "food pocket": [
+        ".5 lbs dried garlic"
+    ],
+    "potions pocket": [
+        "2 green vials from otto's castle - vial of magical poison",
+        "empty health potion bottle",
+        "1 potion of greater healing",
+        "1 light blue potion (may be cat's grace)"
+    ],
+    "tools pocket": [
+        "mortar pestle",
+        "spear",
+        "chisel",
+        "1 lb silver flatware",
+        "candle holder",
+        "9 small brittle bones"
+    ],
+    "weapons pocket": [
+        "brass knuckles that make every other attack, (odds) deal magic/radiant damage, (evens) deal magic/psychic damage"
+    ],
+    "magic items pocket": [
+        "weird doll - give it a personal item to scry, must know scry, multiuse",
+        "monkey's paw - 2 casts of wish w/ evil twists, 2 with just the twist no wish",
+        "skeleton whistle"
+    ],
+    "money pocket": {
+        "pp": 506,
+        "sp": 210,
+        "cp": 7
+    }
+}

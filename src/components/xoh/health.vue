@@ -16,23 +16,18 @@
 <script>
 import { ElCard, ElDivider } from 'element-plus';
 
+import character from '../../models/xoh';
+
 export default {
     name: 'health',
     components: {
         [ElCard.name]: ElCard,
         [ElDivider.name]: ElDivider
     },
-    props: {
-        hp: Object,
-        speed: Object,
-        ac: Number,
-        hd: Object,
-        initative: Number,
-        wholeness: Object,
-        healing: Object
-    },
     data() {
-        return {};
+        return {
+            character
+        };
     }
 }
 </script>

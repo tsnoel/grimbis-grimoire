@@ -16,6 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './styles/colors';
+
 html,
 body,
 #app,
@@ -24,7 +26,7 @@ body,
 }
 
 html {
-    background-color: #fbfbfb;
+    background-color: color(slate, 50);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -33,10 +35,10 @@ body {
 }
 
 .new-card {
-    background-color: white;
-    border: 0.2rem dashed lightgray;
+    background-color: color(white);
+    border: 0.2rem dashed color(gray, light);
     border-radius: 1rem;
-    color: lightgray;
+    color: color(gray, light);
     cursor: pointer;
     font-size: 10rem;
     height: 10rem;
@@ -51,7 +53,7 @@ body {
     }
     .spell-option-level {
         float: right;
-        color: #AAAAAA;
+        color: color(gray, base);
     }
 
     .tag-option-preview {
