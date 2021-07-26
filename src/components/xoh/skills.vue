@@ -1,31 +1,26 @@
 <template>
-    <div>
-        <el-divider content-position="left"
-            class="divider">Skills</el-divider>
-        <el-card class="column-card">
-            <div class="skill-row" :class="{prof: value.prof}"
-                v-for="(value, skill) in character.skills" :key="skill">
-                <span>
-                    <span class="skill-ability">{{value.ability}}</span>
-                    <span class="skill-name">{{skill}}</span>
-                </span>
-                <span class="skill-mod">
-                    {{value.mod > 0 ? '+' : ''}}{{value.mod}}
-                </span>
-            </div>
-        </el-card>
-    </div>
+    <el-card class="column-card">
+        <div class="skill-row" :class="{prof: value.prof}"
+            v-for="(value, skill) in character.skills" :key="skill">
+            <span>
+                <span class="skill-ability">{{value.ability}}</span>
+                <span class="skill-name">{{skill}}</span>
+            </span>
+            <span class="skill-mod">
+                {{value.mod > 0 ? '+' : ''}}{{value.mod}}
+            </span>
+        </div>
+    </el-card>
 </template>
 
 <script>
-import { ElCard, ElDivider } from 'element-plus';
+import { ElCard } from 'element-plus';
 import character from '../../models/xoh';
 
 export default {
     name: 'skills',
     components: {
-        [ElCard.name]: ElCard,
-        [ElDivider.name]: ElDivider
+        [ElCard.name]: ElCard
     },
     data() {
         return {
@@ -36,21 +31,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.divider ::v-deep(.el-divider__text) {
-    background-color: #FBFBFB;
-    font-size: 1rem;
-    font-weight: bold;
-}
+@import '../../styles/colors';
 
 .column-card ::v-deep(.el-card__body) {
-    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 1rem);
+    justify-content: space-between;
+    padding: 0.5rem;
 }
 
 .skill-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0.2rem 0;
     padding: 0.05rem 0.5rem;
 
     .skill-name {
@@ -61,7 +55,7 @@ export default {
         font-size: 0.8rem;
         font-weight: bold;
         margin-right: 0.25rem;
-        color: darkgray;
+        color: color(gray, base);
     }
 
     .skill-mod {
@@ -69,12 +63,12 @@ export default {
     }
 
     &.prof {
-        background-color: gray;
+        background-color: color(gray, dark);
         border-radius: 0.5rem;
-        color: white;
+        color: color(white);
 
         .skill-ability {
-            color: lightgray;
+            color: color(gray, light);
         }
     }
 }

@@ -20,11 +20,10 @@ import {
 } from 'element-plus';
 
 import Expendable from './expendable';
-
 import character from '../../models/xoh';
 
 export default {
-    name: 'magic',
+    name: 'spirit',
     components: {
         [ElCard.name]: ElCard,
         [Expendable.name]: Expendable
@@ -33,8 +32,8 @@ export default {
         return {
             character,
             widgets: [
-                {id: 'Spell Slots', value: 'spellSlots',
-                    sub: `level ${character.spellLevel}`}
+                {id: 'Ki', value: 'ki'},
+                {id: 'Unsettling Visage', value: 'unsettling'}
             ]
         };
     }

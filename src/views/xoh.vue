@@ -1,22 +1,46 @@
 <template>
     <el-row class="character">
+        <!-- Biography -->
+        <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <divider label="Bio" :collapsed="collapsed.biography"
+                @click="collapsed.biography = !collapsed.biography">
+            </divider>
+            <biography v-show="!collapsed.biography"></biography>
+        </el-col>
         <!-- Abilities -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <abilities></abilities>
+            <divider label="Abilities" :collapsed="collapsed.abilities"
+                @click="collapsed.abilities = !collapsed.abilities">
+            </divider>
+            <abilities v-show="!collapsed.abilities"></abilities>
         </el-col>
         <!-- Skills -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <skills></skills>
+            <divider label="Skills" :collapsed="collapsed.skills"
+                @click="collapsed.skills = !collapsed.skills">
+            </divider>
+            <skills v-show="!collapsed.skills"></skills>
         </el-col>
         <!-- Health, Movement, and Defense -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <health></health>
+            <divider label="Health & Movement" :collapsed="collapsed.health"
+                @click="collapsed.health = !collapsed.health">
+            </divider>
+            <health v-show="!collapsed.health"></health>
         </el-col>
-        <!-- Spirit & Magic -->
+        <!-- Magic -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <magic></magic>
+            <divider label="Spells" :collapsed="collapsed.magic"
+                @click="collapsed.magic = !collapsed.magic">
+            </divider>
+            <magic v-show="!collapsed.magic"></magic>
         </el-col>
+        <!-- Spirit -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
+            <divider label="Spirit" :collapsed="collapsed.spirit"
+                @click="collapsed.spirit = !collapsed.spirit">
+            </divider>
+            <spirit v-show="!collapsed.spirit"></spirit>
         </el-col>
     </el-row>
 </template>
@@ -25,9 +49,13 @@
 import { ElCol, ElRow } from 'element-plus';
 
 import Abilities from '../components/xoh/abilities';
+import Biography from '../components/xoh/biography';
 import Skills from '../components/xoh/skills';
 import Health from '../components/xoh/health';
 import Magic from '../components/xoh/magic';
+import Spirit from '../components/xoh/spirit';
+
+import Divider from '../components/xoh/divider';
 
 import character from '../models/xoh';
 
@@ -37,12 +65,24 @@ export default {
         [ElCol.name]: ElCol,
         [ElRow.name]: ElRow,
         [Abilities.name]: Abilities,
+        [Biography.name]: Biography,
+        [Divider.name]: Divider,
         [Skills.name]: Skills,
         [Health.name]: Health,
-        [Magic.name]: Magic
+        [Magic.name]: Magic,
+        [Spirit.name]: Spirit
     },
     data() {
-        return {};
+        return {
+            collapsed: {
+                abilities: false,
+                biography: false,
+                skills: false,
+                health: false,
+                magic: false,
+                spirit: false
+            }
+        };
     },
     beforeMount() {
         console.log(character);
@@ -56,17 +96,6 @@ export default {
 .character {
     padding: 1rem 0 0 1rem;
 
-    .divider {
-        margin: 1rem 0;
-        width: calc(100% - 1rem);
-    }
-
-    .divider ::v-deep(.el-divider__text) {
-        background-color: color(slate, 50);
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
     .column-card ::v-deep(.el-card__body) {
         padding: 1rem 0.5rem;
     }
@@ -75,22 +104,8 @@ export default {
         border-radius: 0.6rem;
         height: 30rem;
         margin: 0 1rem 1rem 0;
+        overflow: scroll;
         width: calc(100% - 1rem);
-
-        &.half-card {
-            height: 13.65rem;
-            margin-bottom: 1rem;
-        }
-
-        &.two-third-card {
-            height: 18.5rem;
-            margin-bottom: 2rem;
-        }
-
-        &.third-card {
-            height: 8.3rem;
-            margin-bottom: 1rem;
-        }
     }
 }
 </style>

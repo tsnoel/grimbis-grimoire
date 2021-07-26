@@ -1,44 +1,37 @@
 <template>
-    <div>
-        <el-divider content-position="left"
-            class="divider" @click="collapsed = !collapsed">
-            Abilities</el-divider>
-        <el-card v-show="!collapsed" class="column-card">
-            <div class="ability-row" :class="ability"
-                v-for="(value, ability) in character.abilities" :key="ability">
-                <div class="ability-label">
-                    <span class="short">{{ability}}</span>
-                    <span class="long">{{value.label}}</span>
-                </div>
-                <div class="ability-val">
-                    <span class="val">{{value.val}}</span>
-                    <span class="mod">{{value.mod > 0 ? '+' : ''}}{{value.mod}}</span>
-                </div>
-                <div class="ability-save" :class="{prof: value.prof}">
-                    <span class="prof-label">{{value.prof ? 'Proficient' : ''}} Save</span>
-                    <span class="save">
-                        {{value.save > 0 ? '+' : ''}}{{value.save}}
-                    </span>
-                </div>
+    <el-card class="column-card">
+        <div class="ability-row" :class="ability"
+            v-for="(value, ability) in character.abilities" :key="ability">
+            <div class="ability-label">
+                <span class="short">{{ability}}</span>
+                <span class="long">{{value.label}}</span>
             </div>
-        </el-card>
-    </div>
+            <div class="ability-val">
+                <span class="val">{{value.val}}</span>
+                <span class="mod">{{value.mod > 0 ? '+' : ''}}{{value.mod}}</span>
+            </div>
+            <div class="ability-save" :class="{prof: value.prof}">
+                <span class="prof-label">{{value.prof ? 'Proficient' : ''}} Save</span>
+                <span class="save">
+                    {{value.save > 0 ? '+' : ''}}{{value.save}}
+                </span>
+            </div>
+        </div>
+    </el-card>
 </template>
 
 <script>
-import { ElCard, ElDivider } from 'element-plus';
+import { ElCard } from 'element-plus';
 import character from '../../models/xoh';
 
 export default {
     name: 'abilities',
     components: {
-        [ElCard.name]: ElCard,
-        [ElDivider.name]: ElDivider
+        [ElCard.name]: ElCard
     },
     data() {
         return {
-            character,
-            collapsed: false
+            character
         };
     }
 }
@@ -47,14 +40,12 @@ export default {
 <style scoped lang="scss">
 @import '../../styles/colors';
 
-.divider ::v-deep(.el-divider__text) {
-    background-color: color(slate, 50);
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 .column-card ::v-deep(.el-card__body) {
-    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 1rem);
+    justify-content: space-between;
+    padding: 0.5rem;
 }
 
 .ability-row {
@@ -64,7 +55,6 @@ export default {
     display: flex;
     flex-direction: row;
     height: 4.25rem;
-    margin: 0.25rem 0;
 
     .ability-label,
     .ability-val,

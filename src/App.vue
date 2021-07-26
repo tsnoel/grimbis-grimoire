@@ -34,6 +34,11 @@ body {
     margin: 0;
 }
 
+.bio-description {
+    line-height: 1rem;
+    width: 8rem;
+}
+
 .new-card {
     background-color: color(white);
     border: 0.2rem dashed color(gray, light);

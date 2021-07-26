@@ -88,7 +88,7 @@ class Character {
         this.initiative = undefined;
         this.level = {
             'monk': {level: 8, sub: 'Way of the Open Hand'},
-            'warlock': {level: 2, sub: undefined}
+            'warlock': {level: 2, sub: 'Celestial Patron'}
         };
         this.persona = undefined;
         this.proficiencies = {

@@ -1,7 +1,7 @@
 {
     "Dok": {
-        "title": "The people's Bugbear",
-        "description": "A bugbear with decidedly un-bugbear goals: to be good, to have integrity, to be balanced, to improve other's conditions. The most likely to start a union.",
+        "title": "The People's Bugbear",
+        "description": "An altruistic bugbear. Wants to improve other's conditions.",
         "alignment": "",
         "race": "Bugbear",
         "gender": "M",
@@ -16,7 +16,7 @@
     },
     "Papa Kap": {
         "title": "The Dwarven Chef",
-        "description": "A grandfatherly dwarf man. Proficient with cook's tools. Shared among the monastery changelings to help with food preparation duties.",
+        "description": "A fatherly dwarf. Especially proficient with cook's tools.",
         "alignment": "",
         "race": "Dwarf",
         "gender": "M",
@@ -24,33 +24,33 @@
         "size": "",
         "height": "4' 6\"",
         "faith": "",
-        "hair": "Orange w/ Gray",
-        "skin": "White (Flushed)",
+        "hair": "Red & Gray",
+        "skin": "Flushed",
         "age": "272",
         "weight": "203 lbs."
     },
     "Xoh": {
         "title": "The Neurotic Changeling",
-        "description": "A young woman who uses alternate personas to make up for her perceived shortcomings.",
-        "alignment": "Neutral Good",
+        "description": "A young woman who hides behind alternate identities.",
+        "alignment": "NG",
         "race": "Changeling",
         "gender": "F",
         "eyes": "White",
         "size": "Medium",
         "height": "5' 7\"",
-        "faith": "",
+        "faith": "None",
         "hair": "White",
         "skin": "Pale",
         "age": "18",
         "weight": "123 lb.",
-        "traits": "I judge people by their actions, not their words.",
-        "ideals": "Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)",
-        "bonds": "I protect those who cannot protect themselves.",
-        "flaws": "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+        "traits": "There's nothing I like more than a good mystery.",
+        "ideals": "Change. Life is like the seasons, in constant change, and we must change with it.",
+        "bonds": "I owe my life to the monastery that took me in when my parents died.",
+        "flaws": "I can't let others see my inner turmoil."
     },
-    "\"Xed\" (Kevin)": {
+    "Xed": {
         "title": "The Angsty Drow",
-        "description": "A teenage boy. Lover of dark clothes, fantasy emo, and trying to look cool.",
+        "description": "An edgy teenage boy. Real name, Kevin.",
         "alignment": "",
         "race": "Drow",
         "gender": "M",
@@ -60,12 +60,12 @@
         "faith": "",
         "hair": "",
         "skin": "",
-        "age": "",
+        "age": "15",
         "weight": ""
     },
     "Gob": {
         "title": "The Investigative Hobgoblin",
-        "description": "Much shorter than his counterparts, this hobgoblin is much more interested in deduction than violence.",
+        "description": "This hobgoblin is much more interested in deduction than violence.",
         "gender": "M",
         "eyes": "Yellow",
         "hair": "Black",
@@ -76,7 +76,7 @@
     },
     "Wrett": {
         "title": "The Beefy Lizardman",
-        "description": "A mute, muscled, anthropomorphic bearded dragon. Used for pranks, tricks, and intimidation.",
+        "description": "A mute, muscled, anthropomorphic bearded dragon. Loves pranks.",
         "alignment": "",
         "race": "Lizardfolk",
         "gender": "M",
@@ -91,7 +91,7 @@
     },
     "Zazz": {
         "title": "The Human Monk",
-        "description": "A modest young man with shaved head. Athletic build. Loves Horses. Loves light magic. This persona made the pact with a unicorn.",
+        "description": "A modest young man. Loves horses and light magic.",
         "alignment": "",
         "race": "Human",
         "gender": "M",
@@ -101,7 +101,7 @@
         "faith": "",
         "hair": "Bald",
         "skin": "White",
-        "age": "21",
+        "age": "24",
         "weight": "163 lbs."
     }
 }
