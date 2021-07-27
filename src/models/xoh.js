@@ -76,13 +76,13 @@ class Character {
         this.castingMod = undefined;
         this.equipment = equipment;
         this.expendables = {
-            healing: {current: 3, max: 3},
+            healing: {current: 0, max: 0},
             hd: {max: [], current: []},
-            hp: {current: 49, temp: 0, max: 0},
-            ki: {current: 7,max: 8},
-            spellSlots: {current: 1,max: 2},
-            unsettling: {current: 1, max: 1},
-            wholeness: {current: 1, max: 1}
+            hp: {current: 0, temp: 0, max: 0},
+            ki: {current: 0, max: 0},
+            spellSlots: {current: 0, max: 2},
+            unsettling: {current: 0, max: 1},
+            wholeness: {current: 0, max: 1}
         };
         this.features = features;
         this.initiative = undefined;
@@ -174,6 +174,9 @@ class Character {
             this.expendables.hd.max.push({val: hdMap[hd], type: hd});
             this.expendables.hd.current.push({val: 0, type: hd});
         });
+
+        this.expendables.healing.max = this.level.warlock.level + 1;
+        this.expendables.ki.max = this.level.monk.level;
     }
 
     calculateInitiative() {

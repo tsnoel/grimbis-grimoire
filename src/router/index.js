@@ -9,7 +9,7 @@ const routes = [
         component: spells
     },
     {
-        path: '/xoh',
+        path: '/character-sheet',
         name: 'Xoh',
         component: xoh
     }
