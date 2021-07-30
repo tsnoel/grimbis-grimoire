@@ -30,14 +30,14 @@
         </el-col>
         <!-- Magic -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <divider label="Spells" :collapsed="collapsed.magic"
+            <divider label="Spell List" :collapsed="collapsed.magic"
                 @click="collapsed.magic = !collapsed.magic">
             </divider>
             <magic v-show="!collapsed.magic"></magic>
         </el-col>
         <!-- Spirit -->
         <el-col :xs="24" :sm="8" :md="6" :xl="4">
-            <divider label="Spirit" :collapsed="collapsed.spirit"
+            <divider label="Spirit & Stamina" :collapsed="collapsed.spirit"
                 @click="collapsed.spirit = !collapsed.spirit">
             </divider>
             <spirit v-show="!collapsed.spirit"></spirit>

@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="spell-slot-container"
+            <!--div class="spell-slot-container"
                 v-for="widget in widgets"
                 :key="widget.id + widget.value.current">
                 <expendable
@@ -31,40 +31,42 @@
             </div>
             <div class="spell-slot-info">
                 These refresh after a <b>short rest</b>.
-            </div>
+            </div-->
         </div>
-        <div class="divider-sm"></div>
         <div class="spell-bottom">
-            <div class="spell-btn-group">
-                <div class="spell-btn"
-                    :class="{'active-spell': index === activeSpell}"
-                    v-for="(spell, index) in character.spells"
-                    :key="spell.name" @click="activeSpell = index">
-                    {{spell.name}}
+            <div class="spell-btn-container" v-for="i in spells.length" :key="i">
+                <divider size="small" :label="spells[i - 1][0].level"></divider>
+                <div class="spell-btn-group">
+                    <div class="spell-btn"
+                        :class="{'active-spell': activeSpell.name === spell.name}"
+                        v-for="spell in spells[i - 1]"
+                        :key="spell.name" @click="activeSpell = spell">
+                        {{spell.name}}
+                    </div>
                 </div>
             </div>
-            <div class="divider-sm"></div>
+            <divider size="small"></divider>
             <div class="spell-info">
                 <div class="spell-info-line-group">
                     <div v-for="spellLine in spellLines"
                         :key="spellLine.value" class="spell-info-line">
                         <span>{{spellLine.label}}</span>
-                        <span v-if="character.spells[activeSpell][spellLine.value] === true">
+                        <span v-if="activeSpell[spellLine.value] === true">
                             Yes
                         </span>
-                        <span v-else-if="character.spells[activeSpell][spellLine.value] === false">
+                        <span v-else-if="activeSpell[spellLine.value] === false">
                             No
                         </span>
-                        <span v-else>{{character.spells[activeSpell][spellLine.value]}}</span>
+                        <span v-else>{{activeSpell[spellLine.value]}}</span>
                     </div>
                 </div>
                 <div class="spell-info-desc">
-                    <div>{{character.spells[activeSpell].desc}}</div>
-                    <div v-if="character.spells[activeSpell].higher_level">
+                    <div>{{activeSpell.desc}}</div>
+                    <div v-if="activeSpell.higher_level">
                         <br/>
                         <b>At higher levels</b>
                     </div>
-                    <div>{{character.spells[activeSpell].higher_level}}</div>
+                    <div>{{activeSpell.higher_level}}</div>
                 </div>
             </div>
         </div>
@@ -77,18 +79,19 @@ import {
 } from 'element-plus';
 
 import Expendable from './expendable';
-
+import Divider from './divider';
 import character from '../../models/xoh';
 
 export default {
     name: 'magic',
     components: {
+        [Divider.name]: Divider,
         [ElCard.name]: ElCard,
         [Expendable.name]: Expendable
     },
     data() {
         return {
-            activeSpell: 0,
+            activeSpell: character.spells[0],
             character,
             spellLines: [
                 {label: 'Level', value: 'level'},
@@ -101,11 +104,18 @@ export default {
                 {label: 'Ritual', value: 'ritual'},
                 {label: 'Concentration', value: 'concentration'}
             ],
+            spells: [
+                character.spells.filter((s) => s.level_int === 0),
+                character.spells.filter((s) => s.level_int === 1)
+            ],
             widgets: [
                 {id: 'Spell Slots', value: 'spellSlots',
                     sub: `level ${character.spellLevel}`}
             ]
         };
+    },
+    beforeMount() {
+        console.log(this.activeSpell, this.spells);
     }
 }
 </script>
@@ -118,16 +128,10 @@ export default {
     padding: 0.5rem;
 }
 
-.divider-sm {
-    border-bottom: 1px solid color(gray, light);
-    margin: 0.3rem 35% 0.5rem 35%;
-    width: 30%;
-}
-
 .spell-top {
     display: flex;
     flex-direction: column;
-    height: 35%;
+    height: 5rem;
     justify-content: space-between;
 
     .spell-meta {
@@ -208,33 +212,37 @@ export default {
 .spell-bottom {
     display: flex;
     flex-direction: column;
-    height: 62%;
+    height: calc(100% - 5rem);
     justify-content: space-between;
     width: 100%;
 
-    .spell-btn-group {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    .spell-btn-container {
+        height: 12.5%;
 
-        .spell-btn {
-            background-color: color(gray, light);
-            border-radius: 0.25rem;
-            cursor: pointer;
+        .spell-btn-group {
             display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-            font-size: 0.65rem;
-            height: 1.5rem;
-            justify-content: space-around;
-            margin: 0 0.2rem 0.2rem 0.2rem;
-            text-align: center;
-            width: 20%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 70%;
+            justify-content: space-between;
 
-            &.active-spell {
-                background-color: color(gray, dark);
-                color: color(white);
+            .spell-btn {
+                background-color: color(gray, light);
+                border-radius: 0.25rem;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                font-size: 0.65rem;
+                justify-content: space-around;
+                margin: 0 0.2rem 0.2rem 0.2rem;
+                text-align: center;
+                width: 20%;
+
+                &.active-spell {
+                    background-color: color(gray, dark);
+                    color: color(white);
+                }
             }
         }
     }
@@ -242,45 +250,46 @@ export default {
     .spell-info {
         display: flex;
         flex-direction: column;
-        font-size: 0.6rem;
-        height: calc(100% - 4rem);
+        font-size: 0.65rem;
+        height: calc(75% - 1rem);
+        justify-content: space-between;
 
         .spell-info-line-group {
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: 30%;
+            flex-direction: column;
+            height: 45%;
             justify-content: space-between;
             text-transform: capitalize;
             white-space: nowrap;
 
             .spell-info-line {
+                background-color: color(gray, light);
+                border-radius: 0.3rem;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
-                width: 47%;
+                height: 0.8rem;
+                width: 100%;
 
                 span {
-                    background-color: color(gray, light);
-                    border-radius: 0 0.3rem 0.3rem 0;
-                    height: 0.75rem;
+                    height: 0.8rem;
                     padding: 0 0.2rem;
                 }
 
                 span:first-child {
                     background-color: color(gray, dark);
-                    border-radius: 0.3rem 0 0 0.3rem;
+                    border-radius: 0.3rem;
                     color: color(white);
+                    width: 40%
                 }
 
                 span:last-child {
-                    width: 100%;
+                    width: 60%;
                 }
             }
         }
 
         .spell-info-desc {
-            height: 70%;
+            height: 54%;
             overflow: scroll;
         }
     }

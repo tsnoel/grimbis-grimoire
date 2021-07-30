@@ -33,6 +33,8 @@ export default {
             character,
             widgets: [
                 {id: 'Ki', value: 'ki'},
+                {id: 'Spell Slots', value: 'spellSlots',
+                    sub: `level ${character.spellLevel}`},
                 {id: 'Unsettling Visage', value: 'unsettling'}
             ]
         };

@@ -1,10 +1,12 @@
 <template>
-    <div class="divider-container">
+    <div class="divider-container" :class="{'small-divider': size === 'small'}">
         <div class="left-line"></div>
-        <div class="label">{{label}}</div>
+        <div class="label" v-if="label">{{label}}</div>
         <div class="right-line"></div>
-        <i v-if="collapsed" class="el-icon-arrow-up collapsed-arrow"></i>
-        <i v-else class="el-icon-arrow-down collapsed-arrow"></i>
+        <div v-if="size !== 'small'">
+            <i v-if="collapsed" class="el-icon-arrow-up collapsed-arrow"></i>
+            <i v-else class="el-icon-arrow-down collapsed-arrow"></i>
+        </div>
     </div>
 </template>
 
@@ -12,8 +14,9 @@
 export default {
     name: 'divider',
     props: {
+        collapsed: Boolean,
         label: String,
-        collapsed: Boolean
+        size: String
     },
     data() {
         return {};
@@ -32,7 +35,7 @@ export default {
     width: calc(100% - 1rem);
 
     .collapsed-arrow {
-        margin: 0.25rem 0 0 0.25rem;;
+        margin: 0.25rem 0 0 0.25rem;
         height: 1rem;
     }
 
@@ -55,6 +58,29 @@ export default {
 
     .right-line {
         flex-grow: 2;
+    }
+
+    &.small-divider {
+        height: 1rem;
+        margin: 0 30%;
+        width: 40%;
+
+        .left-line,
+        .right-line {
+            border-bottom: 1px solid color(gray, light);
+            height: 0.4rem;
+            margin: 0;
+        }
+
+        .left-line {
+            flex-grow: 2;
+        }
+
+        .label {
+            color: color(gray, dark);
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
     }
 }
 </style>
