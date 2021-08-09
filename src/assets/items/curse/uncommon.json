@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Bound Creature",
+        "desc": "This item contains a supernatural creature that powers its abilities. It may be resting in the item to recover, imprisoned in the item against its will, or haunting the item. If it gets out of the item, it might be grateful for the user's help, or attack them in a rage."
+    },
+    {
+        "name": "Conscientious",
+        "desc": "When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience."
+    },
+    {
+        "name": "Difficult",
+        "desc": "This item is poisonous, acidic, spiked, extremely hot or cold, or some other trait that makes it difficult or impossible to use without special gear or magic."
+    },
+    {
+        "name": "Esoteric",
+        "desc": "This item has secret properties that can be unlocked, though doing so will prove difficult."
+    },
+    {
+        "name": "Exhausting",
+        "desc": "The user of this item risks becoming exhausted, diseased, or injured when they use it."
+    },
+    {
+        "name": "Haunted",
+        "desc": "The spirit of this item's creator, one of its former users, or a victim still lingers around it, and will not depart until its purpose has been fulfilled."
+    },
+    {
+        "name": "Madness",
+        "desc": "The user of this item risks going mad."
+    },
+    {
+        "name": "Manipulative",
+        "desc": "This item will try to drive its user to commit certain acts, or prevent them from committing such acts (for instance, acts of good or evil)."
+    },
+    {
+        "name": "Obsession",
+        "desc": "The user of this item risks becoming obsessed with it and unwilling to part with it."
+    },
+    {
+        "name": "Song Craft",
+        "desc": "Whenever this item is struck or is used to strike a foe, its bearer hears a fragment of an ancient song."
+    },
+    {
+        "name": "Strange Material",
+        "desc": "The item was created from a material that is bizarre given its purpose. Its durability is unaffected."
+    },
+    {
+        "name": "Wicked",
+        "desc": "When the bearer is presented with an opportunity to act in a selfish or malevolent way, the item heightens the bearer’s urge to do so."
+    }
+]

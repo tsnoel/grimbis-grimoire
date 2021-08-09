@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="route-container">
         <router-view />
     </div>
 </template>
@@ -21,6 +21,7 @@ export default {
 html,
 body,
 #app,
+.route-container,
 .container {
     height: 100%;
 }

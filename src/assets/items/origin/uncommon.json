@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Drow",
+        "desc": "This item was crafted by the dark elves. It may be solid black and crafted from metal or obsidian, or adorned with imagery such as webs and spider legs. It might have powers relating to spiders, darkness, mind control, or demons, and it might be weakened or even destroyed in direct sunlight."
+    },
+    {
+        "name": "Drow",
+        "desc": "The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more."
+    },
+    {
+        "name": "Elemental Air",
+        "desc": "The item was forged through the power of elemental air by an aarakocra, djinn, air genasi, powerful air elemental, one of the Wind Dukes of Aaqa, or another resident of the plane of air. It is light blue or white colored and weighs very little, and may incorporate bird imagery. It might have wind, cold, lightning, thunder, storm, or flight-based powers, or be able to summon creatures of elemental air."
+    },
+    {
+        "name": "Elemental Air",
+        "desc": "The item is half the normal weight and feels hollow. If it’s made of fabric, it is diaphanous."
+    },
+    {
+        "name": "Elemental Earth",
+        "desc": "The item was forged through the power of elemental earth by a dao, earth genasi, powerful earth elemental, or another resident of the plane of earth. It is made of stone, metal, or gemstones, and may be unusually heavy. It might have stone, metal or weight-based powers, conjure fissures or earthquakes, or be able to summon creatures of elemental earth."
+    },
+    {
+        "name": "Elemental Earth",
+        "desc": "This item might be crafted from stone. Any cloth or leather elements are studded with finely polished rock."
+    },
+    {
+        "name": "Elemental Fire",
+        "desc": "The item was forged through the power of elemental fire by an azer, efreeti, fire genasi, powerful fire elemental, or another resident of the plane of fire. It is hot to the touch, likely red or orange, and may be made of brass or black iron. It has heat or fire-based powers, and may be able to summon creatures of elemental fire."
+    },
+    {
+        "name": "Elemental Fire",
+        "desc": "This item is warm to the touch, and any metal parts are crafted from black iron. Sigils of flames cover its surface. Shades of red and orange are the prominent colors."
+    },
+    {
+        "name": "Elemental Water",
+        "desc": "The item was forged through the power of elemental water by a merfolk, sea elf, marid, water genasi, triton, powerful water elemental, or another resident of the plane of water. It is made of worked fish scales, shells, coral, or anything else that might be found under the sea. Its powers are based on water, liquid, mist, or rain, and may be able to summon creatures of elemental water."
+    },
+    {
+        "name": "Elemental Water",
+        "desc": "Lustrous fish scales replace leather or cloth on this item, and metal portions are instead crafted from seashells and worked coral as hard as any metal."
+    },
+    {
+        "name": "Gnome",
+        "desc": "This item was crafted by the diminutive gnomes. It is not especially powerful and prone to breaking, but might just be useful enough to save the life of its user in their moment of need. It is small and looks like a steampunk contraption, complete with unnecessary mechanical parts. The plane of Bytopia produces many such items."
+    },
+    {
+        "name": "Gnome",
+        "desc": "The item is crafted to appear ordinary, and it might look worn. It could also incorporate gears and mechanical components, even if these aren’t essential to the item’s function."
+    },
+    {
+        "name": "Aberration",
+        "desc": "The item was created by aberrations in ancient times, possibly for the use of favored humanoid thralls. When seen from the corner of the eye, the item seems to be moving."
+    },
+    {
+        "name": "Abyssal",
+        "desc": "This item was created by a powerful demon or demon lord from the depths of the Abyss, or a demon cultist or warlock, for itself or to send out into the world and curse whatever poor soul finds it. It is an asymmetrical item made of black iron, flesh, bone, or some unidentifiable Abyssal material, and it bears screaming faces or dark runes. Its powers may cause madness, undeath, deformation or maiming, disease, pain, decay, or something else horrible. It may also be capable of conjuring demons. This item causes any non-demon immense discomfort, and will inflict madness, disease, pain, death, or abyssal corruption on its user."
+    },
+    {
+        "name": "Angel",
+        "desc": "This item was created by an angel from the upper planes, possibly Arcadia, Bytopia, or Elysium, but usually Mount Celestia. It may be lightweight or radiate light. Its appearance is gold and white, and it incorporates wings, halos, and celestial bodies. It may also include eyes, rings, animal heads, or fire. Its powers might relate to truth, radiance, healing, or destroying evil. Fiends find the item repulsive."
+    },
+    {
+        "name": "Celestial",
+        "desc": "The weapon is half the normal weight and inscribed with feathered wings, suns, and other symbols of good. Fiends find the item’s presence repulsive."
+    },
+    {
+        "name": "Divine",
+        "desc": "This item was created by a god, a demigod (such as an empyrean), or a mortal with divine assistance. Its appearance and powers depend entirely on the particular deity associated with it."
+    },
+    {
+        "name": "Infernal",
+        "desc": "This item was created by a powerful devil (or rakshasa) from the Nine Hells, for itself, a cultist or warlock, a mortal soul who signed a contract with it, or a being it seeks to corrupt. It may have also been created by a devil cultist or warlock. It is most likely made of black iron, but may also be forged from horn, obsidian, or unmelting ice. It is a solid item, likely made for war, and may be able to inflict immense pain or even function as an instrument of torture. If made for a mortal, it attempts to corrupt its user and drive them to evil acts. It may also be capable of conjuring devils. If its creator made the item for itself or another yugoloth, it might be designed for fighting demons or other fiends. Celestials find the item repulsive."
+    },
+    {
+        "name": "Fairy",
+        "desc": "This item was crafted by small fey creatures such as pixies, sprites, or faerie dragons, likely as a gift. It is likely to be a small item made from leaves, sticks, baubles, or perhaps silver or mithral. Its powers might be based on stealth, trickery, the feywild, or the magic of the specific creatures that created it. It also might play tricks on its user or cause surges of wild magic."
+    },
+    {
+        "name": "Fey",
+        "desc": "The item is exquisitely crafted from the finest materials and glows with a pale radiance in moonlight, shedding dim light in a 5-foot radius. Any metal in the item is silver or mithral, rather than iron or steel."
+    },
+    {
+        "name": "Fiend",
+        "desc": "The item is made of black iron or horn inscribed with runes, and any cloth or leather components are crafted from the hide of fiends. It is warm to the touch and features leering faces or vile runes engraved on its surface. Celestials find the item’s presence repulsive."
+    },
+    {
+        "name": "Lich",
+        "desc": "This item was crafted by a lich, for itself or for a thrall. The creator might be a humanoid lich or a more monstrous variety of lich, such a dracolich or alhoon. It is made bones, flesh, and other corpse parts, and its appearance incorporates imagery of death. It most likely has necromancy powers, but may have any power suited for a wizard. It may also be the phylactery of its creator."
+    },
+    {
+        "name": "Undead",
+        "desc": "The item incorporates imagery of death, such as bones and skulls, and it might be crafted from parts of corpses. It feels cold to the touch."
+    },
+    {
+        "name": "Vampire",
+        "desc": "This item was crafted by a vampire, for itself or for a thrall. It is an immaculate and flawlessly crafted item, black, red, or silver in color, and incorporates imagery of blood, bats, wolves, death, or the symbol of the vampire who created it. It likely has blood-based powers, and may also have necromancy, darkness, regeneration, teleportation, mind control, flight, immortality, or shapechanging powers. The item may grow weaker in the sunlight, or stronger in the darkness, and it may require blood from its user or from slain enemies. The vampire may still exert some control over the item."
+    },
+    {
+        "name": "Yuan-Ti",
+        "desc": "This item was created by the snake-like Yuan-Ti. It is made of steel, stone, gemstones, or precious metals, and invariably incorporates imagery of snakes or serpent gods. It might have powers relating to snake conjuring or manipulation, shapechanging, mind control, or poison. The item's user might cease to feel emotions, or become tempted to indulge in cannibalism."
+    },
+    {
+        "name": "Yugoloth",
+        "desc": "This item was created by a powerful yugoloth from the plane of Gehenna, for itself or for a client that paid well. It is a warped and twisted metal instrument. It might have heat, cold, acid, poison, disease, darkness, invisibility, teleportation, or extraplanar powers. If its creator made the item for itself or another yugoloth, it might be designed for fighting other fiends. Celestials find the item repulsive."
+    }
+]

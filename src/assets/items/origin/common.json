@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Human",
+        "desc": "This item was created by a powerful human. It appears similar to a mundane item with one or two distinctive ornaments, such as writing, gemstones, or precious metals, and it may also incorporate imagery from real life civilizations. Human items are made for practicality- the item has few powers, but it excels at them. Its powers are very straightforward, as well. These items often outlive the civilizations that created them, leaving their histories mysterious and unknowable."
+    },
+    {
+        "name": "Human",
+        "desc": "The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten tongue or symbols whose significance is lost to the ages."
+    },
+    {
+        "name": "Dwarf",
+        "desc": "This item was created by a dwarven master crafter or smith. It is made from the finest material available, potentially even silver, gold, platinum, mithral, or adamantine. It might be expertly decorated with the imagery of one particular clan, and possess great significance to them, or it might be a technological marvel. It is most likely created for a singular purpose, and serves that purpose well."
+    },
+    {
+        "name": "Dwarf",
+        "desc": "The item is durable and has Dwarven runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls."
+    },
+    {
+        "name": "Elf",
+        "desc": "This item was crafted by the elves of the surface world. It is a beautiful object adorned with symbols of nature such as flowers, leaves, vines, or stars. It is built for form as much as function, and it most likely has several powers, which might relate to nature, dreams, healing, light, or destroying evil."
+    },
+    {
+        "name": "Elf",
+        "desc": "The item is half the normal weight. It is adorned with symbols of nature: leaves, vines, stars, and the like."
+    }
+]
