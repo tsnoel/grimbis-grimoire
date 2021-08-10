@@ -102,31 +102,117 @@
             :rows="15">
         </el-input>
     </el-dialog>
-    <el-dialog title="Settings" width="90%"
+
+    <!-- Settings Dialog -->
+    <el-dialog custom-class="settings-dialog"
+        title="Probability Settings" width="90%"
+        :fullscreen="true"
         v-model="settingsFormVisible">
-        <el-form :model="settingsForm">
-            <el-form-item label="Test">
-                <el-input
-                    v-model="settingsForm.input"
-                    autocomplete="off">
-                </el-input>
-            </el-form-item>
-            <el-form-item label="Test2">
-                <el-select
-                    v-model="settingsForm.select"
-                    placeholder="Please select a zone">
-                    <el-option
-                        label="Zone No.2"
-                        value="beijing">
-                    </el-option>
-                </el-select>
-            </el-form-item>
-        </el-form>
+        <div class="settings-header">Origin</div>
+        <div class="settings-section">
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Common <span>{{ItemsModel.quantities.originC}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.origin.common"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Uncommon <span>{{ItemsModel.quantities.originU}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.origin.uncommon"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Rare <span>{{ItemsModel.quantities.originR}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.origin.rare"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+        </div>
+        <div class="settings-header">History</div>
+        <div class="settings-section">
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Doesn't have a history
+                </span>
+                <el-input-number v-model="ItemsModel.odds.history.none"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Has a history
+                </span>
+                <el-input-number v-model="ItemsModel.odds.history.history"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+        </div>
+        <div class="settings-header">Boons</div>
+        <div class="settings-section">
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Common <span>{{ItemsModel.quantities.propertyC}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.property.common"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Uncommon <span>{{ItemsModel.quantities.propertyU}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.property.uncommon"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Rare <span>{{ItemsModel.quantities.propertyR}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.property.rare"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+        </div>
+        <div class="settings-header">Banes</div>
+        <div class="settings-section">
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Common <span>{{ItemsModel.quantities.curseC}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.curse.common"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Uncommon <span>{{ItemsModel.quantities.curseU}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.curse.uncommon"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+            <div class="settings-input">
+                <span class="settings-input-label">
+                    Rare <span>{{ItemsModel.quantities.curseR}} total</span>
+                </span>
+                <el-input-number v-model="ItemsModel.odds.curse.rare"
+                    controls-position="right" size="mini">
+                </el-input-number>
+            </div>
+        </div>
         <template #footer>
             <span class="dialog-footer">
                 <el-button type="primary"
-                    @click="setSettings">
-                    Confirm
+                    @click="resetOdds">
+                    Reset
                 </el-button>
             </span>
         </template>
@@ -140,9 +226,8 @@ import {
     ElCollapse,
     ElCollapseItem,
     ElDialog,
-    ElForm,
-    ElFormItem,
     ElInput,
+    ElInputNumber,
     ElOption,
     ElSelect
 } from 'element-plus';
@@ -159,9 +244,8 @@ export default {
         [ElCollapse.name]: ElCollapse,
         [ElCollapseItem.name]: ElCollapseItem,
         [ElDialog.name]: ElDialog,
-        [ElForm.name]: ElForm,
-        [ElFormItem.name]: ElFormItem,
         [ElInput.name]: ElInput,
+        [ElInputNumber.name]: ElInputNumber,
         [ElOption.name]: ElOption,
         [ElSelect.name]: ElSelect,
         [Nav.name]: Nav
@@ -171,10 +255,6 @@ export default {
             ItemsModel,
             rawFormVisible: false,
             rawJson: '',
-            settingsForm: {
-                input: '',
-                select: ''
-            },
             settingsFormVisible: false
         };
     },
@@ -183,6 +263,7 @@ export default {
     methods: {
         addItem() {
             this.ItemsModel.addItem();
+            document.getElementsByClassName('items-container')[0].scroll(0, 0);
         },
         deleteItem(item) {
             this.ItemsModel.deleteItem(item);
@@ -190,8 +271,11 @@ export default {
         generateJSON() {
             this.rawJson = JSON.stringify(this.ItemsModel.all, null, 4);
         },
+        resetOdds() {
+            this.ItemsModel.resetOdds();
+        },
         setSettings() {
-            console.log('setSettings', this.settingsForm);
+            console.log('setSettings', this.ItemsModel.odds);
             this.settingsFormVisible = false;
         }
     }
@@ -204,7 +288,8 @@ export default {
 .items-container {
     background-color: color(green, lightest);
     height: calc(100% - 2.5rem);
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     .no-data {
         color: color(green, base);
@@ -228,7 +313,6 @@ export default {
     }
 
     .item-card {
-        height: calc(auto - 2rem);
         margin: 0.5rem 5%;
 
         .item-content {
@@ -396,6 +480,43 @@ export default {
     .raw-btn {
         height: 2.3rem;
         padding-top: 0.2rem;
+    }
+}
+
+.settings-header {
+    border-bottom: 1px solid color(gray, darker);
+    color: color(gray, darker);
+    font-weight: bold;
+}
+
+.settings-section {
+    display: flex;
+    flex-direction: column;
+
+    .settings-input {
+        border-bottom: 1px solid color(gray, lighter);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        width: 100%;
+
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 0.5rem;
+        }
+
+        .settings-input-label {
+            color: color(gray, dark);
+            margin-top: 0.25rem;
+
+            span {
+                color: color(gray, base);
+                right: calc(100% - 8rem);
+                position: relative;
+            }
+        }
     }
 }
 </style>

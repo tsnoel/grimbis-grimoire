@@ -35,6 +35,12 @@ body {
     margin: 0;
 }
 
+.settings-dialog {
+    .el-dialog__body {
+        padding: 0 1.25rem !important;
+    }
+}
+
 .bio-description {
     line-height: 1rem;
     width: 8rem;

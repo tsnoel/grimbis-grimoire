@@ -17,13 +17,13 @@ class Item {
 
     constructor(item) {
         // Elite ID Generating Haxx
-        this.id = Math.floor(Math.random() * 100000000);
-        this.name = '';
+        this.id = item.id || Math.floor(Math.random() * 100000000);
+        this.name = item.name || '';
         this.description = item.description || '';
-        this.origin = item.origin || '';
+        this.origin = item.origin || {name: 'None', desc: ''};
         this.history = item.history || '';
-        this.property = item.property || [];
-        this.notes = '';
+        this.property = item.property || [{name: 'None', desc: '', rarity: '', type: ''}];
+        this.notes = item.notes || '';
     }
 
 }
@@ -32,20 +32,38 @@ class Items {
 
     constructor() {
         this.all = [];
+        this.odds = {};
+        this.quantities = {
+            originC: originC.length,
+            originU: originU.length,
+            originR: originR.length,
+            history: history.length,
+            propertyC: propertyC.length,
+            propertyU: propertyU.length,
+            propertyR: propertyR.length,
+            curseC: curseC.length,
+            curseU: curseU.length,
+            curseR: curseR.length
+        };
+
+        this.resetOdds();
+    }
+
+    resetOdds() {
         this.odds = {
             origin: {
-                common: 60,
-                uncommon: 30,
-                rare: 10
+                common: 70,
+                uncommon: 25,
+                rare: 5
             },
             history: {
-                none: 60,
-                history: 40
+                none: 75,
+                history: 25
             },
             property: {
-                common: 60,
-                uncommon: 30,
-                rare: 10,
+                common: 70,
+                uncommon: 25,
+                rare: 5,
                 // quantity
                 none: 0,
                 single: 70,
@@ -53,13 +71,13 @@ class Items {
                 triple: 5
             },
             curse: {
-                common: 60,
-                uncommon: 30,
-                rare: 10,
+                common: 70,
+                uncommon: 25,
+                rare: 5,
                 // quantity
-                none: 20,
-                single: 60,
-                binary: 15,
+                none: 50,
+                single: 35,
+                binary: 10,
                 triple: 5
             }
         };
@@ -78,7 +96,8 @@ class Items {
 
         if (d100 < this.odds.origin.common) {
             return {...originC[Math.floor(Math.random() * originC.length)], rarity: 'common'};
-        } else if (d100 < this.odds.origin.common + this.odds.origin.uncommon) {
+        } else if (d100 < this.odds.origin.common +
+            this.odds.origin.uncommon) {
             return {...originU[Math.floor(Math.random() * originU.length)], rarity: 'uncommon'};
         } else {
             return {...originR[Math.floor(Math.random() * originR.length)], rarity: 'rare'};
@@ -115,9 +134,12 @@ class Items {
 
         if (q100 < this.odds.property.none) {
             iterations = 0;
-        } else if (q100 < this.odds.property.single) {
+        } else if (q100 < this.odds.property.none +
+            this.odds.property.single) {
             iterations = 1;
-        } else if (q100 < this.odds.property.binary) {
+        } else if (q100 < this.odds.property.none +
+            this.odds.property.single +
+            this.odds.property.binary) {
             iterations = 2;
         } else {
             iterations = 3;
@@ -131,7 +153,8 @@ class Items {
                     ...propertyC[Math.floor(Math.random() * propertyC.length)],
                     rarity: 'common', type: 'property'
                 });
-            } else if (d100 < this.odds.property.uncommon) {
+            } else if (d100 < this.odds.property.common +
+                this.odds.property.uncommon) {
                 res.push({
                     ...propertyU[Math.floor(Math.random() * propertyU.length)],
                     rarity: 'uncommon', type: 'property'
@@ -164,9 +187,12 @@ class Items {
 
         if (q100 < this.odds.curse.none) {
             iterations = 0;
-        } else if (q100 < this.odds.curse.single) {
+        } else if (q100 < this.odds.curse.none +
+            this.odds.curse.single) {
             iterations = 1;
-        } else if (q100 < this.odds.curse.binary) {
+        } else if (q100 < this.odds.curse.none +
+            this.odds.curse.single +
+            this.odds.curse.binary) {
             iterations = 2;
         } else {
             iterations = 3;
@@ -180,7 +206,8 @@ class Items {
                     ...curseC[Math.floor(Math.random() * curseC.length)],
                     rarity: 'common', type: 'curse'
                 });
-            } else if (d100 < this.odds.curse.uncommon) {
+            } else if (d100 < this.odds.curse.common +
+                this.odds.curse.uncommon) {
                 res.push({
                     ...curseU[Math.floor(Math.random() * curseU.length)],
                     rarity: 'uncommon', type: 'curse'
@@ -196,6 +223,12 @@ class Items {
         return res;
     }
 
+    loadItems(data) {
+        data.forEach((d) => {
+            this.all.push(new Item(d));
+        });
+    }
+
     addItem() {
         const newItem = new Item({
             description: this.genDescription(),
@@ -204,7 +237,7 @@ class Items {
             property: [...this.genProperty(), ...this.genCurse()]
         });
 
-        this.all.push(newItem);
+        this.all.unshift(newItem);
     }
 
     deleteItem(item) {
