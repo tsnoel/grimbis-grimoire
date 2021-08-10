@@ -23,7 +23,6 @@ class Item {
         this.origin = item.origin || '';
         this.history = item.history || '';
         this.property = item.property || [];
-        this.curse = item.curse || [];
         this.notes = '';
     }
 
@@ -128,11 +127,20 @@ class Items {
             const d100 = Math.floor(Math.random() * oddsTotal);
 
             if (d100 < this.odds.property.common) {
-                res.push({...propertyC[Math.floor(Math.random() * propertyC.length)], rarity: 'common'});
+                res.push({
+                    ...propertyC[Math.floor(Math.random() * propertyC.length)],
+                    rarity: 'common', type: 'property'
+                });
             } else if (d100 < this.odds.property.uncommon) {
-                res.push({...propertyU[Math.floor(Math.random() * propertyU.length)], rarity: 'uncommon'});
+                res.push({
+                    ...propertyU[Math.floor(Math.random() * propertyU.length)],
+                    rarity: 'uncommon', type: 'property'
+                });
             } else {
-                res.push({...propertyR[Math.floor(Math.random() * propertyR.length)], rarity: 'rare'});
+                res.push({
+                    ...propertyR[Math.floor(Math.random() * propertyR.length)],
+                    rarity: 'rare', type: 'property'
+                });
             }
         }
 
@@ -168,11 +176,20 @@ class Items {
             const d100 = Math.floor(Math.random() * oddsTotal);
 
             if (d100 < this.odds.curse.common) {
-                res.push({...curseC[Math.floor(Math.random() * curseC.length)], rarity: 'common'});
+                res.push({
+                    ...curseC[Math.floor(Math.random() * curseC.length)],
+                    rarity: 'common', type: 'curse'
+                });
             } else if (d100 < this.odds.curse.uncommon) {
-                res.push({...curseU[Math.floor(Math.random() * curseU.length)], rarity: 'uncommon'});
+                res.push({
+                    ...curseU[Math.floor(Math.random() * curseU.length)],
+                    rarity: 'uncommon', type: 'curse'
+                });
             } else {
-                res.push({...curseR[Math.floor(Math.random() * curseR.length)], rarity: 'rare'});
+                res.push({
+                    ...curseR[Math.floor(Math.random() * curseR.length)],
+                    rarity: 'rare', type: 'curse'
+                });
             }
         }
 
@@ -184,8 +201,7 @@ class Items {
             description: this.genDescription(),
             origin: this.genOrigin(),
             history: this.genHistory(),
-            curse: this.genCurse(),
-            property: this.genProperty()
+            property: [...this.genProperty(), ...this.genCurse()]
         });
 
         this.all.push(newItem);
