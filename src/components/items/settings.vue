@@ -14,12 +14,22 @@
         <el-tabs v-model="activeName" :stretch="true"
             class="item-settings-tabs">
             <el-tab-pane label="Background" name="background">
+                <div class="settings-header">Description</div>
+                <div class="settings-section">
+                    <div class="settings-input">
+                        <span class="settings-input-label">
+                            <span class="no-label">
+                                {{ItemsModel.quantities.description}} total
+                            </span>
+                        </span>
+                    </div>
+                </div>
                 <div class="settings-header bg">Origin<span>Weight</span></div>
                 <div class="settings-section">
                     <div class="settings-input">
                         <span class="settings-input-label">
                             Common
-                            <span>
+                            <span class="has-label">
                                 {{ItemsModel.quantities.originC}} total
                             </span>
                         </span>
@@ -31,7 +41,7 @@
                     <div class="settings-input">
                         <span class="settings-input-label">
                             Uncommon
-                            <span>
+                            <span class="has-label">
                                 {{ItemsModel.quantities.originU}} total
                             </span>
                         </span>
@@ -43,7 +53,7 @@
                     <div class="settings-input">
                         <span class="settings-input-label">
                             Rare
-                            <span>
+                            <span class="has-label">
                                 {{ItemsModel.quantities.originR}} total
                             </span>
                         </span>
@@ -67,6 +77,9 @@
                     <div class="settings-input">
                         <span class="settings-input-label">
                             Has a history
+                            <span class="has-label">
+                                {{ItemsModel.quantities.history}} total
+                            </span>
                         </span>
                         <el-input-number
                             v-model="ItemsModel.odds.history.history"
@@ -82,7 +95,10 @@
                 <div class="settings-section">
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Common <span>{{ItemsModel.quantities.propertyC}} total</span>
+                            Common
+                            <span class="has-label">
+                                {{ItemsModel.quantities.propertyC}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.property.common"
                             controls-position="right" size="mini">
@@ -90,7 +106,10 @@
                     </div>
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Uncommon <span>{{ItemsModel.quantities.propertyU}} total</span>
+                            Uncommon
+                            <span class="has-label">
+                                {{ItemsModel.quantities.propertyU}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.property.uncommon"
                             controls-position="right" size="mini">
@@ -98,7 +117,10 @@
                     </div>
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Rare <span>{{ItemsModel.quantities.propertyR}} total</span>
+                            Rare
+                            <span class="has-label">
+                                {{ItemsModel.quantities.propertyR}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.property.rare"
                             controls-position="right" size="mini">
@@ -148,7 +170,10 @@
                 <div class="settings-section">
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Common <span>{{ItemsModel.quantities.curseC}} total</span>
+                            Common
+                            <span class="has-label">
+                                {{ItemsModel.quantities.curseC}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.curse.common"
                             controls-position="right" size="mini">
@@ -156,7 +181,10 @@
                     </div>
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Uncommon <span>{{ItemsModel.quantities.curseU}} total</span>
+                            Uncommon
+                            <span class="has-label">
+                                {{ItemsModel.quantities.curseU}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.curse.uncommon"
                             controls-position="right" size="mini">
@@ -164,7 +192,10 @@
                     </div>
                     <div class="settings-input">
                         <span class="settings-input-label">
-                            Rare <span>{{ItemsModel.quantities.curseR}} total</span>
+                            Rare
+                            <span class="has-label">
+                                {{ItemsModel.quantities.curseR}} total
+                            </span>
                         </span>
                         <el-input-number v-model="ItemsModel.odds.curse.rare"
                             controls-position="right" size="mini">
@@ -215,7 +246,7 @@
                 <el-button
                     icon="el-icon-magic-stick"
                     @click="resetOdds">
-                    Reset
+                    Reset All
                 </el-button>
             </span>
         </template>
@@ -268,7 +299,7 @@ export default {
     justify-content: space-between;
 
     &.bg {
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
     }
 
     span {
@@ -300,8 +331,12 @@ export default {
             color: color(gray, dark);
             margin-top: 0.25rem;
 
-            span {
+            .has-label,
+            .no-label {
                 color: color(gray, base);
+            }
+
+            .has-label {
                 right: calc(100% - 8rem);
                 position: relative;
             }

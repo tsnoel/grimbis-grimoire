@@ -34,6 +34,7 @@ class Items {
         this.all = [];
         this.odds = {};
         this.quantities = {
+            description: trinkets.length,
             originC: originC.length,
             originU: originU.length,
             originR: originR.length,

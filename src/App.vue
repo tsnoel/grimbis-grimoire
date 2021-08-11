@@ -36,6 +36,12 @@ body {
 }
 
 // ==== Items Page ====
+.items-scrollbar {
+    .is-vertical {
+        width: 0.75rem !important;
+    }
+}
+
 .json-dialog,
 .settings-dialog {
     height: 30.5rem;

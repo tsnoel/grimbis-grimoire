@@ -2,77 +2,85 @@
     <nav-header page="Magic Item Gashapon"/>
     <div class="items-container">
         <div v-if="!ItemsModel.all.length" class="no-data">
-            <span>There's nothing here... yet<br/>Click <i @click="addItem" class="el-icon-circle-plus no-data-icon"></i> to acquire a new magic item</span>
+            <capsule class="no-data-animation-top"/>
+            <div class="no-data-text">
+                There's nothing here... yet
+                <br/>
+                Click <i @click="addItem" class="el-icon-circle-plus no-data-icon"></i>
+                to acquire a magic item
+            </div>
         </div>
-        <div v-for="item in ItemsModel.all" :key="item.id">
-            <el-card class="item-card">
-                <div class="item-content">
-                    <div class="item name">
-                        <!--span class="label">Name</span-->
-                        <el-input class="name-area"
-                            placeholder="Name this item..."
-                            v-model="item.name">
-                        </el-input>
-                        <div class="delete-btn"
-                            @click="deleteItem(item)">
-                            <i class="el-icon-delete-solid"></i>
+        <el-scrollbar ref="scrollbar" class="items-scrollbar" always>
+            <div v-for="item in ItemsModel.all" :key="item.id">
+                <el-card class="item-card">
+                    <div class="item-content">
+                        <div class="item name">
+                            <!--span class="label">Name</span-->
+                            <el-input class="name-area"
+                                placeholder="Name this item..."
+                                v-model="item.name">
+                            </el-input>
+                            <div class="delete-btn"
+                                @click="deleteItem(item)">
+                                <i class="el-icon-delete-solid"></i>
+                            </div>
+                        </div>
+                        <div class="item desc">
+                            <span class="label">Description</span>
+                            <span class="body">{{item.description}}</span>
+                        </div>
+                        <div class="item origin">
+                            <div class="sub-item">
+                                <span class="label">Origin</span>
+                                <span class="body">{{item.origin.name}}</span>
+                                <span class="rarity" :class="item.origin.rarity">
+                                    {{item.origin.rarity}}
+                                </span>
+                            </div>
+                            <div class="sub">{{item.origin.desc}}</div>
+                        </div>
+                        <div v-if="item.history" class="item hist">
+                            <div class="sub-item">
+                                <span class="label">History</span>
+                                <span class="body">{{item.history.name}}</span>
+                            </div>
+                            <div class="sub">{{item.history.desc}}</div>
+                        </div>
+                        <div class="item prop">
+                            <!--span class="label">Properties</span-->
+                            <el-collapse class="body">
+                                <el-collapse-item
+                                    v-for="(prop, index) in item.property"
+                                    :key="prop.name + index" :name="prop.name + index">
+                                    <template #title>
+                                        <span class="prop-name">{{prop.name}}</span>
+                                        <span class="prop-type"
+                                            :class="prop.type">
+                                            {{prop.type === 'curse' ? 'bane' : 'boon'}}
+                                        </span>
+                                        <span class="prop-rarity"
+                                            :class="prop.rarity">
+                                            {{prop.rarity}}
+                                        </span>
+                                    </template>
+                                    <span class="prop-desc">{{prop.desc}}</span>
+                                </el-collapse-item>
+                            </el-collapse>
+                        </div>
+                        <div class="item notes">
+                            <!--span class="label">Notes</span-->
+                            <el-input
+                                class="notes-area"
+                                type="textarea"
+                                :rows="3"
+                                placeholder="Additional notes about this item..."
+                                v-model="item.notes">
+                            </el-input>
                         </div>
                     </div>
-                    <div class="item desc">
-                        <span class="label">Description</span>
-                        <span class="body">{{item.description}}</span>
-                    </div>
-                    <div class="item origin">
-                        <div class="sub-item">
-                            <span class="label">Origin</span>
-                            <span class="body">{{item.origin.name}}</span>
-                            <span class="rarity" :class="item.origin.rarity">
-                                {{item.origin.rarity}}
-                            </span>
-                        </div>
-                        <div class="sub">{{item.origin.desc}}</div>
-                    </div>
-                    <div v-if="item.history" class="item hist">
-                        <div class="sub-item">
-                            <span class="label">History</span>
-                            <span class="body">{{item.history.name}}</span>
-                        </div>
-                        <div class="sub">{{item.history.desc}}</div>
-                    </div>
-                    <div class="item prop">
-                        <!--span class="label">Properties</span-->
-                        <el-collapse class="body">
-                            <el-collapse-item
-                                v-for="(prop, index) in item.property"
-                                :key="prop.name + index" :name="prop.name + index">
-                                <template #title>
-                                    <span class="prop-name">{{prop.name}}</span>
-                                    <span class="prop-type"
-                                        :class="prop.type">
-                                        {{prop.type === 'curse' ? 'bane' : 'boon'}}
-                                    </span>
-                                    <span class="prop-rarity"
-                                        :class="prop.rarity">
-                                        {{prop.rarity}}
-                                    </span>
-                                </template>
-                                <span class="prop-desc">{{prop.desc}}</span>
-                            </el-collapse-item>
-                        </el-collapse>
-                    </div>
-                    <div class="item notes">
-                        <!--span class="label">Notes</span-->
-                        <el-input
-                            class="notes-area"
-                            type="textarea"
-                            :rows="3"
-                            placeholder="Additional notes about this item..."
-                            v-model="item.notes">
-                        </el-input>
-                    </div>
-                </div>
-            </el-card>
-        </div>
+                </el-card>
+            </div>
+        </el-scrollbar>
     </div>
 
     <div class="btn-group">
@@ -130,23 +138,28 @@ import {
     ElCollapseItem,
     ElDialog,
     ElInput,
-    ElMessage
+    ElMessage,
+    ElScrollbar
 } from 'element-plus';
 
 import Nav from '../components/Nav';
 import settings from '../components/items/settings'
+
+import capsule from '../assets/capsule';
 
 import ItemsModel from '../models/items';
 
 export default {
     name: 'items',
     components: {
+        [capsule.name]: capsule,
         [ElButton.name]: ElButton,
         [ElCard.name]: ElCard,
         [ElCollapse.name]: ElCollapse,
         [ElCollapseItem.name]: ElCollapseItem,
         [ElDialog.name]: ElDialog,
         [ElInput.name]: ElInput,
+        [ElScrollbar.name]: ElScrollbar,
         [Nav.name]: Nav,
         [settings.name]: settings
     },
@@ -192,8 +205,7 @@ export default {
 .items-container {
     background-color: color(green, lightest);
     height: calc(100% - 2.5rem);
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
 
     .no-data {
         color: color(green, base);
@@ -201,14 +213,22 @@ export default {
         flex-direction: column;
         font-size: 1.5rem;
         height: 100%;
-        justify-content: space-around;
-        margin: 0 1rem;
+        justify-content: center;
+        margin: -3rem 1rem 0 1rem;
         text-align: center;
 
-        .no-data-icon {
-            color: color(green, dark);
-            cursor: pointer;
-            font-size: 1.25rem;
+        .no-data-animation-top {
+            transform: scale(0.75);
+        }
+
+        .no-data-text {
+            margin-top: 0.5rem;
+
+            .no-data-icon {
+                color: color(green, dark);
+                cursor: pointer;
+                font-size: 1.25rem;
+            }
         }
     }
 
