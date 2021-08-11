@@ -65,20 +65,20 @@ class Items {
                 uncommon: 25,
                 rare: 5,
                 // quantity
-                none: 0,
-                single: 70,
-                binary: 25,
-                triple: 5
+                none: 10,
+                single: 69,
+                binary: 20,
+                triple: 1
             },
             curse: {
                 common: 70,
                 uncommon: 25,
                 rare: 5,
                 // quantity
-                none: 50,
-                single: 35,
-                binary: 10,
-                triple: 5
+                none: 30,
+                single: 49,
+                binary: 20,
+                triple: 1
             }
         };
     }

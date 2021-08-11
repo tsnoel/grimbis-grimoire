@@ -30,7 +30,7 @@ export default {
 @import '../styles/colors';
 
 .nav-header {
-    background-color: rgba(color(green), 0.25);
+    background-color: color(green, 300);
     display: flex;
     flex-direction: row;
     height: 2.5rem;
@@ -48,7 +48,7 @@ export default {
             width: 2.75rem;
 
             .icon-square {
-                background-color: color(green, dark);
+                background-color: color(green, darker);
                 height: 1.5rem;
                 width: 1.5rem;
             }

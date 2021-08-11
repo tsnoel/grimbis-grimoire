@@ -35,17 +35,40 @@ body {
     margin: 0;
 }
 
+// ==== Items Page ====
+.json-dialog,
 .settings-dialog {
+    height: 30.5rem;
+
     .el-dialog__body {
+        height: 23rem;
         padding: 0 1.25rem !important;
     }
 }
 
+.item-settings-tabs {
+    .el-tabs__item {
+        &:hover {
+            color: color(green, base) !important;
+        }
+    }
+
+    .el-tabs__active-bar {
+        background-color: color(green, base) !important;
+    }
+
+    .is-active {
+        color: color(green, base) !important;
+    }
+}
+
+// ==== Character Sheet ====
 .bio-description {
     line-height: 1rem;
     width: 8rem;
 }
 
+// ==== Spell Cards ====
 .new-card {
     background-color: color(white);
     border: 0.2rem dashed color(gray, light);
