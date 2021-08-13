@@ -172,8 +172,8 @@ export default {
     // align-items: center;
 
     .ballspinner {
-        width: 15.6rem;
-        height: 15.6rem;
+        width: 7.8rem;
+        height: 7.8rem;
         border-radius: 50%;
         border: 0.2rem solid color(green, darker);
         background-color: color(green, darker);
@@ -191,8 +191,8 @@ export default {
         .item2,
         .item3,
         .item4 {
-            width: 6.25rem;
-            height: 6.25rem;
+            width: 3.125rem;
+            height: 3.125rem;
             position: absolute;
             border-radius: 50%;
         }
@@ -234,16 +234,16 @@ export default {
 
         .ball1 {
             top: 0;
-            left: 4.7rem;
+            left: 2.35rem;
         }
         .ball2 {
-            top: 7rem;
-            left: 0.63rem;
+            top: 3.5rem;
+            left: 0.315rem;
             animation-duration: 1.33s; // 1s;
         }
         .ball3 {
-            top: 7rem;
-            left: 8.75rem;
+            top: 3.5rem;
+            left: 4.375rem;
             animation-duration: 1.66s; // 1.25s;
         }
 

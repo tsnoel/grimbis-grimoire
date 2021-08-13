@@ -30,7 +30,7 @@ export default {
 @import '../styles/colors';
 
 .nav-header {
-    background-color: color(green, 300);
+    background-color: color(green, light);
     display: flex;
     flex-direction: row;
     height: 2.5rem;

@@ -55,7 +55,7 @@ body {
 .item-settings-tabs {
     .el-tabs__item {
         &:hover {
-            color: color(green, base) !important;
+            color: color(green, dark) !important;
         }
     }
 
@@ -64,7 +64,7 @@ body {
     }
 
     .is-active {
-        color: color(green, base) !important;
+        color: color(green, dark) !important;
     }
 }
 

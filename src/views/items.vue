@@ -2,7 +2,10 @@
     <nav-header page="Magic Item Gashapon"/>
     <div class="items-container">
         <div v-if="!ItemsModel.all.length" class="no-data">
-            <capsule class="no-data-animation-top"/>
+            <div class="no-data-animation">
+                <capsule class="no-data-animation-top"/>
+                <capsule-frog class="no-data-animation-bottom"/>
+            </div>
             <div class="no-data-text">
                 There's nothing here... yet
                 <br/>
@@ -90,7 +93,7 @@
                 <i class="el-icon-plus"></i>
             </div>
             <div class="browse-btn"
-                @click="construction">
+                @click="construction('browse')">
                 <i class="el-icon-search"></i>
             </div>
         </div>
@@ -98,7 +101,7 @@
             <div class="raw-btn"
                 @click="generateJSON(); rawFormVisible = true;">{ }</div>
             <div class="upload-btn"
-                @click="construction">
+                @click="construction('upload')">
                 <i class="el-icon-upload2"></i>
             </div>
             <item-settings/>
@@ -121,6 +124,7 @@
             <span class="dialog-footer">
                 <a id="download-items">
                     <el-button type="success"
+                        class="download-btn"
                         icon="el-icon-download">
                         Download
                     </el-button>
@@ -146,6 +150,7 @@ import Nav from '../components/Nav';
 import settings from '../components/items/settings'
 
 import capsule from '../assets/capsule';
+import capsuleFrog from '../assets/capsule-frog';
 
 import ItemsModel from '../models/items';
 
@@ -153,6 +158,7 @@ export default {
     name: 'items',
     components: {
         [capsule.name]: capsule,
+        [capsuleFrog.name]: capsuleFrog,
         [ElButton.name]: ElButton,
         [ElCard.name]: ElCard,
         [ElCollapse.name]: ElCollapse,
@@ -175,9 +181,10 @@ export default {
             this.ItemsModel.addItem();
             document.getElementsByClassName('items-container')[0].scroll(0, 0);
         },
-        construction() {
+        construction(name) {
             ElMessage({
-                message: 'This feature isn\'t ready. Check back later for updates.',
+                message: `${name ? 'The ' + name : 'This'} feature isn't ready. ` +
+                    'Check back later for updates.',
                 type: 'warning',
                 duration: 5000
             });
@@ -214,15 +221,16 @@ export default {
         font-size: 1.5rem;
         height: 100%;
         justify-content: center;
-        margin: -3rem 1rem 0 1rem;
+        margin: -1.5rem 1rem 0 1rem;
         text-align: center;
 
-        .no-data-animation-top {
-            transform: scale(0.75);
+        .no-data-animation {
+            // background-color: color(green, lighter);
+            // transform: scale(0.5);
         }
 
         .no-data-text {
-            margin-top: 0.5rem;
+            margin-top: -0.5rem;
 
             .no-data-icon {
                 color: color(green, dark);
@@ -397,6 +405,18 @@ export default {
     .raw-btn {
         height: 2.3rem;
         padding-top: 0.2rem;
+    }
+}
+
+.download-btn {
+    background-color: color(green, darker);
+    border-color: color(green, darker);
+    color: color(white);
+
+    &:hover {
+        background-color: color(green, dark);
+        border-color: color(green, dark);
+        color: color(white);
     }
 }
 </style>

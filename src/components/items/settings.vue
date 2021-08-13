@@ -244,6 +244,7 @@
         <template #footer>
             <span class="dialog-footer">
                 <el-button
+                    class="reset-btn"
                     icon="el-icon-magic-stick"
                     @click="resetOdds">
                     Reset All
@@ -341,6 +342,14 @@ export default {
                 position: relative;
             }
         }
+    }
+}
+
+.reset-btn {
+    &:hover {
+        background-color: color(green, lightest);
+        border-color: color(green, lighter);
+        color: color(green, darker);
     }
 }
 </style>
