@@ -1,22 +1,47 @@
 [
     {
         "name": "Aging/Ageless",
-        "desc": "This item causes its user to age quickly, or slow or cease aging."
+        "desc": "This item causes its user to age quickly, or slow or cease aging.",
+        "rating": 3
+    },
+    {
+        "name": "Brotherhood",
+        "desc": "This curse links the object with another object with similar characteristics, eventually leading both items and their users to their destruction.",
+	    "rating": 3
     },
     {
         "name": "Contact",
-        "desc": "This item allows its user to contact some powerful entity (most likely the item's creator)- or for the entity to contact them."
+        "desc": "This item causes some powerful entity (most likely the item's creator) to contact its user.",
+	    "rating": 3
     },
     {
         "name": "Cursed",
-        "desc": "This item has a curse placed on it that causes its wielder some negative effect. It might also make it difficult for its user to get rid of it."
+        "desc": "This item has a curse placed on it that causes its wielder some negative effect. It might also make it difficult for its user to get rid of it.",
+	    "rating": 3
+    },
+    {
+        "name": "Madness",
+        "desc": "The user of this item risks going mad.",
+	    "rating": 3
+    },
+    {
+        "name": "Obsession",
+        "desc": "The user of this item risks becoming obsessed with it and unwilling to part with it.",
+	    "rating": 3
     },
     {
         "name": "Possessive",
-        "desc": "Once this item has an owner, it is very difficult for another to claim it. It may require its owner to relinquish it, or for the new user to kill them."
+        "desc": "Once this item has an owner, it is very difficult for another to claim it. It may require its owner to relinquish it, or for the new user to kill them.",
+	    "rating": 3
+    },
+    {
+        "name": "Psychic Bond",
+        "desc": "The object immediately creates a psychic connection with anyone that uses it at least once. After that, anything bad that happens to the item also befalls the individual, even if there is no direct physical connection between the two.",
+	    "rating": 3
     },
     {
         "name": "Trap",
-        "desc": "This item was secretly created to kill, capture, or manipulate its user."
+        "desc": "This item was secretly created to kill, capture, or manipulate its user.",
+	    "rating": 3
     }
 ]

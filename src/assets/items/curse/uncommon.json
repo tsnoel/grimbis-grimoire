@@ -1,50 +1,72 @@
 [
     {
         "name": "Bound Creature",
-        "desc": "This item contains a supernatural creature that powers its abilities. It may be resting in the item to recover, imprisoned in the item against its will, or haunting the item. If it gets out of the item, it might be grateful for the user's help, or attack them in a rage."
+        "desc": "This item contains a supernatural creature that powers its abilities. It may be resting in the item to recover, imprisoned in the item against its will, or haunting the item. If it gets out of the item, it might be grateful for the user's help, or attack them in a rage.",
+	    "rating": 2
     },
     {
-        "name": "Conscientious",
-        "desc": "When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience."
+        "name": "Covetous",
+        "desc": "The item’s bearer becomes obsessed with material wealth.",
+	    "rating": 2
+    },
+    {
+        "name": "Coveted",
+        "desc": "This item is highly sought after. Others may offer to buy the item from its user at a high price, or more likely attempt to kill them and take it.",
+	    "rating": 2
+    },
+    {
+        "name": "Cruel Fortune",
+        "desc": "The object has a negative quality that only rears its ugly head at the time of greatest need of the user. Generally, it seems to work fine, but when its powers are most needed, it fails miserably.",
+	    "rating": 2
+    },
+    {
+        "name": "Desirable",
+        "desc": "The object has an aura that makes it invaluable in the eyes of anyone who sees it. Anyone who sets eyes on the object for the first time, and does not pass inappropriate save, craves it at any cost.",
+	    "rating": 2
     },
     {
         "name": "Difficult",
-        "desc": "This item is poisonous, acidic, spiked, extremely hot or cold, or some other trait that makes it difficult or impossible to use without special gear or magic."
+        "desc": "This item is poisonous, acidic, spiked, extremely hot or cold, or some other trait that makes it difficult or impossible to use without special gear or magic.",
+	    "rating": 2
     },
     {
         "name": "Esoteric",
-        "desc": "This item has secret properties that can be unlocked, though doing so will prove difficult."
+        "desc": "This item has secret properties that can be unlocked, though doing so will prove difficult.",
+	    "rating": 2
     },
     {
         "name": "Exhausting",
-        "desc": "The user of this item risks becoming exhausted, diseased, or injured when they use it."
+        "desc": "The user of this item risks becoming exhausted, diseased, or injured when they use it.",
+	    "rating": 2
     },
     {
         "name": "Haunted",
-        "desc": "The spirit of this item's creator, one of its former users, or a victim still lingers around it, and will not depart until its purpose has been fulfilled."
+        "desc": "The spirit of this item's creator, one of its former users, or a victim still lingers around it, and will not depart until its purpose has been fulfilled.",
+	    "rating": 2
     },
     {
-        "name": "Madness",
-        "desc": "The user of this item risks going mad."
+        "name": "Infectious Presence",
+        "desc": "The energies of the device are poorly calibrated and tend to overwhelm the user.",
+	    "rating": 2
+    },
+    {
+        "name": "Infinite Line",
+        "desc": "The bearer cannot climb stairs or go down an incline.",
+	    "rating": 2
     },
     {
         "name": "Manipulative",
-        "desc": "This item will try to drive its user to commit certain acts, or prevent them from committing such acts (for instance, acts of good or evil)."
+        "desc": "This item will try to drive its user to commit certain acts, or prevent them from committing such acts (for instance, acts of good or evil).",
+	    "rating": 2
     },
     {
-        "name": "Obsession",
-        "desc": "The user of this item risks becoming obsessed with it and unwilling to part with it."
-    },
-    {
-        "name": "Song Craft",
-        "desc": "Whenever this item is struck or is used to strike a foe, its bearer hears a fragment of an ancient song."
-    },
-    {
-        "name": "Strange Material",
-        "desc": "The item was created from a material that is bizarre given its purpose. Its durability is unaffected."
+        "name": "Possessive",
+        "desc": "The item demands attunement when first wielded or worn, and it doesn’t allow its bearer to attune to other items. (Other items already attuned to the bearer remain so until their attunement ends.)",
+	    "rating": 2
     },
     {
         "name": "Wicked",
-        "desc": "When the bearer is presented with an opportunity to act in a selfish or malevolent way, the item heightens the bearer’s urge to do so."
+        "desc": "When the bearer is presented with an opportunity to act in a selfish or malevolent way, the item heightens the bearer’s urge to do so.",
+	    "rating": 2
     }
 ]

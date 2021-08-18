@@ -1,62 +1,257 @@
 [
     {
+        "name": "Dome of Darkness",
+        "desc": "Breaking the item immediately creates a supernatural dome of darkness covering an area of 80 square feet. This darkness remains motionless for 1 minute in the location where it was generated, after which it dissipates as if it were smoke.",
+	    "rating": 2
+    },
+    {
+        "name": "Free Spirit",
+        "desc": "Any attempt to dominate or control the bearer of this item faces strong supernatural opposition.",
+	    "rating": 2
+    },
+    {
+        "name": "Freedom",
+        "desc": "This item always points to the place where its owner will find freedom or the means to achieve it. Likewise, it always points to the exit to any place the character is currently inhabiting.",
+	    "rating": 2
+    },
+    {
+        "name": "Immune to Poison",
+        "desc": "The bearer is immune to poison.",
+	    "rating": 2
+    },
+    {
+        "name": "Mental Shield",
+        "desc": "This item gives a resistance bonus against spells intended to read or control the mind of its owner.",
+	    "rating": 2
+    },
+    {
+        "name": "Snake Eyes",
+        "desc": "The bearer can see through the eyes of any snake within 800 feet. A character can use this power even through supernatural barriers.",
+	    "rating": 2
+    },
+    {
+        "name": "Woodland Path",
+        "desc": "When moving through a forest while carrying this item, vegetation parts for the bearer, allowing them to move through freely and without leaving a sign.",
+	    "rating": 2
+    },
+    {
         "name": "Beacon",
-        "desc": "The bearer can use a bonus action to cause the item to shed bright light in a 10-foot radius and dim light for an additional 10 feet, or to extinguish the light."
+        "desc": "The bearer can use a bonus action to cause the item to shed bright light in a 10-foot radius and dim light for an additional 10 feet, or to extinguish the light.",
+	    "rating": 2
     },
     {
         "name": "Compass",
-        "desc": "The wielder can use an action to learn which way is north."
+        "desc": "The wielder can use an action to learn which way is north.",
+	    "rating": 2
     },
     {
         "name": "Delver",
-        "desc": "While underground, the bearer of this item always knows the item’s depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward."
-    },
-    {
-        "name": "Gleaming",
-        "desc": "This item never gets dirty."
+        "desc": "While underground, the bearer of this item always knows the item’s depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward.",
+	    "rating": 2
     },
     {
         "name": "Guardian",
-        "desc": "The item whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn’t incapacitated."
-    },
-    {
-        "name": "Harmonious",
-        "desc": "Attuning to this item takes only 1 minute."
-    },
-    {
-        "name": "Hidden Message",
-        "desc": "A message is hidden somewhere on the item. It might be visible only at a certain time of the year, under the light of one phase of the moon, or in a specific location."
-    },
-    {
-        "name": "Key",
-        "desc": "The item is used to unlock a container, chamber, vault, or other entryway."
+        "desc": "The item whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn’t incapacitated.",
+	    "rating": 2
     },
     {
         "name": "Language",
-        "desc": "The bearer can speak and understand a language of the DM’s choice while the item is on the bearer’s person."
-    },
-    {
-        "name": "Sentinel",
-        "desc": "Choose a kind of creature that is an enemy of the item’s creator. This item glows faintly when such creatures are within 120 feet of it."
+        "desc": "The bearer can speak and understand a language of the DM’s choice while the item is on the bearer’s person.",
+	    "rating": 2
     },
     {
         "name": "Temperate",
-        "desc": "The bearer suffers no harm in temperatures as cold as −20 degrees Fahrenheit or as warm as 120 degrees Fahrenheit."
+        "desc": "The bearer suffers no harm in temperatures as cold as −20 degrees Fahrenheit or as warm as 120 degrees Fahrenheit.",
+	    "rating": 2
     },
     {
-        "name": "Unbreakable",
-        "desc": "The item can’t be broken. Special means must be used to destroy it."
+        "name": "Ability",
+        "desc": "The user of this item has proficiency, advantage, or some other bonus on a particular ability.",
+	    "rating": 2
     },
     {
-        "name": "War Leader",
-        "desc": "The bearer can use an action to cause his or her voice to carry clearly for up to 300 feet until the end of the bearer’s next turn."
+        "name": "Altar",
+        "desc": "The user of this items can make offerings or sacrifices to it or a powerful entity it is associated with. If the item or entity is pleased, the item or user gains a temporary boost.",
+	    "rating": 2
     },
     {
-        "name": "Waterborne",
-        "desc": "This item floats on water and other liquids. Its bearer has advantage on Strength (Athletics) checks to swim."
+        "name": "Bloodthirsty",
+        "desc": "This grants itself or its user a temporary boost when its user kills an enemy or reduces it to 0 hit points.",
+	    "rating": 2
     },
     {
-        "name": "Illusion",
-        "desc": "The item is imbued with illusion magic, allowing its bearer to alter the item’s appearance in minor ways. Such alterations don’t change how the item is worn, carried, or wielded, and they have no effect on its other magical properties. For example, the wearer could make a red robe appear blue, or make a gold ring look like it’s made of ivory. The item reverts to its true appearance when no one is carrying or wearing it."
+        "name": "Compass",
+        "desc": "This item points directly to a known place in the world, regardless of distance, or just straight north.",
+	    "rating": 2
+    },
+    {
+        "name": "Decoy",
+        "desc": "When the user of this item takes damage, the item instead takes some or all of the damage. It can only absorb a limited amount of damage before breaking or becoming temporarily unusable.",
+	    "rating": 2
+    },
+    {
+        "name": "Eye",
+        "desc": "This item allows its user to see or hear through it. This property may not work if the item is too far away, on a different plane of existence, or protected by abjuration magic or solid lead.",
+	    "rating": 2
+    },
+    {
+        "name": "Lingual",
+        "desc": "This item allows its user to read, write, speak, and understand a certain language, usually one associated with its creator.",
+	    "rating": 2
+    },
+    {
+        "name": "Lesser Spellcasting",
+        "desc": "This item can be used to cast a particular cantrip or low-level spell when its user wills it.",
+	    "rating": 2
+    },
+    {
+        "name": "Telepathic",
+        "desc": "This item grants its user telepathy, either short-range or only under certain conditions.",
+	    "rating": 2
+    },
+    {
+        "name": "Tracker",
+        "desc": "This item can track down nearby creatures given a tiny amount of their flesh, blood, or scent, or one of their possessions.",
+	    "rating": 2
+    },
+    {
+        "name": "Magic Attack",
+        "desc": "This item has a magical attack unique to itself.",
+        "rating": 2
+    },
+    {
+        "name": "Blessing",
+        "desc": "The user of this item can use it to grants some temporary boon to their allies, such as temporary hit points, additional damage with attacks, bonuses to rolls, or advantage on certain checks or saves.",
+        "rating": 2
+    },
+    {
+        "name": "Conditions",
+        "desc": "This item inflicts a condition upon enemies (blinded, charmed, deafened, frightened, incapacitated, paralyzed, petrified, poisoned, prone, restrained, stunned, or asleep, diseased, insane, etc).",
+        "rating": 2
+    },
+    {
+        "name": "Damaging",
+        "desc": "This item can be used to deal extra damage of some type to foes, such as fire, cold, lightning, thunder, acid, or poison.",
+        "rating": 2
+    },
+    {
+        "name": "Elemental",
+        "desc": "This item can be used to conjure or manipulate air, earth, fire, water, lightning, heat, cold, acid, or another element.",
+        "rating": 2
+    },
+    {
+        "name": "Foe",
+        "desc": "This item is designed to fight monsters of a certain type. It may warn its user when such enemies are near, be extra effective against them in combat, weaken them when they are nearby, prevent them from approaching its user, or banish them to their plane of origin.",
+        "rating": 2
+    },
+    {
+        "name": "Protective",
+        "desc": "This item grants a boost to its user's AC, saves, or maximum hit points, or grants them temporary hit points, protection against a certain type of attack (such as projectile weapons), advantage on saving throws on spells. It might make its user take half damage when failing certain save-for-half rolls or no damage on a success. It might also have the ability to temporarily grant advanced protection.",
+        "rating": 2
+    },
+    {
+        "name": "Stealth",
+        "desc": "This item is made for stealth or disguise. It might mask its user's appearance, prevent them from making noise, or turn them invisible.",
+        "rating": 2
+    },
+    {
+        "name": "Athletic",
+        "desc": "This item enables its user to climb or swim better, increases their jump distance, allows them to walk on walls, removes penalties from difficult terrain, reduces fall damage, or has some other similar ability.",
+        "rating": 2
+    },
+    {
+        "name": "Aquatic",
+        "desc": "This item grants its user a swim speed, water breathing, or both, or it grants some other underwater-appropriate power.",
+        "rating": 2
+    },
+    {
+        "name": "Charged",
+        "desc": "This item allows its user to deal damage to objects or enemies by expending health, spell slots, or another resource.",
+        "rating": 2
+    },
+    {
+        "name": "Flight",
+        "desc": "This item grants its user the power of flight or levitation.",
+        "rating": 2
+    },
+    {
+        "name": "Illusory",
+        "desc": "This item conjures up specific illusions, which may disguise itself or its user, or be able to move and act independently for a short time.",
+        "rating": 2
+    },
+    {
+        "name": "Magic Shield",
+        "desc": "This item immunizes its user against scrying, mind reading, fear, charm, or some other undesirable magical effect.",
+        "rating": 2
+    },
+    {
+        "name": "Resistant",
+        "desc": "This item grants resistance to a certain type of damage, or immunity to poison or psychic damage.",
+        "rating": 2
+    },
+    {
+        "name": "Sensory",
+        "desc": "This item grants its user specific senses, such as darkvision, blindsight, tremorsense, truesight (if it's especially powerful), a bonus to perception, or the ability to sense magic. It may be an item that must be used, such as a lens that gives the user darksight while looking through it or a torch that reveals invisible creatures and objects touched by its light, or it might simply impart these senses upon its user.",
+        "rating": 2
+    },
+    {
+        "name": "Shapeshifting",
+        "desc": "This item can polymorph its user into a different type of creature.",
+        "rating": 2
+    },
+    {
+        "name": "Speedy",
+        "desc": "This item enables its user to move or take certain actions more quickly. It most likely enables them to do something that normally requires a full action as a bonus action.",
+        "rating": 2
+    },
+    {
+        "name": "Animal",
+        "desc": "This item is made for a non-sentient companion, such as a horse, or it has the power to manipulate certain animals.",
+        "rating": 2
+    },
+    {
+        "name": "Animate",
+        "desc": "This item acts on its own when its user wills it.",
+        "rating": 2
+    },
+    {
+        "name": "Attractive/Repulsive",
+        "desc": "This item can be used to push, pull, grab, or grapple items or creatures.",
+        "rating": 2
+    },
+    {
+        "name": "Bulwark",
+        "desc": "The user of this item has advantage on saving throws made to maintain concentration.",
+        "rating": 2
+    },
+    {
+        "name": "Locator",
+        "desc": "This item knows the direction to the nearest object or location of a certain type, such as food, running water, temples to a specific god, or interplanar portals.",
+        "rating": 2
+    },
+    {
+        "name": "Magic Detection",
+        "desc": "This item can detect nearby magic, and may be able to identify it to some degree.",
+        "rating": 2
+    },
+    {
+        "name": "Observer",
+        "desc": "This item can impart its user with some knowledge of the surrounding area, such as a map, the locations of traps, or the types of creature nearby.",
+        "rating": 2
+    },
+    {
+        "name": "Polymorphic",
+        "desc": "This item can transform into a particular type of creature or other living thing, usually a non-sentient or semi-sentient creature.",
+        "rating": 2
+    },
+    {
+        "name": "Random",
+        "desc": "When used, this item causes a random effect. It has a mix of harmful and helpful effects.",
+        "rating": 2
+    },
+    {
+        "name": "Scanner",
+        "desc": "This item can impart its user with some knowledge of nearby creatures, such as their thoughts, alignment, weaknesses, or if they are shapeshifted.",
+        "rating": 2
     }
 ]

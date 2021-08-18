@@ -1,154 +1,267 @@
 [
     {
-        "name": "Ability",
-        "desc": "The user of this item has proficiency, advantage, or some other bonus on a particular ability."
-    },
-    {
         "name": "Aligned",
-        "desc": "This item is good or evil and gains a boost to its powers when its user commits an act of that alignment."
-    },
-    {
-        "name": "Altar",
-        "desc": "The user of this items can make offerings or sacrifices to it or a powerful entity it is associated with. If the item or entity is pleased, the item or user gains a temporary boost."
-    },
-    {
-        "name": "Bloodthirsty",
-        "desc": "This grants itself or its user a temporary boost when its user kills an enemy or reduces it to 0 hit points."
+        "desc": "This item is good or evil and gains a boost to its powers when its user commits an act of that alignment.",
+	    "rating": 1
     },
     {
         "name": "Bond",
-        "desc": "This item is magically bonded to its user, and allows them to conjure it if it is not on their person. If already bonded to another, the bond may be difficult to break."
-    },
-    {
-        "name": "Compass",
-        "desc": "This item points directly to a known place in the world, regardless of distance, or just straight north."
+        "desc": "This item is magically bonded to its user, and allows them to conjure it if it is not on their person. If already bonded to another, the bond may be difficult to break.",
+	    "rating": 1
     },
     {
         "name": "Critical Hitter",
-        "desc": "This item has some special effect when its user scores a critical hit."
-    },
-    {
-        "name": "Decoy",
-        "desc": "When the user of this item takes damage, the item instead takes some or all of the damage. It can only absorb a limited amount of damage before breaking or becoming temporarily unusable."
+        "desc": "This item has some special effect when its user scores a critical hit.",
+	    "rating": 1
     },
     {
         "name": "Distant",
-        "desc": "This item works at a much longer range than similar items of its type."
+        "desc": "This item works at a much longer range than similar items of its type.",
+	    "rating": 1
     },
     {
         "name": "Edible",
-        "desc": "This item can be eaten."
-    },
-    {
-        "name": "Eye",
-        "desc": "This item allows its user to see or hear through it. This property may not work if the item is too far away, on a different plane of existence, or protected by abjuration magic or solid lead."
+        "desc": "This item can be eaten.",
+	    "rating": 1
     },
     {
         "name": "Friend",
-        "desc": "This grants advantage on charisma checks made to interact with creatures of a certain type."
+        "desc": "This grants advantage on charisma checks made to interact with creatures of a certain type.",
+	    "rating": 1
     },
     {
         "name": "Hidden Secret",
-        "desc": "This item contains a hidden message or other secret that only appears under certain conditions."
+        "desc": "This item contains a hidden message or other secret that only appears under certain conditions.",
+	    "rating": 1
     },
     {
         "name": "Illusory Appearance",
-        "desc": "Illusions mask this item's true form. Its user might be able to manipulate these illusions."
+        "desc": "Illusions mask this item's true form. Its user might be able to manipulate these illusions.",
+	    "rating": 1
     },
     {
         "name": "Indestructible",
-        "desc": "This item is immune to all damage except one specific type, or it can only be destroyed through special means."
+        "desc": "This item is immune to all damage except one specific type, or it can only be destroyed through special means.",
+	    "rating": 1
     },
     {
         "name": "Invisibile",
-        "desc": "This item can be made invisible while worn or carried."
+        "desc": "This item can be made invisible while worn or carried.",
+	    "rating": 1
     },
     {
         "name": "Item Destroyer",
-        "desc": "This item is extra effective at destroying inanimate objects."
+        "desc": "This item is extra effective at destroying inanimate objects.",
+	    "rating": 1
     },
     {
         "name": "Lie Detector",
-        "desc": "This item grants a bonus or advantage on checks to determine if a creature is lying."
+        "desc": "This item grants a bonus or advantage on checks to determine if a creature is lying.",
+	    "rating": 1
     },
     {
         "name": "Life-granter/Life-stealer",
-        "desc": "Small life forms such as grass, flowers, or insects grow or wither in this item's presence."
+        "desc": "Small life forms such as grass, flowers, or insects grow or wither in this item's presence.",
+	    "rating": 1
     },
     {
         "name": "Lightweight",
-        "desc": "This item weighs very little."
-    },
-    {
-        "name": "Lingual",
-        "desc": "This item allows its user to read, write, speak, and understand a certain language, usually one associated with its creator."
-    },
-    {
-        "name": "Lesser Spellcasting",
-        "desc": "This item can be used to cast a particular cantrip or low-level spell when its user wills it."
+        "desc": "This item weighs very little.",
+	    "rating": 1
     },
     {
         "name": "Lunar/Solar",
-        "desc": "In the sunlight or moonlight, this gains a boost to its abilities. A lunar item might instead gain powers under the full moon."
+        "desc": "In the sunlight or moonlight, this gains a boost to its abilities. A lunar item might instead gain powers under the full moon.",
+	    "rating": 1
     },
     {
         "name": "Multipurpose",
-        "desc": "In addition to its main purpose, this item can also be used as a weapon, shield, or spellcasting implement."
+        "desc": "In addition to its main purpose, this item can also be used as a weapon, shield, or spellcasting implement.",
+	    "rating": 1
     },
     {
         "name": "Nondetection",
-        "desc": "This item makes no sound and leaves no trace of its presence."
+        "desc": "This item makes no sound and leaves no trace of its presence.",
+	    "rating": 1
     },
     {
         "name": "Planar",
-        "desc": "This item is attuned to a particular plane of existence other than the material plane, and has some special effect while on that plane. For instance, an item attuned to the shadowfell might make its user immune to shadowfell despair."
+        "desc": "This item is attuned to a particular plane of existence other than the material plane, and has some special effect while on that plane. For instance, an item attuned to the shadowfell might make its user immune to shadowfell despair.",
+	    "rating": 1
     },
     {
         "name": "Predictive",
-        "desc": "This item can accurately predict the weather up to a few days into the future."
+        "desc": "This item can accurately predict the weather up to a few days into the future.",
+	    "rating": 1
     },
     {
         "name": "Reactive",
-        "desc": "When the user of this item sees an ally be attacked, take damage, or some other trigger, they can use their reaction to grant them a boon of some kind."
+        "desc": "When the user of this item sees an ally be attacked, take damage, or some other trigger, they can use their reaction to grant them a boon of some kind.",
+	    "rating": 1
     },
     {
         "name": "Self Destruct",
-        "desc": "This item has some powerful magical effect that activates when it is destroyed."
-    },
-    {
-        "name": "Telepathic",
-        "desc": "This item grants its user telepathy, either short-range or only under certain conditions."
+        "desc": "This item has some powerful magical effect that activates when it is destroyed.",
+	    "rating": 1
     },
     {
         "name": "Timepiece",
-        "desc": "This item displays the current date, time, or phase of the moon, or it displays a countdown until a certain event."
-    },
-    {
-        "name": "Tracker",
-        "desc": "This item can track down nearby creatures given a tiny amount of their flesh, blood, or scent, or one of their possessions."
+        "desc": "This item displays the current date, time, or phase of the moon, or it displays a countdown until a certain event.",
+	    "rating": 1
     },
     {
         "name": "Traceable",
-        "desc": "The user of this item knows its location when it is not on their person, or they can follow the path it has traveled since they last had it. This property may not work if the item is too far away, on a different plane of existence, or protected by abjuration magic or solid lead."
+        "desc": "The user of this item knows its location when it is not on their person, or they can follow the path it has traveled since they last had it. This property may not work if the item is too far away, on a different plane of existence, or protected by abjuration magic or solid lead.",
+	    "rating": 1
     },
     {
         "name": "Unmoving",
-        "desc": "This item prevents its user from being moved against their will."
+        "desc": "This item prevents its user from being moved against their will.",
+	    "rating": 1
     },
     {
         "name": "Watcher",
-        "desc": "This item might warn its user of approaching danger, making them unable to be surprised and granting a small initiative bonus."
+        "desc": "This item might warn its user of approaching danger, making them unable to be surprised and granting a small initiative bonus.",
+	    "rating": 1
     },
     {
         "name": "Blissful",
-        "desc": "While in possession of the item, the bearer feels fortunate and optimistic about what the future holds. Butterflies and other harmless creatures might frolic in the item’s presence."
+        "desc": "While in possession of the item, the bearer feels fortunate and optimistic about what the future holds. Butterflies and other harmless creatures might frolic in the item’s presence.",
+	    "rating": 1
     },
     {
         "name": "Confident",
-        "desc": "The item helps its bearer feel self-assured."
+        "desc": "The item helps its bearer feel self-assured.",
+	    "rating": 1
     },
     {
         "name": "Muttering",
-        "desc": "The item grumbles and mutters. A creature who listens carefully to the item might learn something useful."
+        "desc": "The item grumbles and mutters. A creature who listens carefully to the item might learn something useful.",
+	    "rating": 1
+    },
+    {
+        "name": "Diary",
+        "desc": "The item depicts the entire history of the person who holds it up to that particular point in time. The story shows even chapters of their life that they are unable or unwilling to remember.",
+	    "rating": 1
+    },
+    {
+        "name": "Electrical Immunity",
+        "desc": "The item gives its bearer immunity from non-magical electricity.",
+	    "rating": 1
+    },
+    {
+        "name": "Environmental Immunity",
+        "desc": "The bearer does not get wet in the rain and is otherwise unaffected by the natural climate around him.",
+	    "rating": 1
+    },
+    {
+        "name": "Essence of Undeath",
+        "desc": "The item disguises the essence of the bearer as that of an undead creature. The character’s true nature does not change, but he appears to be a supernatural creature to onlookers. Any lesser undead creature (such as animated corpses or mindless specters) automatically consider the character one of them. Any other character who looks at the bearer's essence sees only the necromantic energy shrouding them.",
+	    "rating": 1
+    },
+    {
+        "name": "Feline Empathy",
+        "desc": "All cats feel empathy for the item's carrier.",
+	    "rating": 1
+    },
+    {
+        "name": "Guardian of Truth",
+        "desc": "The item reveals when someone is lying to it's owner by changing color slightly. It does not determine what someone is lying about, nor does it offer more information. The character needs to actually be able to hear the lie for the item to work (text or gestures do not provoke any reaction) and the person lying must be doing so consciously, and not because they mistakenly holds a false belief to be true.",
+	    "rating": 1
+    },
+    {
+        "name": "Hiss",
+        "desc": "The bearer can communicate with any reptile.",
+	    "rating": 1
+    },
+    {
+        "name": "Luminosity",
+        "desc": "Increases or decreases the ambient light in a certain area around the character. This ability cannot illuminate a place that completely lacks light or completely extinguish the light of a place that is lit.",
+	    "rating": 1
+    },
+    {
+        "name": "Naturalize",
+        "desc": "In the presence of this item, plants begin to gain life and color. These plants also grow and multiply considerably faster than usual.",
+	    "rating": 1
+    },
+    {
+        "name": "Non-Magical",
+        "desc": "This item does not emit magical power, so it cannot be detected or analyzed as a magical artifact.",
+	    "rating": 1
+    },
+    {
+        "name": "Pristine",
+        "desc": "The item does not burn, get wet, or get dirty.",
+	    "rating": 1
+    },
+    {
+        "name": "Tongue of the Tarantula",
+        "desc": "The item gives its owner a bonus to persuasion and etiquette.",
+	    "rating": 1
+    },
+    {
+        "name": "Unbreakable",
+        "desc": "This item cannot be broken in any known manner.",
+	    "rating": 1
+    },
+    {
+        "name": "Undetectable",
+        "desc": "The magic in this item cannot be detected.",
+	    "rating": 1
+    },
+    {
+        "name": "Without Shadow",
+        "desc": "The bearer and anything they carry do not cast a shadow.",
+	    "rating": 1
+    },
+    {
+        "name": "Gleaming",
+        "desc": "This item never gets dirty.",
+	    "rating": 1
+    },
+    {
+        "name": "Harmonious",
+        "desc": "Attuning to this item takes only 1 minute.",
+	    "rating": 1
+    },
+    {
+        "name": "Hidden Message",
+        "desc": "A message is hidden somewhere on the item. It might be visible only at a certain time of the year, under the light of one phase of the moon, or in a specific location.",
+	    "rating": 1
+    },
+    {
+        "name": "Key",
+        "desc": "The item is used to unlock a container, chamber, vault, or other entryway.",
+	    "rating": 1
+    },
+    {
+        "name": "Sentinel",
+        "desc": "Choose a kind of creature that is an enemy of the item’s creator. This item glows faintly when such creatures are within 120 feet of it.",
+	    "rating": 1
+    },
+    {
+        "name": "Unbreakable",
+        "desc": "The item can’t be broken. Special means must be used to destroy it.",
+	    "rating": 1
+    },
+    {
+        "name": "War Leader",
+        "desc": "The bearer can use an action to cause his or her voice to carry clearly for up to 300 feet until the end of the bearer’s next turn.",
+	    "rating": 1
+    },
+    {
+        "name": "Waterborne",
+        "desc": "This item floats on water and other liquids. Its bearer has advantage on Strength (Athletics) checks to swim.",
+	    "rating": 1
+    },
+    {
+        "name": "Transforming",
+        "desc": "This item can transform into a different type of item with a different function, or many different types of item. For instance, a sword that can transform into a bladed whip, or hide itself by transforming into a cane.",
+        "rating": 1
+    },
+    {
+        "name": "Illusion",
+        "desc": "The item is imbued with illusion magic, allowing its bearer to alter the item’s appearance in minor ways. Such alterations don’t change how the item is worn, carried, or wielded, and they have no effect on its other magical properties. For example, the wearer could make a red robe appear blue, or make a gold ring look like it’s made of ivory. The item reverts to its true appearance when no one is carrying or wearing it.",
+	    "rating": 1
     }
 ]

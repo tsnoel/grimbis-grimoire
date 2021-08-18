@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Common",
+        "desc": "Minor inconvenience or annoyance. Causes harm unintentionally.",
+	    "rating": 1
+    },
+    {
+        "name": "Uncommon",
+        "desc": "Actively prevents the character from succeeding or impedes them in a major way.",
+	    "rating": 2
+    },
+    {
+        "name": "Rare",
+        "desc": "Catastrophic. Could cause player death or other permanent negative effects.",
+	    "rating": 3
+    }
+]

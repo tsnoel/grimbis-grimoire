@@ -1,266 +1,187 @@
 [
     {
         "name": "Greater Spellcasting",
-        "desc": "This item can be used to cast one or two spells, or many spells if created for a spellcaster. Using it to cast spells expends charges, and the item regains charges at dawn."
+        "desc": "This item can be used to cast one or two spells, or many spells if created for a spellcaster. Using it to cast spells expends charges, and the item regains charges at dawn.",
+        "rating": 3
     },
     {
         "name": "Healing",
-        "desc": "This item can restore hit points to creatures, cure them of curses, diseases, or poisons, regrow their lost body parts, or resurrect them."
-    },
-    {
-        "name": "Magic Attack",
-        "desc": "This item has a magical attack unique to itself."
-    },
-    {
-        "name": "Blessing",
-        "desc": "The user of this item can use it to grants some temporary boon to their allies, such as temporary hit points, additional damage with attacks, bonuses to rolls, or advantage on certain checks or saves."
-    },
-    {
-        "name": "Conditions",
-        "desc": "This item inflicts a condition upon enemies (blinded, charmed, deafened, frightened, incapacitated, paralyzed, petrified, poisoned, prone, restrained, stunned, or asleep, diseased, insane, etc)."
-    },
-    {
-        "name": "Damaging",
-        "desc": "This item can be used to deal extra damage of some type to foes, such as fire, cold, lightning, thunder, acid, or poison."
-    },
-    {
-        "name": "Elemental",
-        "desc": "This item can be used to conjure or manipulate air, earth, fire, water, lightning, heat, cold, acid, or another element."
-    },
-    {
-        "name": "Foe",
-        "desc": "This item is designed to fight monsters of a certain type. It may warn its user when such enemies are near, be extra effective against them in combat, weaken them when they are nearby, prevent them from approaching its user, or banish them to their plane of origin."
-    },
-    {
-        "name": "Protective",
-        "desc": "This item grants a boost to its user's AC, saves, or maximum hit points, or grants them temporary hit points, protection against a certain type of attack (such as projectile weapons), advantage on saving throws on spells. It might make its user take half damage when failing certain save-for-half rolls or no damage on a success. It might also have the ability to temporarily grant advanced protection."
-    },
-    {
-        "name": "Stealth",
-        "desc": "This item is made for stealth or disguise. It might mask its user's appearance, prevent them from making noise, or turn them invisible."
-    },
-    {
-        "name": "Transforming",
-        "desc": "This item can transform into a different type of item with a different function, or many different types of item. For instance, a sword that can transform into a bladed whip, or hide itself by transforming into a cane."
-    },
-    {
-        "name": "Athletic",
-        "desc": "This item enables its user to climb or swim better, increases their jump distance, allows them to walk on walls, removes penalties from difficult terrain, reduces fall damage, or has some other similar ability."
-    },
-    {
-        "name": "Aquatic",
-        "desc": "This item grants its user a swim speed, water breathing, or both, or it grants some other underwater-appropriate power."
-    },
-    {
-        "name": "Charged",
-        "desc": "This item allows its user to deal damage to objects or enemies by expending health, spell slots, or another resource."
+        "desc": "This item can restore hit points to creatures, cure them of curses, diseases, or poisons, regrow their lost body parts, or resurrect them.",
+        "rating": 3
     },
     {
         "name": "Communication",
-        "desc": "This item allows its user to speak (normally or telepathically) with creatures far away, creatures they do not share a language with, or things that cannot normally speak such as plants and animals."
+        "desc": "This item allows its user to speak (normally or telepathically) with creatures far away, creatures they do not share a language with, or things that cannot normally speak such as plants and animals.",
+        "rating": 3
     },
     {
         "name": "Conjuring",
-        "desc": "This item can conjure one or more types of creature. The creatures may be loyal, reluctant, or hostile, depending on their nature."
+        "desc": "This item can conjure one or more types of creature. The creatures may be loyal, reluctant, or hostile, depending on their nature.",
+        "rating": 3
     },
     {
         "name": "Container",
-        "desc": "This item magically stores a multitude of non-magical items (such as rope, arrows, or oil), or disposable magic items (such as healing potions or magic beans), which can be removed when needed. The items it contains do not increase its weight."
+        "desc": "This item magically stores a multitude of non-magical items (such as rope, arrows, or oil), or disposable magic items (such as healing potions or magic beans), which can be removed when needed. The items it contains do not increase its weight.",
+        "rating": 3
     },
     {
         "name": "Cursing",
-        "desc": "This item inflicts a curse upon foes. It may prevent them from taking certain actions, reduce their maximum hit points, or render them unable to be healed."
+        "desc": "This item inflicts a curse upon foes. It may prevent them from taking certain actions, reduce their maximum hit points, or render them unable to be healed.",
+        "rating": 3
     },
     {
         "name": "Demiplane",
-        "desc": "This item is linked to a demiplane which can contain items or creatures. It may be used for storage, or for something else. A weaker item might have a small, empty demiplane, but a stronger item may have a larger demiplane with its own native environment or even permanent inhabitants."
+        "desc": "This item is linked to a demiplane which can contain items or creatures. It may be used for storage, or for something else. A weaker item might have a small, empty demiplane, but a stronger item may have a larger demiplane with its own native environment or even permanent inhabitants.",
+        "rating": 3
     },
     {
         "name": "Ethereal",
-        "desc": "This item can transport its user, enemies struck with it, items, or something else to and from the Border Ethereal."
+        "desc": "This item can transport its user, enemies struck with it, items, or something else to and from the Border Ethereal.",
+        "rating": 3
     },
     {
         "name": "Explosive",
-        "desc": "This item can be used to cause massive damage to all creatures, items, and terrain within a specific radius. It can likely be thrown, as its user is not immune."
-    },
-    {
-        "name": "Flight",
-        "desc": "This item grants its user the power of flight or levitation."
-    },
-    {
-        "name": "Illusory",
-        "desc": "This item conjures up specific illusions, which may disguise itself or its user, or be able to move and act independently for a short time."
+        "desc": "This item can be used to cause massive damage to all creatures, items, and terrain within a specific radius. It can likely be thrown, as its user is not immune.",
+        "rating": 3
     },
     {
         "name": "Light/Darkness",
-        "desc": "This item glows brightly when its user wills it, and its light may even be sunlight. If evil, it might instead cloak the area around it in magical darkness."
+        "desc": "This item glows brightly when its user wills it, and its light may even be sunlight. If evil, it might instead cloak the area around it in magical darkness.",
+        "rating": 3
     },
     {
         "name": "Limited Spells",
-        "desc": "Parts of this item can be torn off and expended to cast powerful spells."
+        "desc": "Parts of this item can be torn off and expended to cast powerful spells.",
+        "rating": 3
     },
     {
         "name": "Lucky",
-        "desc": "If this item's user rolls poorly on certain saves or checks, it may allow them a reroll or an automatic success."
-    },
-    {
-        "name": "Magic Shield",
-        "desc": "This item immunizes its user against scrying, mind reading, fear, charm, or some other undesirable magical effect."
+        "desc": "If this item's user rolls poorly on certain saves or checks, it may allow them a reroll or an automatic success.",
+        "rating": 3
     },
     {
         "name": "Mind Control",
-        "desc": "This item allows its user to attempt to mind control other creatures."
-    },
-    {
-        "name": "Resistant",
-        "desc": "This item grants resistance to a certain type of damage, or immunity to poison or psychic damage."
+        "desc": "This item allows its user to attempt to mind control other creatures.",
+        "rating": 3
     },
     {
         "name": "Safe Zone",
-        "desc": "This item temporarily protects its user and their allies within a small area. Creatures in the area may be protected from attacks from outside, regain hit points at the start of their turn, or some similar effect."
-    },
-    {
-        "name": "Sensory",
-        "desc": "This item grants its user specific senses, such as darkvision, blindsight, tremorsense, truesight (if it's especially powerful), a bonus to perception, or the ability to sense magic. It may be an item that must be used, such as a lens that gives the user darksight while looking through it or a torch that reveals invisible creatures and objects touched by its light, or it might simply impart these senses upon its user."
-    },
-    {
-        "name": "Shapeshifting",
-        "desc": "This item can polymorph its user into a different type of creature."
-    },
-    {
-        "name": "Speedy",
-        "desc": "This item enables its user to move or take certain actions more quickly. It most likely enables them to do something that normally requires a full action as a bonus action."
+        "desc": "This item temporarily protects its user and their allies within a small area. Creatures in the area may be protected from attacks from outside, regain hit points at the start of their turn, or some similar effect.",
+        "rating": 3
     },
     {
         "name": "Survival",
-        "desc": "This item allows its user to survive without food or water, without air, in places of extreme heat or cold, or in planes hostile to life itself."
+        "desc": "This item allows its user to survive without food or water, without air, in places of extreme heat or cold, or in planes hostile to life itself.",
+        "rating": 3
     },
     {
         "name": "Teleportation",
-        "desc": "This item can teleport creatures or items, either short range (such as a place the user can see) or long range (such as another place on the same plane)."
+        "desc": "This item can teleport creatures or items, either short range (such as a place the user can see) or long range (such as another place on the same plane).",
+        "rating": 3
     },
     {
         "name": "Unfolding",
-        "desc": "This item can transform into a large item, such as a boat, cabin, or fortress."
-    },
-    {
-        "name": "Animal",
-        "desc": "This item is made for a non-sentient companion, such as a horse, or it has the power to manipulate certain animals."
+        "desc": "This item can transform into a large item, such as a boat, cabin, or fortress.",
+        "rating": 3
     },
     {
         "name": "Antimagic",
-        "desc": "This item cancels or dispels certain types of magic, such as necromancy spells, teleportation magic, healing magic, psychic powers, or spells cast below 4th level."
-    },
-    {
-        "name": "Animate",
-        "desc": "This item acts on its own when its user wills it."
+        "desc": "This item cancels or dispels certain types of magic, such as necromancy spells, teleportation magic, healing magic, psychic powers, or spells cast below 4th level.",
+        "rating": 3
     },
     {
         "name": "Animating",
-        "desc": "This item can create temporary or permanent constructs to serve its user."
+        "desc": "This item can create temporary or permanent constructs to serve its user.",
+        "rating": 3
     },
     {
         "name": "Astral",
-        "desc": "This item has some connection to the astral plane, such as enabling its user to astrally project."
-    },
-    {
-        "name": "Attractive/Repulsive",
-        "desc": "This item can be used to push, pull, grab, or grapple items or creatures."
-    },
-    {
-        "name": "Bulwark",
-        "desc": "The user of this item has advantage on saving throws made to maintain concentration."
+        "desc": "This item has some connection to the astral plane, such as enabling its user to astrally project.",
+        "rating": 3
     },
     {
         "name": "Concealing",
-        "desc": "This item can conjure sand, fog, magical darkness, or some other means of concealing its user."
+        "desc": "This item can conjure sand, fog, magical darkness, or some other means of concealing its user.",
+        "rating": 3
     },
     {
         "name": "Deadly",
-        "desc": "This item can be used to wound a creature, sever its limbs or head, or kill it instantly."
+        "desc": "This item can be used to wound a creature, sever its limbs or head, or kill it instantly.",
+        "rating": 3
     },
     {
         "name": "Destructive",
-        "desc": "This item can obliterate certain types of matter (or just anything)."
+        "desc": "This item can obliterate certain types of matter (or just anything).",
+        "rating": 3
     },
     {
         "name": "Divination",
-        "desc": "This item has a very limited ability to see or predict the future."
+        "desc": "This item has a very limited ability to see or predict the future.",
+        "rating": 3
     },
     {
         "name": "Immovable",
-        "desc": "This item can be stuck to a creature or object, or affixed to a particular point, and is extremely difficult to remove."
-    },
-    {
-        "name": "Locator",
-        "desc": "This item knows the direction to the nearest object or location of a certain type, such as food, running water, temples to a specific god, or interplanar portals."
+        "desc": "This item can be stuck to a creature or object, or affixed to a particular point, and is extremely difficult to remove.",
+        "rating": 3
     },
     {
         "name": "Magic Absorption",
-        "desc": "This item can absorb spells of a certain level or below, cancelling them or turning them into hit points or spell slots for its user. An especially powerful item might be able to redirect spells at their caster."
-    },
-    {
-        "name": "Magic Detection",
-        "desc": "This item can detect nearby magic, and may be able to identify it to some degree."
+        "desc": "This item can absorb spells of a certain level or below, cancelling them or turning them into hit points or spell slots for its user. An especially powerful item might be able to redirect spells at their caster.",
+        "rating": 3
     },
     {
         "name": "Magic Storing",
-        "desc": "This item can be used to restore spell slots or some other resource expended by its user, or it can store spells cast into it."
-    },
-    {
-        "name": "Observer",
-        "desc": "This item can impart its user with some knowledge of the surrounding area, such as a map, the locations of traps, or the types of creature nearby."
+        "desc": "This item can be used to restore spell slots or some other resource expended by its user, or it can store spells cast into it.",
+        "rating": 3
     },
     {
         "name": "Planar Travel",
-        "desc": "This item can transport the user or a group of people to another plane of existence, temporary or permanently, or banish enemies there."
-    },
-    {
-        "name": "Polymorphic",
-        "desc": "This item can transform into a particular type of creature or other living thing, usually a non-sentient or semi-sentient creature."
-    },
-    {
-        "name": "Random",
-        "desc": "When used, this item causes a random effect. It has a mix of harmful and helpful effects."
+        "desc": "This item can transport the user or a group of people to another plane of existence, temporary or permanently, or banish enemies there.",
+        "rating": 3
     },
     {
         "name": "Restraining",
-        "desc": "This item can prevent creatures from moving, taking certain actions, or teleporting, or it can imprison them."
+        "desc": "This item can prevent creatures from moving, taking certain actions, or teleporting, or it can imprison them.",
+        "rating": 3
     },
     {
         "name": "Safeguard",
-        "desc": "This item protects its user against death. It might allow them to drop to 1 hit point instead of falling unconscious, automatically stabilize them when knocked out, or allow their soul to remain on the plane for resurrection after they die."
-    },
-    {
-        "name": "Scanner",
-        "desc": "This item can impart its user with some knowledge of nearby creatures, such as their thoughts, alignment, weaknesses, or if they are shapeshifted."
+        "desc": "This item protects its user against death. It might allow them to drop to 1 hit point instead of falling unconscious, automatically stabilize them when knocked out, or allow their soul to remain on the plane for resurrection after they die.",
+        "rating": 3
     },
     {
         "name": "Size-changing",
-        "desc": "This item can change the size of itself, its user, or something else."
+        "desc": "This item can change the size of itself, its user, or something else.",
+        "rating": 3
     },
     {
         "name": "Stat Boost",
-        "desc": "This item increases one of its user's ability scores to a certain number, or has no effect if their ability score is higher than that number. It likely increases a stat that its intended user would be poor at (for instance, intelligence for a barbarian)."
+        "desc": "This item increases one of its user's ability scores to a certain number, or has no effect if their ability score is higher than that number. It likely increases a stat that its intended user would be poor at (for instance, intelligence for a barbarian).",
+        "rating": 3
     },
     {
         "name": "Terrain-altering",
-        "desc": "This item can alter the nearby terrain. It turns normal terrain into difficult terrain, grow trees, conjure stone spikes or walls, or dig holes in the ground, or it has some other similar effect."
+        "desc": "This item can alter the nearby terrain. It turns normal terrain into difficult terrain, grow trees, conjure stone spikes or walls, or dig holes in the ground, or it has some other similar effect.",
+        "rating": 3
     },
     {
         "name": "Transmuting",
-        "desc": "This item can transmute one type of item or substance into another, or create inexpensive items or substances out of nothing (such as food, water, or rope)."
+        "desc": "This item can transmute one type of item or substance into another, or create inexpensive items or substances out of nothing (such as food, water, or rope).",
+        "rating": 3
     },
     {
         "name": "Vampiric",
-        "desc": "This item can steal hit points from creatures and use them to empower itself or its user."
+        "desc": "This item can steal hit points from creatures and use them to empower itself or its user.",
+        "rating": 3
     },
     {
         "name": "Weather Control",
-        "desc": "This item can control the local weather or climate. It is a rare and valuable item."
+        "desc": "This item can control the local weather or climate. It is a rare and valuable item.",
+        "rating": 3
     },
     {
         "name": "Wish-granting",
-        "desc": "This item can grant its user wishes. It is an extremely rare and valuable item."
+        "desc": "This item can grant its user wishes. It is an extremely rare and valuable item.",
+        "rating": 3
     }
 ]

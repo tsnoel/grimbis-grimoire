@@ -1,90 +1,117 @@
 [
     {
         "name": "Alive",
-        "desc": "This item moves about on its own when not in use. It might mysteriously reappear in its user's possession if they lose or discard it."
+        "desc": "This item moves about on its own when not in use. It might mysteriously reappear in its user's possession if they lose or discard it.",
+	    "rating": 1
     },
     {
         "name": "Attracting",
-        "desc": "This item tends to attract certain types of animals or supernatural creatures."
+        "desc": "This item tends to attract certain types of animals or supernatural creatures.",
+	    "rating": 1
     },
     {
-        "name": "Covetous",
-        "desc": "The item’s bearer becomes obsessed with material wealth."
-    },
-    {
-        "name": "Coveted",
-        "desc": "This item is highly sought after. Others may offer to buy the item from its user at a high price, or more likely attempt to kill them and take it."
+        "name": "Conscientious",
+        "desc": "When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience.",
+	    "rating": 1
     },
     {
         "name": "Damaged",
-        "desc": "This item is a broken shadow of its former self. It may be possible to repair it."
+        "desc": "This item is a broken shadow of its former self. It may be possible to repair it.",
+	    "rating": 1
     },
     {
         "name": "Emotional",
-        "desc": "This item enhances or suppresses the emotions of its user."
+        "desc": "This item enhances or suppresses the emotions of its user.",
+	    "rating": 1
+    },
+    {
+        "name": "Femininity",
+        "desc": "The object only works for women or individuals with a feminine appearance.",
+	    "rating": 1
     },
     {
         "name": "Frail",
-        "desc": "The item crumbles, frays, chips, or cracks slightly when wielded, worn, or activated. This quirk has no effect on its properties, but if the item has seen much use, it looks decrepit."
+        "desc": "The item crumbles, frays, chips, or cracks slightly when wielded, worn, or activated. This quirk has no effect on its properties, but if the item has seen much use, it looks decrepit.",
+	    "rating": 1
     },
     {
         "name": "Hungry",
-        "desc": "This item’s magical properties function only if fresh blood from a humanoid has been applied to it within the past 24 hours. It needs only a drop to activate."
+        "desc": "This item’s magical properties function only if fresh blood from a humanoid has been applied to it within the past 24 hours. It needs only a drop to activate.",
+	    "rating": 1
     },
     {
         "name": "Hungry",
-        "desc": "This item requires \"food\" of some kind (most likely blood), and will not function if not fed."
+        "desc": "This item requires \"food\" of some kind (most likely blood), and will not function if not fed.",
+	    "rating": 1
     },
     {
         "name": "Loud",
-        "desc": "The item makes a loud noise—such as a clang, a shout, or a resonating gong—when used."
+        "desc": "The item makes a loud noise—such as a clang, a shout, or a resonating gong—when used.",
+	    "rating": 1
     },
     {
         "name": "Mark",
-        "desc": "When used, this item leaves a visible and recognizable mark on its target or the surrounding terrain."
+        "desc": "When used, this item leaves a visible and recognizable mark on its target or the surrounding terrain.",
+	    "rating": 1
     },
     {
         "name": "Memories",
-        "desc": "This item contains fragments of memory from its creator or previous user(s). While using it, attuned to it, or sleeping near it, its user might be able to access these memories, or they might see them in brief flashes."
+        "desc": "This item contains fragments of memory from its creator or previous user(s). While using it, attuned to it, or sleeping near it, its user might be able to access these memories, or they might see them in brief flashes.",
+	    "rating": 1
     },
     {
         "name": "Metamorphic",
-        "desc": "The item periodically and randomly alters its appearance in slight ways. The bearer has no control over these minor alterations, which have no effect on the item’s use."
+        "desc": "The item periodically and randomly alters its appearance in slight ways. The bearer has no control over these minor alterations, which have no effect on the item’s use.",
+	    "rating": 1
     },
     {
         "name": "Musical",
-        "desc": "When used, this item plays a song or song fragment."
+        "desc": "When used, this item plays a song or song fragment.",
+	    "rating": 1
     },
     {
         "name": "Noisy",
-        "desc": "This item makes a loud noise when used."
+        "desc": "This item makes a loud noise when used.",
+	    "rating": 1
     },
     {
         "name": "Painful",
-        "desc": "The bearer experiences a harmless flash of pain when using the item."
-    },
-    {
-        "name": "Possessive",
-        "desc": "The item demands attunement when first wielded or worn, and it doesn’t allow its bearer to attune to other items. (Other items already attuned to the bearer remain so until their attunement ends.)"
+        "desc": "The bearer experiences a harmless flash of pain when using the item.",
+	    "rating": 1
     },
     {
         "name": "Repulsive",
-        "desc": "The bearer feels a sense of distaste when in contact with the item, and continues to sense discomfort while bearing it."
+        "desc": "The bearer feels a sense of distaste when in contact with the item, and continues to sense discomfort while bearing it.",
+	    "rating": 1
     },
     {
         "name": "Sentient",
-        "desc": "This item is alive and can speak to its user or others. It has some amount of control over how it is used and may be able to reject users it deems unfit."
+        "desc": "This item is alive and can speak to its user or others. It has some amount of control over how it is used and may be able to reject users it deems unfit.",
+	    "rating": 1
     },
     {
         "name": "Slothful",
-        "desc": "The bearer of this item feels slothful and lethargic. While attuned to the item, the bearer requires 10 hours to finish a long rest."
+        "desc": "The bearer of this item feels slothful and lethargic. While attuned to the item, the bearer requires 10 hours to finish a long rest.",
+	    "rating": 1
+    },
+    {
+        "name": "Song Craft",
+        "desc": "Whenever this item is struck or is used to strike a foe, its bearer hears a fragment of an ancient song.",
+	    "rating": 1
+    },
+    {
+        "name": "Strange Material",
+        "desc": "The item was created from a material that is bizarre given its purpose. Its durability is unaffected.",
+	    "rating": 1
     },
     {
         "name": "Testing",
-        "desc": "This item will test any potential user to determine if they are worthy of it."
+        "desc": "This item will test any potential user to determine if they are worthy of it.",
+	    "rating": 1
     },
     {
         "name": "Worn",
-        "desc": "This item is worn from lack of use, but will regain its power the more it is used."
+        "desc": "This item is worn from lack of use, but will regain its power the more it is used.",
+	    "rating": 1
     }
 ]

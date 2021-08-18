@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Common",
+        "desc": "Minor magical effect. Can be unintentionally useful, incredibly situational, or completely neutral.",
+	    "rating": 1
+    },
+    {
+        "name": "Uncommon",
+        "desc": "Actively useful.",
+	    "rating": 2
+    },
+    {
+        "name": "Rare",
+        "desc": "Grants the bearer a significant magical effect. Possibly affecting game balance.",
+	    "rating": 3
+    }
+]

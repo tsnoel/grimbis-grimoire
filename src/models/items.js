@@ -53,32 +53,32 @@ class Items {
     resetOdds() {
         this.odds = {
             origin: {
-                common: 70,
+                common: 72,
                 uncommon: 25,
-                rare: 5
+                rare: 3
             },
             history: {
-                none: 75,
-                history: 25
+                none: 90,
+                history: 10
             },
             property: {
-                common: 70,
+                common: 72,
                 uncommon: 25,
-                rare: 5,
+                rare: 3,
                 // quantity
-                none: 10,
-                single: 69,
-                binary: 20,
+                none: 30,
+                single: 59,
+                binary: 10,
                 triple: 1
             },
             curse: {
-                common: 70,
+                common: 72,
                 uncommon: 25,
-                rare: 5,
+                rare: 3,
                 // quantity
-                none: 30,
-                single: 49,
-                binary: 20,
+                none: 50,
+                single: 39,
+                binary: 10,
                 triple: 1
             }
         };
