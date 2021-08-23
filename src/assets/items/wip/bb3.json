@@ -1,0 +1,2517 @@
+[
+    {
+        "name": "Adamantine / of Adamantine",
+        "desc": "This item is indestructible. ",
+        "rating": 0
+    },
+    {
+        "name": "Alien / of Lunacy",
+        "desc": "Once attuned, the bearer constantly hears the ongoing, utterly insane mutterings of an alien intelligence trapped inside this item. Should this item be destroyed, the being will be released. ",
+        "rating": 0
+    },
+    {
+        "name": "Ancient / of Old",
+        "desc": "This worn item inscribed with ancient runes can be used as a Spellcasting Focus ",
+        "rating": 0
+    },
+    {
+        "name": "Antikytheran / of Mechanisms",
+        "desc": "An ancient mechanism is housed within this item that never configures the same way twice. Once per long rest the bearer can spend one minute to attempt a DC 20 investigation check to configure the device. If successful, the item becomes a +1 item until the end of the next long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Arcane / of Arcana",
+        "desc": "This item can project a spectral tome suspended in mid-air that the bearer can interact with like a physical book. This tome can be used as a spellbook and may contain some spells from its previous bearer. ",
+        "rating": 0
+    },
+    {
+        "name": "Arctic / of Snow",
+        "desc": "Icy wind and snowflakes bluster around this item, even in warm environments. The bearer can walk on the surface of the lightest snow, leaving no footprints. ",
+        "rating": 0
+    },
+    {
+        "name": "Artist's / of the Artist",
+        "desc": "The bearer may use this item to make colored marks on any surface. The marks will fade away in 24 hours. ",
+        "rating": 0
+    },
+    {
+        "name": "Assassin's / of the Assassin",
+        "desc": "The bearer may add 1d4 poison damage to all attacks made during surprise rounds. ",
+        "rating": 0
+    },
+    {
+        "name": "Autumn / of Falling Leaves",
+        "desc": "The item contains a reservoir of natural magic that can a sustain a cascade of falling leaves for up to 30 seconds. The bearer may use an action to plant this item in the ground and release this magic. While planted and undepleted, creatures within 10 feet of this item have half cover. A long rest restores 1d6 sconds of energy to the item's resevoir. ",
+        "rating": 0
+    },
+    {
+        "name": "Barbed / of Barbs",
+        "desc": "After an attack roll, the bearer may use their reaction to add 1d4 to the damage roll and take 1d4 damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Binding / of Binding",
+        "desc": "When you hit a creature with this item, the ground beneath binds to its feet, slowing its speed by 5 feet until the end of its next turn. This has no effect on creatures that are flying or swimming. ",
+        "rating": 0
+    },
+    {
+        "name": "Blasted / of Detonation",
+        "desc": "The bearer may use a bonus action to activate destructive magic within this item. It begins to glow with white-hot intensely, and at the beginning of the bearer's next turn, the item casts a level 1 Shatter spell (DC 12) centered on the item. The item then loses this property. ",
+        "rating": 0
+    },
+    {
+        "name": "Blessed / of Parables",
+        "desc": "Whenever the bearer of this item receives magical healing from a spell on the Cleric’s spell list, they gain an additional amount of hit points equal to their Wisdom (Religion) skill. ",
+        "rating": 0
+    },
+    {
+        "name": "Blind / of Eyes",
+        "desc": "Garrish eyes are painted on this item. The bearer can use an action to see/unsee through the eyes, even if their own senses are compromised. ",
+        "rating": 0
+    },
+    {
+        "name": "Blithe / of Mirth",
+        "desc": "The bearer is filled with inexplicable joy. All charisma skill and saving throw rolls gain a +1 bonus, but all wisdom skill and saving throw rolls gain a -1 penalty. ",
+        "rating": 0
+    },
+    {
+        "name": "Bloodthirsty / of Bloodthirst",
+        "desc": "The bearer of this item spend a bonus action and a hit die to turn this item into a +1 magic item for 1d4 turns. ",
+        "rating": 0
+    },
+    {
+        "name": "Bonded / of Twins",
+        "desc": "This item is part of a pair of identical items. The bearer of either knows the location of the other at all times. ",
+        "rating": 0
+    },
+    {
+        "name": "Booming / of Thunder",
+        "desc": "The bearer may choose to deal Thunder damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Braided / of Knots",
+        "desc": "The bearer may use their action to cause the item to become a 50 ft length of hemp rope at will. ",
+        "rating": 0
+    },
+    {
+        "name": "Deep / of the Deep",
+        "desc": "The bearer can hold their breath for 5 minutes before the onset of asphyxiation. ",
+        "rating": 0
+    },
+    {
+        "name": "Broken / of Shards",
+        "desc": "This item is badly damaged. It is a testament to its former power that it is still serviceable. If reforged, it might regain its former power. ",
+        "rating": 0
+    },
+    {
+        "name": "Capricious / of Chance",
+        "desc": "If the item is attuned to a Chaotic aligned character, they may roll a die after completing a long rest. If the result was an even number, treat this as a +1 magic item until they finish a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Cardinal / of the Lodestone",
+        "desc": "The bearer always knows which way is north and has advantage on Wisdom (Survival) checks for land navigation. ",
+        "rating": 0
+    },
+    {
+        "name": "Caustic / of Corrosion",
+        "desc": "The bearer may choose to deal Acid damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Chained / of Chains",
+        "desc": "The bearer can spend an action to mystically bind or unbind themselves to this item. While bound, the bearer can no longer be disarmed but cannot switch out or throw this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Captivating / of Saving Graces",
+        "desc": "While the bearer is at 0 hp, they begin to hear the most beautiful music they have ever heard. The bearer has advantage on death saving throws and cannot recall details about the music if they wake. ",
+        "rating": 0
+    },
+    {
+        "name": "Charged / of Lightning",
+        "desc": "The bearer may choose to deal Lightning damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Chill / of Chills",
+        "desc": "The air around the bearer of this item is always unnaturally cold. One's breath becomes visible, and frost continually forms on the surface of the bearer's hair, items, and item. The bearer suffers no ill effect from being in extremely cold environments. ",
+        "rating": 0
+    },
+    {
+        "name": "Civilized / of the Capital",
+        "desc": "The bearer gains +1 to intelligence saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Compassionate / of Compassion",
+        "desc": "Wounds inflicted with this item cause no pain. ",
+        "rating": 0
+    },
+    {
+        "name": "Consecrated / of Consecration",
+        "desc": "Treat as a +1 magic item when attacking Undead. Any creature slain with this item cannot be raised as undead. ",
+        "rating": 0
+    },
+    {
+        "name": "Corrosive / of Dissolving",
+        "desc": "When the bearer hits a creature with this item, they may deal their proficiency bonus in acid damage to a different creature within 5 feet of the target. ",
+        "rating": 0
+    },
+    {
+        "name": "Courser's / of the Hostler",
+        "desc": "The bearer can placate and calm any mount not under the influence of a spell or possession. ",
+        "rating": 0
+    },
+    {
+        "name": "Crashing / of the Crashing Waves",
+        "desc": "Whenever the bearer deals damage to a hostile creature, this item gains a charge. As a bonus action, the bearer can use any number of charges to deal that much extra lightning damage on their next attack. If a round (6 seconds) goes by and the item has not struck a foe, it loses all charges. ",
+        "rating": 0
+    },
+    {
+        "name": "Crawling / of Vermin",
+        "desc": "The crawling things of the earth, such as insects, snakes, and vermin, are attracted to this item. When placed on the ground, such creatures will scurry toward the item like moths drawn to the flame. ",
+        "rating": 0
+    },
+    {
+        "name": "Cruel / of Cruelty",
+        "desc": "The bearer may re-roll damage from critical hits scored with this item and take the second result. ",
+        "rating": 0
+    },
+    {
+        "name": "Dancing / of Strings",
+        "desc": "The bearer may spend an action to permanently animate this item. Use the Flying Sword stat block from the Monster Manual p. 20. Also, the item retains any other magical properties. Once the animated item is reduced to 0 hp or unattuned, the item shatters like glass. ",
+        "rating": 0
+    },
+    {
+        "name": "Dark / of Darkness",
+        "desc": "The bearer may choose to deal Necrotic damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Dead / of Rigor Mortis",
+        "desc": "If this item is entombed within a corpse for 8 hours, the bearer may treat it as a +1 magic item until the end of their next long rest ",
+        "rating": 0
+    },
+    {
+        "name": "Deceptive / of Deception",
+        "desc": "When the bearer attunes this item, choose a harmless object within sight such as a tea cup, a ball of yarn, or a hairpin. If the bearer is touching the item, they may use an action to transform the item in or out of this form. ",
+        "rating": 0
+    },
+    {
+        "name": "Defensive / of Defense",
+        "desc": "Whenever the bearer takes a dodge or disengage action, they may move an additional 5 feet that round. ",
+        "rating": 0
+    },
+    {
+        "name": "Delver's / of the Delver",
+        "desc": "While underground, the bearer of this item always knows the item's depth below the surface and the direction to the nearest path leading upward. ",
+        "rating": 0
+    },
+    {
+        "name": "Desperate / of Desperation",
+        "desc": "The bearer may use an action to release divine magic within, equivalent to a level 1 Cure Wounds spell being cast on all creatures (friend or foe) within 5 feet of the bearer. The item is destroyed and loses all magical properties. ",
+        "rating": 0
+    },
+    {
+        "name": "Diplomatic / of Diplomacy",
+        "desc": "The bearer gains one language proficiency chosen by the DM. ",
+        "rating": 0
+    },
+    {
+        "name": "Draconic / of Dragons",
+        "desc": "Treat as a +1 item when attacking Dragons. ",
+        "rating": 0
+    },
+    {
+        "name": "Draining / of Draining",
+        "desc": "When the bearer makes a successful attack with this item, they gain 10% of the damage as temporary hit points (round down, minimum of 1). ",
+        "rating": 0
+    },
+    {
+        "name": "Dreamscribe's / of the Dreamscribe",
+        "desc": "The bearer can read books they are touching while sleeping. ",
+        "rating": 0
+    },
+    {
+        "name": "Drunkard's / of Taverns",
+        "desc": "The bearer always knows the direction to the nearest tavern in a 60 mile radius. ",
+        "rating": 0
+    },
+    {
+        "name": "Dryad's / of the Dryad",
+        "desc": "When the bearer is outdoors, harmless creatures such as squirrels and birds flock to them when they sing songs for a minute or longer. ",
+        "rating": 0
+    },
+    {
+        "name": "Eager / of Yearning",
+        "desc": "The bearer does not require an interaction to draw or sheath this item ",
+        "rating": 0
+    },
+    {
+        "name": "Earthen / of Rooting",
+        "desc": "The bearer of this item is firmly rooted to the ground. When standing on solid earth or stone, if an effect would move the bearer against his will the distance is reduced by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Eastern / of the East",
+        "desc": "The bearer gains +1 to wisdom saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Effortless / of Ease",
+        "desc": "This item takes only one minute to attune. ",
+        "rating": 0
+    },
+    {
+        "name": "Effulgent / of Light",
+        "desc": "The bearer can use this item to cast the Light cantrip on itself at will. While lit, it deals radiant damage instead of its usual damage type. ",
+        "rating": 0
+    },
+    {
+        "name": "Eidolic / of Apparitions",
+        "desc": "Dark apparitions bound to this item haunt the edges of the bearer's peripheral vision, becoming hideously visible to devour the bodies of beings slain by this item. Once 666 bodies have been devoured, the apparitions will be released to prey upon our world and the sword becomes a permanent +3 item. So far, the item has eaten 1d6 x 100 + 3d20 bodies. ",
+        "rating": 0
+    },
+    {
+        "name": "Enchanting / of the Enchantress",
+        "desc": "Treat this as a +1 item as long as the bearer is enchanted by a spell from the enchantment school of magic. ",
+        "rating": 0
+    },
+    {
+        "name": "Enervating / of Inner Strength",
+        "desc": "Once per long rest, the bearer may spend one minute contemplating the patterns etched on this item's surface and regain 1 expended ki point. ",
+        "rating": 0
+    },
+    {
+        "name": "Epistemological / of Truth",
+        "desc": "The bearer has advantage on investigation checks to see through illusions. In addition the bearer can gains advantage on an Insight check to check if someone is lying and disadvantage on all Deception checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Equanimeous / of Balance",
+        "desc": "When attuned to neutral aligned characters, this item has a +1 attack bonus during the day and a +1 damage bonus at night. ",
+        "rating": 0
+    },
+    {
+        "name": "Etched / of Allegories",
+        "desc": "Ancient glyphs adorn the surface of this item, telling a story with a moral of the player's choosing (such as \"One good turn deserves another\" or \"United we stand, divided we fall\"). While attuning to this item, the glyphs spread across the entire skin of the bearer and the moral of the story becomes a bond trait for this character. ",
+        "rating": 0
+    },
+    {
+        "name": "Fairweather / of Fairweather",
+        "desc": "Treat this as a +1 item if the bearer has more than half of their maximum hit points ",
+        "rating": 0
+    },
+    {
+        "name": "Fatespun / of Intertwined Fates",
+        "desc": "Once per short rest, when the bearer crits with this item they gain inspiration. ",
+        "rating": 0
+    },
+    {
+        "name": "Favored / of the Favored",
+        "desc": "Once per long rest, the bearer may roll a saving throw with advantage. ",
+        "rating": 0
+    },
+    {
+        "name": "Feathered / of Feathers",
+        "desc": "The bearer may use their reaction to reduce fall damage by 1d6 until the end of turn. They cannot use this feature again until completing a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Final / of Last Hope",
+        "desc": "The bearer may spend an action beseeching the spirits within this item. Roll a DC 20 Persuasion check or make a sufficiently impassioned plea. If successful, the spirits will sacrifice themselves so that for the next minute the next attack with this item will be a crit. The item then loses this property forever. ",
+        "rating": 0
+    },
+    {
+        "name": "First / of Speed",
+        "desc": "The bearer gains a +1 bonus to initiative rolls. As long as the bearer is first in the initiative order, their speed increases by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Forgotten / of the Forgotten",
+        "desc": "The bearer may spend an action to attempt to ignite the old magic in this item with a DC 13 Charisma check. If successful, treat the item as a +1 item as long as the bearer maintains concentration on this effect, maximum 10 minutes. ",
+        "rating": 0
+    },
+    {
+        "name": "Friendly / of Friendship",
+        "desc": "Contains 1d4 unreplenishable charges of the Animal Friendship spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Frozen / of Ice",
+        "desc": "The bearer may choose to deal Cold damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Furious / of Fury",
+        "desc": "Treat as a +1 magic item when the bearer is raging. ",
+        "rating": 0
+    },
+    {
+        "name": "Ghost-Tipped / of the Ranks",
+        "desc": "Whenever the bearer crits with this item, it gains the reach property (10 ft) for 1 minute. If it already had the reach property, increase its reach by 5 ft. ",
+        "rating": 0
+    },
+    {
+        "name": "Ghost-Touched / of Remembered Glory",
+        "desc": "This item can be wielded by a missing limb. If so, it becomes a +1 item. ",
+        "rating": 0
+    },
+    {
+        "name": "Glorious / of Glory",
+        "desc": "The bearer may choose to change the damage type of item to Radiant and its damage roll gains a +1 bonus. ",
+        "rating": 0
+    },
+    {
+        "name": "Goading / of Duels",
+        "desc": "Once per short rest, when the bearer crits with this item it casts Compelled Duel on the creature it hit, DC 12. ",
+        "rating": 0
+    },
+    {
+        "name": "Guardian / of Protection",
+        "desc": "When the bearer attunes this item they must choose a being in their mind. Henceforth, if the bearer is within 5 feet of the chosen being they may use their reaction to impose disadvantage on an attack roll against that creature. They cannot do this again until they have finished a short or long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Harkening / of Eavesdropping",
+        "desc": "As long as it is on the same plane of existence, the bearer can hear through this item as if they were present. ",
+        "rating": 0
+    },
+    {
+        "name": "Haunted / of Vengeful Spirits",
+        "desc": "Smoke rises from this item revealing the apparitions that haunt it. They lash out at living targets every time the bearer scores a hit, doing an additional +2 necrotic damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Healing / of Healing",
+        "desc": "This item contains a healing node. Once per long rest the bearer can use the node and an action to heal 1d4 hit points at touch range. ",
+        "rating": 0
+    },
+    {
+        "name": "Heroic / of Heroes",
+        "desc": "Ancient heroes have wielded this item throughout the ages, and their courage still lingers. The bearer has advantage on saving throws vs. fear effects. ",
+        "rating": 0
+    },
+    {
+        "name": "Holy / of Faith",
+        "desc": "When the bearer of this item rolls hit dice, they can choose to re-roll them and take the second result. ",
+        "rating": 0
+    },
+    {
+        "name": "Iconic / of Symbols",
+        "desc": "The item is inscribed with holy symbols of the God of the DM's choice. A cleric or paladin that serves that god may use this item as a divine focus. ",
+        "rating": 0
+    },
+    {
+        "name": "Imaginary / of the Imagination",
+        "desc": "Once attuned, this item exists only in the bearer's imagination until held with intent to do harm. It becomes imaginary again after a short rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Impact / of Impact",
+        "desc": "Once per long rest, the bearer may spend an action to activate an ancient mechanism within the item. Gears turn and parts shift as the item reconfigures itself into a more menacing version of the original. For 1 minute, attacks made with this item ignore resistances (but not immunities). ",
+        "rating": 0
+    },
+    {
+        "name": "Indifferent / of Indifference",
+        "desc": "The bearer no longer feels emotions. They have immunity to fear effects but disadvantage on Insight and Performance checks, and cannot Rage. ",
+        "rating": 0
+    },
+    {
+        "name": "Indomitable / of Surging Strength",
+        "desc": "When the bearer is grappled by multiple targets, they may choose to break the strongest grapple. If they succeed, then all grapples are broken. ",
+        "rating": 0
+    },
+    {
+        "name": "Inspired / of Inspiration",
+        "desc": "The bearer gains their Constitution modifier in temporary hit points whenever they gain or use inspiration. ",
+        "rating": 0
+    },
+    {
+        "name": "Jagged / of Teeth",
+        "desc": "Once hit by this item, the victim cannot regain hit points until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Jester's / of Madness",
+        "desc": "Once per short rest, when the bearer crits with this item it casts Crown of Madness on the creature it hit, DC 12 ",
+        "rating": 0
+    },
+    {
+        "name": "Leaping / of Leaping",
+        "desc": "Contains 1d4 unreplenishable charges of the Jump spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Liar's / of Lies",
+        "desc": "Contains 1d4 unreplenishable charges of the Silent Image spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Mage Killer's / of the Mage Killer",
+        "desc": "Ignores the AC bonuses given by spells such as Mage Item and Shield. ",
+        "rating": 0
+    },
+    {
+        "name": "Malediction / of Malediction",
+        "desc": "Contains 1d4 unreplenishable charges of the Bane spell(1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Maligning / of Maligning",
+        "desc": "This item does an additional 1d4 damage on attacks of opportunity. ",
+        "rating": 0
+    },
+    {
+        "name": "Marquis' / of the Maquis",
+        "desc": "Once per short rest, when you crit with this item it casts Command on its target with the word \"grovel\", DC 12 ",
+        "rating": 0
+    },
+    {
+        "name": "Masked / of Still Winds",
+        "desc": "The bearer and all of their possessions are completely odorless. ",
+        "rating": 0
+    },
+    {
+        "name": "Master's / of Servants",
+        "desc": "Contains 1d4 unreplenishable charges of the Unseen Servant spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Meadowforged / of the Meadow",
+        "desc": "A gentle kaleidoscope of butterflies always accompanies this item. The bearer has advantage on persuasion checks with Fae creatures less than CR 3. ",
+        "rating": 0
+    },
+    {
+        "name": "Memorial / of Memories",
+        "desc": "When the bearer kills a monster with this item, treat this item as a +1 item whenever you fight another monster of this kind. When the item is unattuned, it loses its memory. ",
+        "rating": 0
+    },
+    {
+        "name": "Mimicking / of Mimicry",
+        "desc": "When the bearer places this item beside another melee item for 1 minute, this item changes item type, size, and physical qualities to become an exact replica of the other item. It does not gain any of the other item's magical properties. ",
+        "rating": 0
+    },
+    {
+        "name": "Mindscour / of Countermeasures",
+        "desc": "This item disrupts all telepathic communication within 20 feet. Psychic attacks are not affected. ",
+        "rating": 0
+    },
+    {
+        "name": "Mind's Eye / of the Mind's Eye",
+        "desc": "The bearer may choose to deal Psychic damage with this item and gain a +1 bonus to damage ",
+        "rating": 0
+    },
+    {
+        "name": "Mortuary / of the Mortal Coil",
+        "desc": "The bearer's vital signs, such as a pulse and breathing, are masked by this item and are undetectable by non-magical inspection. ",
+        "rating": 0
+    },
+    {
+        "name": "Mourner's / of Last Words",
+        "desc": "Contains one charge of the Speak With Dead spell. It regains the charge when the bearer dies. ",
+        "rating": 0
+    },
+    {
+        "name": "Murderous / of Slaughter",
+        "desc": "When the bearer reduces a creature to zero hit points they may use a bonus action to move half their movement speed towards another hostile creature. ",
+        "rating": 0
+    },
+    {
+        "name": "Northern / of the North",
+        "desc": "The bearer gains +1 to constitution saving throws ",
+        "rating": 0
+    },
+    {
+        "name": "Nourishing / of Comfort",
+        "desc": "Once per long rest, the bearer may lay this item beside a bowl of water. After a moment, the bowl of water will begin to boil and after a minute it will transform into a hot meal of special significance to the bearer (Their mother's noodle soup or father's elk stew). Eating this delicious meal is so satisfying that it counts as nourishment for an entire day and restores 1d4 hit points. To anyone other than the bearer, the bowl and its contents appears unchanged. ",
+        "rating": 0
+    },
+    {
+        "name": "Nullifying / of Nullification",
+        "desc": "Any spell of 1st level or lower that includes the bearer as a target has a 10% chance to fail, cast by both friendly and enemy spellcasters. ",
+        "rating": 0
+    },
+    {
+        "name": "Painstrike / of Pain",
+        "desc": "Treat this as a +1 item for 1 minute if the bearer takes 13 or more damage in a single round of combat. ",
+        "rating": 0
+    },
+    {
+        "name": "Parrying / of Parrying",
+        "desc": "The bearer may use their reaction to gain a +1 AC bonus until the end of the turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Patient / of Patience",
+        "desc": "Whenever the bearer readies an action, they have advantage on constitution saving throws to maintain concentration. ",
+        "rating": 0
+    },
+    {
+        "name": "Pernicious / of the Snake",
+        "desc": "The bearer may choose to deal Poison damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Phantom / of the Phantasm",
+        "desc": "Damage inflicted with this item leaves no physical sign of injury, such as cuts and bruises, and draws no blood. ",
+        "rating": 0
+    },
+    {
+        "name": "Pious / of the Pious",
+        "desc": "The bearer may spend ten minutes paying honor to the spirits that govern this item, shaving their head in tribute. Once the ceremony is finished, it becomes a +1 item until the end of the next long rest. They must wait 10 days until they have long enough hair to re-enact this ritual. ",
+        "rating": 0
+    },
+    {
+        "name": "Preacher's / of the Preacher",
+        "desc": "This item increases the bearer's Channel Divinity range by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Force / of Force",
+        "desc": "The bearer may choose to deal Force damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Quantum / of Uncertainty",
+        "desc": "Every time the bearer takes a long rest, this item changes in appearance and function. It retains this property but any other properties are lost. However, it gains a new random ability from this chart. ",
+        "rating": 0
+    },
+    {
+        "name": "Quicksilver / of Quicksilver",
+        "desc": "The bearer may use a bonus action to change the form of the item to any other simple or martial melee item. It always counts as a silvered item no matter what form it takes. ",
+        "rating": 0
+    },
+    {
+        "name": "Rainbow / of Rainbows",
+        "desc": "The bearer may change the damage type of a spell they cast once per long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Refined / of Quality",
+        "desc": "This item is so finely constructed it never needs maintenance, cannot rust or tarnish, and gains a +1 to damage rolls. ",
+        "rating": 0
+    },
+    {
+        "name": "Reliable / of Reliance",
+        "desc": "When attacking with this item, crit fails (rolling 1) on attack rolls do not automatically miss the target. ",
+        "rating": 0
+    },
+    {
+        "name": "Renaissance / of the Renaissance",
+        "desc": "Once per long rest, the bearer may gain +1 to any skill check. ",
+        "rating": 0
+    },
+    {
+        "name": "Resonant / of Resonance",
+        "desc": "The bearer can spend an action and 1 ki point to treat this as a +1 item for 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Restrained / of Subdual",
+        "desc": "This item only deals non-lethal damage to living targets ",
+        "rating": 0
+    },
+    {
+        "name": "Righteous / of Righteousness",
+        "desc": "Treat this as a +1 item during the day when attuned to a good aligned character. ",
+        "rating": 0
+    },
+    {
+        "name": "Rosen / of Roses",
+        "desc": "A ruby worth 30gp is the center stone in a rose-shaped setting on the item. If the bearer removes the ruby, the item grows a new one at the end of the month. The item always smells of roses while the ruby is in its setting. ",
+        "rating": 0
+    },
+    {
+        "name": "Runic / of Runes",
+        "desc": "Whenever bearer casts a spell, treat this item as a +1 item until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Scarlet / of Bleeding",
+        "desc": "This item perpetually drips the blood of a monstrous race, chosen by the DM. The bearer can speak that race's language and has advantage on intimidation checks against monsters of that race when the item is revealed. ",
+        "rating": 0
+    },
+    {
+        "name": "Seige / of Sieges",
+        "desc": "This item does maximum damage against man-made, inanimate objects. ",
+        "rating": 0
+    },
+    {
+        "name": "Shading / of Shade",
+        "desc": "The bearer suffers no harm or discomfort in temperatures as high as 120 degrees Fahrenheit. ",
+        "rating": 0
+    },
+    {
+        "name": "Shadow / of Shadows",
+        "desc": "Treat as a +1 magic item when in dim light. ",
+        "rating": 0
+    },
+    {
+        "name": "Shamanic / of Rituals",
+        "desc": "Whenever the bearer is casting a spell as a ritual, they have advantage to maintain concentration during the ritual. ",
+        "rating": 0
+    },
+    {
+        "name": "Shaming / of Disgrace",
+        "desc": "Any humanoid creature hit with this item loses all of the hair on their head and face. ",
+        "rating": 0
+    },
+    {
+        "name": "Shielding / of Shielding",
+        "desc": "This item contains 1d4 unreplenishable charges of the Shield spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Skyward / of Unusual Gravity",
+        "desc": "This item falls up instead of down. Its weight does not contribute towards encumbrance. ",
+        "rating": 0
+    },
+    {
+        "name": "Slayer's / of Slaying",
+        "desc": "Treat as a +1 item when attacking Demons and Devils. ",
+        "rating": 0
+    },
+    {
+        "name": "Smoldering / of Flame",
+        "desc": "The bearer may choose to deal Fire damage with this item and gain a +1 bonus to damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Smuggler's / of Smuggling",
+        "desc": "This item contains a small, secret compartment. A character must succeed on a DC 20 Wisdom (Perception) check to reveal the compartment when searching the bearer. ",
+        "rating": 0
+    },
+    {
+        "name": "Sojourner's / of the Sojourner",
+        "desc": "A poem, story, or map that describes a long-forgotten treasure that will make this item more powerful is etched on the surface of the item. ",
+        "rating": 0
+    },
+    {
+        "name": "Solemn / of Solemnity",
+        "desc": "The bearer may spend an action to stabilize a dying creature within 5 feet. They cannot do so again until they have completed a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Soulbound / of Imprisonment",
+        "desc": "A powerful malevolent being is bound within this item and it will be released upon the item's destruction. ",
+        "rating": 0
+    },
+    {
+        "name": "Southern / of the South",
+        "desc": "The bearer gains +1 to dexterity saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Spring / of Spring Rain",
+        "desc": "The item contains a pool of healing energy that can restore up to 30 hp. The bearer may use an action to plant this item in the ground and release this energy. While planted and undepleted, creatures that end their turn within 10 feet of the item are showered in warm rain that restores 1 hp per round. A long rest restores 1d6 hp of energy to the item's pool. ",
+        "rating": 0
+    },
+    {
+        "name": "Staunch / of Security",
+        "desc": "Anyone except the bearer must attempt a DC 10+x Charisma check to pick up this item, where x is the bearer's level. Any attack made with this item against the bearer has disadvantage. ",
+        "rating": 0
+    },
+    {
+        "name": "Strange / of the Far Realm",
+        "desc": "Treat this as a +1 item when attacking Aboleths and other creatures from the Far Realm ",
+        "rating": 0
+    },
+    {
+        "name": "Strapping / of the Undaunted",
+        "desc": "Whenever the bearer breaks a grapple, they may choose to push the grappler up to 10 feet away from them as a bonus action. ",
+        "rating": 0
+    },
+    {
+        "name": "Striding / of Strides",
+        "desc": "Contains 1d4 unreplenishable charges of the Longstrider spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Summer / of the Scorching Sun",
+        "desc": "The item contains a reservoir of scorching light that can deal up to 30 hp of radiant damage. The bearer may use an action to plant this item in the ground and release this energy. While planted and undepleted, creatures that end their turn within 10 feet of the item are brightly illuminated and seared for 1 radiant damage per round. A long rest restores 1d6 hp of energy to the item's reservoir. ",
+        "rating": 0
+    },
+    {
+        "name": "Surgeon's / of the Surgeon",
+        "desc": "The bearer may use a bonus action to gain advantage to Wisdom (Medicine) checks for the rest of the turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Swift / of Reflexes",
+        "desc": "If the bearer is first in the initiative order, they may treat this as a +1 item. ",
+        "rating": 0
+    },
+    {
+        "name": "Tenacious / of the Tenacious",
+        "desc": "When the bearer takes a long rest, they gain back one additional hit die. ",
+        "rating": 0
+    },
+    {
+        "name": "Tithing / of Tithes",
+        "desc": "The bearer may lay 10 gold coins along the surface of the item and pray to a God of their choice for 10 minutes. At the end of this ritual, the item becomes a +1 item until the next long rest and the 10 gold coins are permanently gone. This boon will be lost if the bearer acts in a way that is contradictory to that deity's teachings. ",
+        "rating": 0
+    },
+    {
+        "name": "Transient / of the Breaking Seal",
+        "desc": "Over the course of a long rest, the bearer may transfer the other magic properties of this item to a melee item of their choosing. This item then loses those properties. ",
+        "rating": 0
+    },
+    {
+        "name": "Translucent / of Translucence",
+        "desc": "The bearer gains an extra level one spell slot, which recovers only after a full moon rises. ",
+        "rating": 0
+    },
+    {
+        "name": "Trusty / of Resurgence",
+        "desc": "Treat this as a +1 item if the bearer has half their maximum hit points or less. ",
+        "rating": 0
+    },
+    {
+        "name": "Tsunami / of Crashing Waves",
+        "desc": "Once per short rest, when the bearer crits with this item, all creatures other than the bearer within 5 feet of the target (including the target) must roll a DC 12 constitution saving throw or be knocked prone by a wave of concussive force. ",
+        "rating": 0
+    },
+    {
+        "name": "Twilight's / of the Setting Sun",
+        "desc": "Once per short rest, when you crit with this item it casts Hex on the target. Roll a d6 to determine which of the target's attributes is weakened. The bearer cannot transfer the curse to another creature. ",
+        "rating": 0
+    },
+    {
+        "name": "Unity / of Unity",
+        "desc": "Whenever the bearer of this item takes a help action in combat, the aided ally may treat their item as a +1 magic item until the end of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Victorious / of Victory",
+        "desc": "Whenever the bearer kills a creature with this item, they gain temporary hit points equal to the creature's CR (minimum of 1). ",
+        "rating": 0
+    },
+    {
+        "name": "Vigilant / of Vigilance",
+        "desc": "The bearer gains +1 to their Passive Perception. ",
+        "rating": 0
+    },
+    {
+        "name": "Vile / of Villains",
+        "desc": "Treat this as a +1 item at night when attuned to an evil aligned character. ",
+        "rating": 0
+    },
+    {
+        "name": "Violent / of Violence",
+        "desc": "Everytime you crit with this item, it gains 1 charge. As a bonus action, use a charge to make this a +1 item for 1 minute. All charges are lost at the end of a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Visionary / of the Visionary",
+        "desc": "The item does an additional 1 elemental damage based on the color of the bearer's eyes: (amber: lightning, black: necrotic, blue: cold, brown: acid, green: force, gray: thunder, hazel: poison, purple: psychic, red: fire, white: radiant) ",
+        "rating": 0
+    },
+    {
+        "name": "Vital / of Vitality",
+        "desc": "The bearer's maximum hit points increases by their constitution modifier while attuned to this item. These hit points are lost when the bearer unattunes the item. ",
+        "rating": 0
+    },
+    {
+        "name": "Voidstone / of the Void",
+        "desc": "This item cannot be detected by the \"Detect Magic\" spell unless the caster touches the item. ",
+        "rating": 0
+    },
+    {
+        "name": "Voltaic / of Conduits",
+        "desc": "Whenever the bearer deals damage to a creature, this item gains a charge. As a bonus action, the bearer can use any number of charges to deal that much extra lightning damage on their next attack. If a round (6 seconds) goes by and the item has not struck a foe, it loses all charges. ",
+        "rating": 0
+    },
+    {
+        "name": "War Leader's / of the War Leader",
+        "desc": "The bearer can use an action to amplify their voice three times louder than normal. ",
+        "rating": 0
+    },
+    {
+        "name": "Warded / of Warding",
+        "desc": "Once per long rest the bearer may draw a 20 foot line in the ground with this item that lasts for 1 minute. The Undead must succeed on a DC 12 wisdom saving throw to move across this line. If they fail, they cannot move again until their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Waterborne / of the Sea",
+        "desc": "The item floats on water or other liquids. Its bearer has advantage on Strength (Athletics) checks to swim. ",
+        "rating": 0
+    },
+    {
+        "name": "Weave-touched / of the Weave",
+        "desc": "Whenever the bearer casts a spell, this item gains charges equal to the spell's level. The bearer can use a bonus action to remove 13 charges and make this a +1 item until the start of the next round. All charges are lost during a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Western / of the West",
+        "desc": "The bearer gains +1 to charisma saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Wild / of the Wilds",
+        "desc": "The bearer gains +1 to strength saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Winged / of Wings",
+        "desc": "Once per long rest, the bearer may use an action to transform this item into a magical raven that can deliver a message to anyone in a 50 mile radius, provided the bearer knows their name and face. When the raven returns, it reverts into its item form. If the bird should die en route, it reverts into item form and unattunes from the bearer. ",
+        "rating": 0
+    },
+    {
+        "name": "Winter / of Winter Ice",
+        "desc": "The item contains a reservoir of ice magic that can a freeze the ground for up to 30 seconds. The bearer may use an action to plant this item in the ground and release the ice magic within. While planted and undepleted, the ground in a 10 foot radius of this item becomes difficult terrain. A long rest restores 1d6 seconds of energy to the item's reservoir. ",
+        "rating": 0
+    },
+    {
+        "name": "Woodsman's / of Felling",
+        "desc": "This item does maximum damage against plant creatures. ",
+        "rating": 0
+    },
+    {
+        "name": "Zen / of Zen",
+        "desc": "Treat this as a +1 item for 1 minute after meditating with it for 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Acolyte's / of the Acolyte",
+        "desc": "The bearer gains a +1 bonus to Wisdom (Religion) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Amethyst / of Amethyst",
+        "desc": "Reduces psychic damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Arboreal / of the Woodlands",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a forest. If the bearer leaves the forest, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Arid / of the Wastelands",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a desert. If the bearer leaves the desert, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Astute / of the Astute",
+        "desc": "It takes half the time to don or doff this item than a normal item of this type. ",
+        "rating": 0
+    },
+    {
+        "name": "Arctic / of the North",
+        "desc": "The bearer suffers no harm in temperature as cold as -20 degrees Fahrenheit. ",
+        "rating": 0
+    },
+    {
+        "name": "Artisan's / of the Artisan",
+        "desc": "This item is a swiss army knife of enchanted appendages that can take the form of any artisan's tools, from Alchemist's and Brewer's supplies to Weaver's and Woodcarver's tools (see p. 154 of the PHB for a complete set of artisan's tools). ",
+        "rating": 0
+    },
+    {
+        "name": "Barbarian's / of the Barbarian",
+        "desc": "The bearer gains a +1 bonus to Strength (Athletics) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Bard's / of the Bard",
+        "desc": "The bearer gains +1 to Charisma (Performance) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Blessed / of Blessings",
+        "desc": "Whenever bearer of this item receives divine healing, they gain an additional 1d4 hit points. ",
+        "rating": 0
+    },
+    {
+        "name": "Bloodthirsty / of Bloodthirst",
+        "desc": "The bearer can expend a hit die to turn this into a +1 item for a number of turns equal to their roll on that die. ",
+        "rating": 0
+    },
+    {
+        "name": "Burglar's / of the Burglar",
+        "desc": "The bearer gains +1 to Dexterity (Sleight of Hand) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Cavernous / of the Underdark",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a cave. If the bearer leaves the cave, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Cardinal / of the Lodestone",
+        "desc": "The wielder always knows which way is north when on the material plane. When the bearer is on a plane without cardinal directions, they are aware of that absence. ",
+        "rating": 0
+    },
+    {
+        "name": "Cerulean / of Storms",
+        "desc": "Reduces lightning damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Channelling / of Channelling",
+        "desc": "Once per day, the bearer may ignore the Verbal and/or Somatic components of a spell they are casting. ",
+        "rating": 0
+    },
+    {
+        "name": "Charitable / of Charity",
+        "desc": "If the bearer donates 100gp or more to a temple of a goodly deity, this becomes a +1 item for the next 24 hours. If they go longer than a month without making any such donations, they gain a -1 AC penalty until a suitable donation is made. ",
+        "rating": 0
+    },
+    {
+        "name": "Civilized / of the Hearth",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in an living urban environment. If the bearer leaves the city, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Climber's / of the Climber",
+        "desc": "This item is suited with harnesses, rope, and other climbing tools readily in reach. The bearer may treat this item as a climbing kit. ",
+        "rating": 0
+    },
+    {
+        "name": "Concealing / of Concealment",
+        "desc": "The bearer may spend one action assembling components of this item into a dagger. A person searching the bearer for items must make a DC 20 Intelligence (Investigation) check to discover this property. ",
+        "rating": 0
+    },
+    {
+        "name": "Consecrated / of Consecration",
+        "desc": "Treat this as a +1 item when the bearer is being attacked by Undead. ",
+        "rating": 0
+    },
+    {
+        "name": "Crystalline / of Crystal",
+        "desc": "Treat as +1 item until the bearer takes a critical hit, at which point it loses this property forever. ",
+        "rating": 0
+    },
+    {
+        "name": "Dancer's / of the Dancer",
+        "desc": "The bearer gains a +1 bonus to Dexterity (Acrobatics) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Dazzling / of Dazzling",
+        "desc": "Once per day, the bearer may spend an action to ignite the magic in this item, causing it to flare brilliantly. Any creature within a 10 foot radius must use their reaction to shield their eyes or be blinded until the end of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Debtor's / of Debts",
+        "desc": "The first 1 bludgeoning, piercing, or slashing damage from any source is negated. However, the total amount of damage prevented from that day accumulates as a negative modifier on death saving throws. So, if the item prevented 5 points of damage that day, the bearer has a -5 penalty on death saving throws. The penalty resets to zero after a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "Defensive / of Defence",
+        "desc": "Whenever the wearer takes a dodge action, they gain +1 AC until the end of the turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Deflecting / of Deflection",
+        "desc": "The bearer may spend their reaction to gain +1 AC vs. ranged item attacks until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Delver's / of the Delver",
+        "desc": "While underground, the bearer of this item always knows the item's depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward. ",
+        "rating": 0
+    },
+    {
+        "name": "Diplomatic / of Diplomacy",
+        "desc": "Once per long rest, the bearer can gain proficiency in any language for 24 hours that they are able to correctly speak the activation phrase: \"The limits of my language are the limits of my world.\" ",
+        "rating": 0
+    },
+    {
+        "name": "Druid's / of the Druid",
+        "desc": "The bearer gains a +1 bonus to Intelligence (Nature) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Ephemeral / of Transience",
+        "desc": "Once per day, the bearer may spend their reaction to gain their Wisdom modifier to their AC until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Evasive / of Evasion",
+        "desc": "Whenever the bearer takes a dodge action, they may move an additional 10 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Fair-weather / of Fair-weather",
+        "desc": "The bearer may treat this as +1 item if the bearer has more than half of their maximum hit points. ",
+        "rating": 0
+    },
+    {
+        "name": "False / of Falsehoods",
+        "desc": "The bearer gains a +1 bonus to Charisma (Deception) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Favored / of the Favored",
+        "desc": "Once per day, the bearer may roll a saving throw with advantage. ",
+        "rating": 0
+    },
+    {
+        "name": "Feinting / of Feinting",
+        "desc": "Whenever the bearer uses the help action in combat, they may treat this as a +1 item until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Fen / of the Glade",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a swamp. If the bearer leaves the swamp, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Flanked / of the Flanked",
+        "desc": "The wearer may treat this as +1 item if two or more enemies are adjacent to them. ",
+        "rating": 0
+    },
+    {
+        "name": "First / of Reflexes",
+        "desc": "The bearer gain a +1 bonus to initiative rolls ",
+        "rating": 0
+    },
+    {
+        "name": "Fresh / of Cleansing",
+        "desc": "This item never gets dirty and remains odorless, even in the most filthy dungeon. ",
+        "rating": 0
+    },
+    {
+        "name": "Forgotten / of the Forgotten",
+        "desc": "The bearer may spend an action to attempt to ignite the old magic in this item with a DC 13 Charisma check. If successful, treat this as a +1 item as long as the bearer maintains concentration on this effect, maximum 10 minutes. ",
+        "rating": 0
+    },
+    {
+        "name": "Furious / of Fury",
+        "desc": "This plain suit of item takes on a formidable appearance when the bearer goes into a rage. The bearer receives +1 AC when they are raging but -1 AC when they are not. ",
+        "rating": 0
+    },
+    {
+        "name": "Garnet / of Garnet",
+        "desc": "Reduces fire damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Glass / of Glass",
+        "desc": "The bearer may treat this as +1 item as long as the bearer is at full health. ",
+        "rating": 0
+    },
+    {
+        "name": "Granite / of the Mountain",
+        "desc": "Any effect that would move the bearer against their will is reduced in distance by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Grim / of Coercion",
+        "desc": "The bearer gains a +1 bonus to Charisma (Intimidation) checks if their item is visible. ",
+        "rating": 0
+    },
+    {
+        "name": "Harmonious / of Harmony",
+        "desc": "Attuning to this item takes only 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Heroic / of Heroes",
+        "desc": "The bearer has advantage on saving throws vs. fear. ",
+        "rating": 0
+    },
+    {
+        "name": "Histrionic / of Histrionics",
+        "desc": "the bearer gains +1 to Charisma (Performance) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Holy / of Faith",
+        "desc": "When the bearer of this item rolls hit dice, they can choose to re-roll them and take the second result. ",
+        "rating": 0
+    },
+    {
+        "name": "Inquisitor's / of the Inquisitor",
+        "desc": "The bearer gains a +1 bonus to Intelligence (Investigation) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Inspired / of Inspiration",
+        "desc": "The bearer receives their proficiency bonus in temporary hit points whenever they gain or use inspiration. ",
+        "rating": 0
+    },
+    {
+        "name": "Invisible / of Invisibility",
+        "desc": "Once worn, this item turns invisible (although not the wearer). ",
+        "rating": 0
+    },
+    {
+        "name": "Lightweight / of Mobility",
+        "desc": "This item is 10% lighter than normal item of this type. If it has a Strength requirement to use, it is reduced by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Loquacious / of the Silver Tongue",
+        "desc": "The bearer gains +1 to Charisma (Persuasion) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Mage Killer's / of the Mage Killer",
+        "desc": "The bearer may spend their reaction to treat this as +1 item vs. spell attacks until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Malachite / of Malachite",
+        "desc": "Reduces poison damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Masquarading / of the Masquarade",
+        "desc": "The bearer has advantage on skill checks involving disguise kits. ",
+        "rating": 0
+    },
+    {
+        "name": "Medic's / of the Caduceus",
+        "desc": "Lined with compartments stocked with medical supplies, the bearer may treat this item as a healer's kit. ",
+        "rating": 0
+    },
+    {
+        "name": "Moonlit / of the Moon",
+        "desc": "The bearer may treat this as +1 item when moonlight is shining directly on this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Mortals' / of Mortals",
+        "desc": "At the end of a turn where the bearer failed a death saving throw, the magic within this item will attempt to stabilize the bearer. It rolls a Wisdom (Medicine) check with a +3 modifier. ",
+        "rating": 0
+    },
+    {
+        "name": "Mournful / of Sorrow",
+        "desc": "When an ally falls unconscious in battle, the bearer gains a +1 AC bonus for the next 10 minutes. If that ally stabilizes or awakens, the bearer loses this bonus. ",
+        "rating": 0
+    },
+    {
+        "name": "Obsidian / of Obsidian",
+        "desc": "Reduces acid damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Opal / of Opal",
+        "desc": "Reduces cold damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Pious / of the Pious",
+        "desc": "Whenever the bearer shaves their head, treat this as a +1 item until the end of the day. They must wait a week until they have long enough hair to re-enact this ritual. ",
+        "rating": 0
+    },
+    {
+        "name": "Prairie / of the Plains",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a grassland. If the bearer leaves the grassland, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Preacher's / of the Preacher",
+        "desc": "The bearer may extend the range of their Channel Divinity by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Precipice / of the Crags",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in the mountains. If the bearer leaves the mountain, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Primeval / of the Jungle",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest in a jungle. If the bearer leaves the jungle, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Reflexive / of Reflexes",
+        "desc": "If the bearer is first in initiative order, treat this as +1 item for 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Renaissance / of the Renaissance",
+        "desc": "Once per day, the bearer may gain +1 to any ability check. ",
+        "rating": 0
+    },
+    {
+        "name": "Resonant / of Resonance",
+        "desc": "The bearer can spend an action and 1 ki point to treat this as +1 item for 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Righteous / of Righteousness",
+        "desc": "Treat this as +1 item during the day when attuned to a good aligned character. ",
+        "rating": 0
+    },
+    {
+        "name": "Regal / of Royalty",
+        "desc": "This item is richly decorated and fashionable. Although it retains a hint of the ruggedness of a military garment, it could function as well in a ballroom as the battlefield. To the outside observer, you appear to be keeping an Aristocratic lifestyle expense. ",
+        "rating": 0
+    },
+    {
+        "name": "Runic / of Runes",
+        "desc": "Whenever bearer casts a spell of first level or higher, treat this as +1 item until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Sacred / of the Sacred",
+        "desc": "The bearer may increase their Lay on Hands hit point pool by 5. ",
+        "rating": 0
+    },
+    {
+        "name": "Sagacious / of Acumen",
+        "desc": "The bearer gains +1 to Wisdom (Insight) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Sage's / of the Sage",
+        "desc": "The bearer gains a +1 bonus to Intelligence (History) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Sailor's / of the Sea",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest on the high seas. If the bearer leaves the ocean, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Scribe's / of the Scribe",
+        "desc": "This item unfolds to reveal animated appendages that are equipped with writing implements, magnifying glasses, and book stands. The item aids the bearer in transcription tasks: it knows 3 languages of the DM's choice and halves the amount of time it takes the bearer to copy any text, including spells into spellbooks. ",
+        "rating": 0
+    },
+    {
+        "name": "Shading / of Shade",
+        "desc": "The bearer suffers no harm in temperatures as high as 120 degrees Fahrenheit. ",
+        "rating": 0
+    },
+    {
+        "name": "Shadow / of Shadows",
+        "desc": "Treat as a +1 item when in dim light. ",
+        "rating": 0
+    },
+    {
+        "name": "Shepherd's / of the Shepherd",
+        "desc": "The bearer gains a +1 bonus to (Wisdom) Animal Handling checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Shifting / of Shifting",
+        "desc": "The bearer may spend an action to change minor aspects of the physical appearance of this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Silent / of the Night",
+        "desc": "If this item imposed disadvantage to stealth, it no longer does. Otherwise, the bearer gains a +1 bonus to Dexterity (Stealth) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Solar / of the Sun",
+        "desc": "The bearer may treat this as +1 item when in direct sunlight. ",
+        "rating": 0
+    },
+    {
+        "name": "Spiked / of Teeth",
+        "desc": "Whenever a creature begins their turn grappling or being grappled by the bearer, they take 1d4 piercing damage. ",
+        "rating": 0
+    },
+    {
+        "name": "Spiritual / of the Divine",
+        "desc": "This item is naught but a prayer written on a scrap of vellum, decorated with religious motifs of a particular god. Once per day, the bearer may spend 1 minute to read the prayer out loud, and at the end this item will manifest and encase the bearer. The item disappears if you act in any way that is not in accordance to the god's teachings. ",
+        "rating": 0
+    },
+    {
+        "name": "Subtle / of Subtleties",
+        "desc": "The bearer gains proficiency in Thieves' Cant. ",
+        "rating": 0
+    },
+    {
+        "name": "Surgeon's / of the Surgeon",
+        "desc": "The bearer gains a +1 bonus to Wisdom (Medicine) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Tenacious / of the Tenacious",
+        "desc": "When the bearer takes a long rest, they gain back one additional hit die. ",
+        "rating": 0
+    },
+    {
+        "name": "Tracker's / of the Tracker",
+        "desc": "The bearer gains a +1 to Wisdom (Survival) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Trusty / of Resurgence",
+        "desc": "Treat this as +1 item if the bearer has half their maximum hit points or less. ",
+        "rating": 0
+    },
+    {
+        "name": "Turquoise / of Turquoise",
+        "desc": "Reduces thunder damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Twilight / of Twilight",
+        "desc": "Within 1 hour before or after the rising and setting of the sun, or during a solar eclipse, the item comes alive with magic and the bearer may treat this as +1 item. ",
+        "rating": 0
+    },
+    {
+        "name": "Undertaker's / of the Undertaker",
+        "desc": "Once deceased, the body wearing this item cannot be animated or raised from the dead. ",
+        "rating": 0
+    },
+    {
+        "name": "Unyielding / of the Unyielding",
+        "desc": "The bearer may treat this as +1 item if they have taken damage since the beginning of their last turn. This effect ends at the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Vanguard / of the Vanguard",
+        "desc": "The bearer may spend their reaction to gain a +1 AC bonus vs. melee item attacks until the beginning of their next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Veiled / of the Veil",
+        "desc": "The wearer gains a +1 bonus to Dexterity (Stealth) checks when taking a hide action. ",
+        "rating": 0
+    },
+    {
+        "name": "Victorious / of Victory",
+        "desc": "Whenever the bearer kills a creature while wearing this amror, they gain temporary hit points equal to the creature's CR. ",
+        "rating": 0
+    },
+    {
+        "name": "Vigilant / of Vigilance",
+        "desc": "The bearer gains +2 to their Passive Perception. ",
+        "rating": 0
+    },
+    {
+        "name": "Vile / of Villains",
+        "desc": "Treat this as +1 item at night when attuned to an evil aligned character. ",
+        "rating": 0
+    },
+    {
+        "name": "Violent / of Violence",
+        "desc": "The bearer may choose to treat the heavy metal gauntlets of this item as a Mace. ",
+        "rating": 0
+    },
+    {
+        "name": "War Leader's / of the War Leader",
+        "desc": "The bearer can use an action to amplify their voice so that it clearly carries for up to 300 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Warded / of Wards",
+        "desc": "The wearer cannot be possessed while wearing this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Watcher's / of the Watcher",
+        "desc": "Treat as +1 item when the bearer is surprised. ",
+        "rating": 0
+    },
+    {
+        "name": "Waterborne / of the Sea",
+        "desc": "This item floats. Its bearer has advantage on Strength (Athletics) checks to swim. ",
+        "rating": 0
+    },
+    {
+        "name": "Winged / of Wings",
+        "desc": "The bearer gains +5 speed. ",
+        "rating": 0
+    },
+    {
+        "name": "Wizard's / of the Wizard",
+        "desc": "The bearer gains a +1 to Intelligence (Arcana) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Zen / of Zen",
+        "desc": "Treat this as +1 item for one minute after meditating with it for one minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Zircon / of Zircon",
+        "desc": "Reduces force damage to the bearer by 1. ",
+        "rating": 0
+    },
+    {
+        "name": "Abyssal / of the Abyss",
+        "desc": "When on the plane of the Abyss, the bearer has advantage on saving throws against Abyssal Corruption. (DMG p. 62) ",
+        "rating": 0
+    },
+    {
+        "name": "Alarming / of Alarms",
+        "desc": "Contains 1d4 unreplenishable charges of the Alarm spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Arborean / of Arborea",
+        "desc": "When on the plane of Arborea, the bearer has advantage on saving throws against the effects of Intense Yearning. (DMG p. 61) ",
+        "rating": 0
+    },
+    {
+        "name": "Arcadian / of Arcadia",
+        "desc": "When on the plane of Arcardia, the bearer is unaffected by Planar Vitality (DMG p. 67) ",
+        "rating": 0
+    },
+    {
+        "name": "Astral / of the Astral Sea",
+        "desc": "When travelling the Astral Sea, it takes half the number of hours to locate a Color Pool to a specific plane. You have advantage on saving throws vs. the effects of Psychic Wind (DMG p. 47-48) ",
+        "rating": 0
+    },
+    {
+        "name": "Beastial / of the Beastlands",
+        "desc": "When on the plane of The Beastlands, the bearer has advantage on saving throws vs. Beast Transformation (DMG p. 60) ",
+        "rating": 0
+    },
+    {
+        "name": "Beastspeaker's / of Beastspeakers",
+        "desc": "Contains 1d4 unreplenishable charges of the Speak with Animals spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Benedictine / of Benediction",
+        "desc": "Contains 1d4 unreplenishable charges of the Healing Word spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Blasted / of Blasting",
+        "desc": "Contains 1d4 unreplenishable charges of the Fire Bolt spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Bold / of Boldness",
+        "desc": "Contains 1d4 unreplenishable charges of the Heroism spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Bountiful / of Bounty",
+        "desc": "Contains 1d4 unreplenishable charges of the Goodberry spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Bytopian / of Bytopia",
+        "desc": "When on the plane of Bytopia, the bearer has advantage on saving throws against Pervasive Goodwill. (DMG p. 59-60) ",
+        "rating": 0
+    },
+    {
+        "name": "Carcerian / of Carceri",
+        "desc": "When on the plane of Carceri, the bearer knows the direction to the closest secret exit from this prison plane. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Cartographic / of Cartography",
+        "desc": "On its own volition, the item records a map of the environments that the bearer is exploring, and can magically project it for the bearer to see. ",
+        "rating": 0
+    },
+    {
+        "name": "Chill / of Chills",
+        "desc": "Contains 1d4 unreplenishable charges of the Ray of Frost spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Clockwork / of Gears",
+        "desc": "When on the plane of Mechanus, the bearer has advantage on saving throws against Imposing Order (DMG p. 66) ",
+        "rating": 0
+    },
+    {
+        "name": "Cloy / of Cloying",
+        "desc": "The bearer may cast Friends once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Compassionate / of Compassion",
+        "desc": "Contains 1d4 unreplenishable charges of the Cure Wounds spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Concordant / of Concordance",
+        "desc": "The bearer has advantage on saving throws vs. Psychic Dissonance when travelling the Outer Planes. (DMG p. 59) ",
+        "rating": 0
+    },
+    {
+        "name": "Conjurer's / of the Conjurer",
+        "desc": "The bearer may cast Prestidigitation once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Corrosive / of Dissolving",
+        "desc": "Contains 1d4 unreplenishable charges of the Acid Splash spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Crawling / of Vermin",
+        "desc": "The crawling things of the earth, such as insects, snakes, and vermin, are attracted to this item. When placed on the ground, such creatures will scurry toward the item like moths drawn to the flame. ",
+        "rating": 0
+    },
+    {
+        "name": "Drunkard's / of Taverns",
+        "desc": "The bearer always knows the direction to the closest alcoholic beverage. ",
+        "rating": 0
+    },
+    {
+        "name": "Elysian / of Elysium",
+        "desc": "When on the plane of Elysium, the bearer has advantage on saving throws against the effects of Overwhelming Joy (DMG p. 60) ",
+        "rating": 0
+    },
+    {
+        "name": "Etherbound / of Ethereal Shores",
+        "desc": "The bearer can see creatures in the Border Ethereal that overlap with their plane as clearly as if they were fully in the bearer's plane. Such creatures appear as apparitions or ghosts. ",
+        "rating": 0
+    },
+    {
+        "name": "Exalting / of Exaltation",
+        "desc": "Contains 1d4 unreplenishable charges of the Bless spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Expeditious / of Expedience",
+        "desc": "Contains 1d4 unreplenishable charges of the Expeditious Retreat spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Fathoming / of Tongues",
+        "desc": "Contains 1d4 unreplenishable charges of the Comprehend Languages spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Feathered / of Feathers",
+        "desc": "Contains 1d4 unreplenishable charges of the Feather Fall spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Feybound / of the Fey",
+        "desc": "The bearer knows the general direction to the closest Fey Crossing within a 60 mile radius. (DMG p. 50) ",
+        "rating": 0
+    },
+    {
+        "name": "Forgiven / of Forgiveness",
+        "desc": "When on the plane of Mount Celestia, the bearer of this item can receive the benefits of Blessed Beneficence regardless of their alignment. ",
+        "rating": 0
+    },
+    {
+        "name": "Fortune Teller's / of the Fortune Teller",
+        "desc": "Every time you hit by a monster, you glimpse a random image of its future or past. ",
+        "rating": 0
+    },
+    {
+        "name": "Friendly / of Friendship",
+        "desc": "Contains 1d4 unreplenishable charges of the Animal Friendship spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Gehennan / of Gehenna",
+        "desc": "When on the plane of Gehenna, the bearer has advantage on saving throws against Cruel Hindrance. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Gracious / of Grace",
+        "desc": "The bearer may cast Spare the Dying once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Hadean / of Hades",
+        "desc": "When on the plane of Hades, the bearer has advantage on saving throws against Vile Transformation. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Healing / of Healing",
+        "desc": "This item contains 4 weak healing nodes. As an action, a character can use one node to heal 1d4 hit points at touch range. The item regains 1d4 charges at sunrise. ",
+        "rating": 0
+    },
+    {
+        "name": "Hellish / of the Nine Hells",
+        "desc": "When in the Nine Hells, the bearer has advantage on saving throws against Pervasive Evil. (DMG p. 64) ",
+        "rating": 0
+    },
+    {
+        "name": "Desperate / of Last Chances",
+        "desc": "The bearer has advantage on perception checks when searching for items long lost in the the Swamp of Oblivion on the Plane of Earth. (DMG p. 54) ",
+        "rating": 0
+    },
+    {
+        "name": "Leaping / of Leaping",
+        "desc": "Contains 1d4 unreplenishable charges of the Jump spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Liar's / of Lies",
+        "desc": "The bearer cannot be magically compelled to speak the truth while wearing this armour. ",
+        "rating": 0
+    },
+    {
+        "name": "Limbo / of Limbo",
+        "desc": "When on the plane of Limbo, the bearer has advantage to Intelligence checks to alter or move non-magical objects within the plane. (DMG p. 61-62) ",
+        "rating": 0
+    },
+    {
+        "name": "Locating / of Locating",
+        "desc": "Once attuned, the bearer always knows the exact location of this item ",
+        "rating": 0
+    },
+    {
+        "name": "Malediction / of Malediction",
+        "desc": "Contains 1d4 unreplenishable charges of the Bane spell(1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Manipulating / of Manipulation",
+        "desc": "The bearer may cast Mage Hand once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Master's / of Servants",
+        "desc": "Contains 1d4 unreplenishable charges of the Unseen Servant spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Maverick / of the Maverick",
+        "desc": "The bearer has a +1 bonus to any skill check involving gambling and games of chance (Insight, Sleight of Hand, Investigation, etc). ",
+        "rating": 0
+    },
+    {
+        "name": "Messenger / of Messages",
+        "desc": "The bearer may cast Message once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Meteoric / of Falling Stars",
+        "desc": "Contains 1 unreplenishable charge of Scorching Ray cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Miraculous / of Miracles",
+        "desc": "The bearer may cast Thaumaturgy once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Mocking / of Mockery",
+        "desc": "The bearer may cast Vicious Mockery once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Natural / of Nature",
+        "desc": "Contains 1d4 unreplenishable charges of the Locate Animals or Plants spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Neutralizing / of Neutrality",
+        "desc": "Contains 1d4 unreplenishable charges of the Protection from Good and Evil spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Nourishing / of Nourishment",
+        "desc": "The bearer rarely feels hungry, and only needs to consume one-fifth the usual amount of food. ",
+        "rating": 0
+    },
+    {
+        "name": "Pandemonium / of Pandemonium",
+        "desc": "When on the plane of Pandemonium, the bearer has advantage on saving throws against the Mad Winds. (DMG p. 62) ",
+        "rating": 0
+    },
+    {
+        "name": "Projecting / of Projection",
+        "desc": "The bearer can send messages mentally to willing characters within 30 feet. This communication is one-way only. ",
+        "rating": 0
+    },
+    {
+        "name": "Protective / of Protection",
+        "desc": "The bearer may cast Blade Ward once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Revealing / of Revelation",
+        "desc": "Contains 1d4 unreplenishable charges of the Detect Magic spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Riutal / of Rituals",
+        "desc": "Whenever the bearer is casting a spell as a ritual, they have advantage to maintain concentration during the ritual. ",
+        "rating": 0
+    },
+    {
+        "name": "Sailor's / of the Sea",
+        "desc": "Treat as a +1 item after the bearer has taken a long rest at sea. If the bearer steps on dry land, this property becomes temporarily inert. ",
+        "rating": 0
+    },
+    {
+        "name": "Secret / of Secrets",
+        "desc": "Contains 1d4 unreplenishable charges of the Illusory Script spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Shadowbound / of the Shadowfell",
+        "desc": "The bearer knows the general direction to the closest Shadow Crossing within a 60 mile radius. They have advantage on saving throws vs. Shadowfell Dispair (DMG p. 51-52) ",
+        "rating": 0
+    },
+    {
+        "name": "Shielding / of Shielding",
+        "desc": "This item contains 1d4 unreplenishable charges of the Shield spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Smith's / of Reparations",
+        "desc": "The bearer may cast Mending once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Sparkling / of Lights",
+        "desc": "The bearer may cast Dancing Lights once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Striding / of Strides",
+        "desc": "Contains 1d4 unreplenishable charges of the Longstrider spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Translucent / of Translucence",
+        "desc": "The bearer gains an extra level one spell slot, which recovers only after a full moon rises. ",
+        "rating": 0
+    },
+    {
+        "name": "Trickster's / of Trickery",
+        "desc": "If the bearer uses no movement this turn, they may use a bonus action activate the magic in this item to record their action. At the beginning of their next turn, an intangible illusory replica of themselves appears within 5 ft., repeatedly doing that action. It will continue to do this for 1 minute or until dispelled. The bearer may not use this magic again until they take a long rest. ",
+        "rating": 0
+    },
+    {
+        "name": "True / of Truth",
+        "desc": "The bearer may cast True Strike once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Verdant / of Druidcraft",
+        "desc": "The bearer may cast Druidcraft once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Windborne / of the Labyrinth Wind",
+        "desc": "When in the Plane of Air, the bearer can navigate the Labyrinth Wind intuitively, and knows the path to the nearest Earth Mote within 60 miles. ",
+        "rating": 0
+    },
+    {
+        "name": "Wrathful / of Ysgard",
+        "desc": "When on the plane of Ysgard, the bearer is unaffected by Immortal Wrath. (DMG p. 61) ",
+        "rating": 0
+    },
+    {
+        "name": "Thunderous / of the Rolling Thunder",
+        "desc": "Contains 1 unreplenishable charge of Shatter cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Chained / of Chains",
+        "desc": "Contains 1 unreplenishable charge of Hold Person cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Spider's / of the Spider",
+        "desc": "Contains 1 unreplenishable charge of Web cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Heliacal / of the Sun",
+        "desc": "Contains 1 unreplenishable charge of Flaming Sphere cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Crippling / of Crippling",
+        "desc": "Contains 1 unreplenishable charge of Ray of Enfeeblement cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Lunar / of the Moon",
+        "desc": "Contains 1 unreplenishable charge of Moonbeam cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Fatespinner's / of the Fates",
+        "desc": "Contains 1 unreplenishable charge of Augury cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Rooting / of Roots",
+        "desc": "Contains 1 unreplenishable charge of Entanglement cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Mirrored / of Mirrors",
+        "desc": "Contains 1 unreplenishable charge of Mirror Image cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Vulpine / of the Fox",
+        "desc": "Characters trying to track the bearer have a disadvantage on their skill checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Submerged / of the Depths",
+        "desc": "Treat as a +1 item when completely submerged in water. ",
+        "rating": 0
+    },
+    {
+        "name": "Comforting / of Comfort",
+        "desc": "Treat as a +1 item if the bearer has any levels of exhaustion. ",
+        "rating": 0
+    },
+    {
+        "name": "Brawler's / of Brawling",
+        "desc": "Whenever a bearer makes an attack with an improvised item, treat as a +1 item until the beginning of the bearer's next turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Eagle-eye / of the Eagle",
+        "desc": "The bearer can clearly see twice as far and gains advantage on Wisdom (perception) checks that use sight. ",
+        "rating": 0
+    },
+    {
+        "name": "Lupine / of the Wolf",
+        "desc": "The bearer can detect and distinguish scents like a wolf and gains advantage on Wisdom (Perception) checks that use smell. ",
+        "rating": 0
+    },
+    {
+        "name": "Chiropteran / of the Bat",
+        "desc": "The bearer can hear a pin drop in a crowded room and gains advantage on Wisdom (Perception) checks that use hearing. ",
+        "rating": 0
+    },
+    {
+        "name": "Black / of Darkness",
+        "desc": "Contains 1 unreplenishable charge of Darkness cast at 2nd level. ",
+        "rating": 0
+    },
+    {
+        "name": "Sober / of Sobriety",
+        "desc": "The bearer cannot become intoxicated while this item is donned. ",
+        "rating": 0
+    },
+    {
+        "name": "Abyssal / of the Abyss",
+        "desc": "When on the plane of the Abyss, the bearer has advantage on saving throws against Abyssal Corruption. (DMG p. 62) ",
+        "rating": 0
+    },
+    {
+        "name": "Acolyte's / of the Acolyte",
+        "desc": "The bearer gains a +1 bonus to Wisdom (Religion) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Adamantine / of Adamantine",
+        "desc": "The item is indestructible. ",
+        "rating": 0
+    },
+    {
+        "name": "Adroit / of Intellect",
+        "desc": "The bearer gains +1 bonus to Intelligence saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Alarming / of Alarms",
+        "desc": "Contains 1d4 unreplenishable charges of the Alarm spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Arborean / of Arborea",
+        "desc": "When on the plane of Arborea, the bearer has advantage on saving throws against the effects of Intense Yearning. (DMG p. 61) ",
+        "rating": 0
+    },
+    {
+        "name": "Arcadian / of Arcadia",
+        "desc": "When on the plane of Arcardia, the bearer is unaffected by Planar Vitality (DMG p. 67) ",
+        "rating": 0
+    },
+    {
+        "name": "Arctic / of the North",
+        "desc": "The bearer suffers no harm in temperature as cold as -20 degrees Fahrenheit. ",
+        "rating": 0
+    },
+    {
+        "name": "Arresting / of Safety",
+        "desc": "Once per day, the bearer may use their reaction to reduce fall damage by 1d6 until the end of turn. ",
+        "rating": 0
+    },
+    {
+        "name": "Assassin's / of the Assassin",
+        "desc": "The bearer may add their proficiency bonus to damage rolls dealt during surprise rounds. ",
+        "rating": 0
+    },
+    {
+        "name": "Astral / of the Astral Sea",
+        "desc": "When travelling the Astral Sea, it takes half the number of hours to locate a Color Pool to a specific plane. You have advantage on saving throws vs. the effects of Psychic Wind (DMG p. 47-48) ",
+        "rating": 0
+    },
+    {
+        "name": "Barbarian's / of the Barbarian",
+        "desc": "The bearer gains a +1 bonus to Strength (Athletics) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Bard's / of the Bard",
+        "desc": "The bearer gains +1 to Charisma (Performance) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Beastial / of the Beastlands",
+        "desc": "When on the plane of The Beastlands, the bearer has advantage on saving throws vs. Beast Transformation (DMG p. 60) ",
+        "rating": 0
+    },
+    {
+        "name": "Beastspeaker's / of Beastspeakers",
+        "desc": "Contains 1d4 unreplenishable charges of the Speak with Animals spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Benedictine / of Benediction",
+        "desc": "Contains 1d4 unreplenishable charges of the Healing Word spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Blasted / of Blasting",
+        "desc": "Contains 1d4 unreplenishable charges of the Fire Bolt spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Blessed / of Blessings",
+        "desc": "Whenever bearer of this item receives divine healing, they gain an additional 1d4 hit points. ",
+        "rating": 0
+    },
+    {
+        "name": "Bold / of Boldness",
+        "desc": "Contains 1d4 unreplenishable charges of the Heroism spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Bountiful / of Bounty",
+        "desc": "Contains 1d4 unreplenishable charges of the Goodberry spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Burglar's / of the Burglar",
+        "desc": "The bearer gains +1 to Dexterity (Sleight of Hand) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Bytopian / of Bytopia",
+        "desc": "When on the plane of Bytopia, the bearer has advantage on saving throws against Pervasive Goodwill. (DMG p. 59-60) ",
+        "rating": 0
+    },
+    {
+        "name": "Carcerian / of Carceri",
+        "desc": "When on the plane of Carceri, the bearer knows the direction to the closest secret exit from this prison plane. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Cardinal / of the Lodestone",
+        "desc": "The wielder can use an action to learn which way is north. ",
+        "rating": 0
+    },
+    {
+        "name": "Cartographic / of Cartography",
+        "desc": "On its own volition, the item records a map of the environments that the bearer is exploring, and can magically project it for the bearer to see. ",
+        "rating": 0
+    },
+    {
+        "name": "Channelling / of Channelling",
+        "desc": "Once per day, the bearer may ignore the Verbal and/or Somatic components of a spell they are casting. ",
+        "rating": 0
+    },
+    {
+        "name": "Chill / of Chills",
+        "desc": "Contains 1d4 unreplenishable charges of the Ray of Frost spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Clockwork / of Gears",
+        "desc": "When on the plane of Mechanus, the bearer has advantage on saving throws against Imposing Order (DMG p. 66) ",
+        "rating": 0
+    },
+    {
+        "name": "Cloy / of Cloying",
+        "desc": "The bearer may cast Friends once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Compassionate / of Compassion",
+        "desc": "Contains 1d4 unreplenishable charges of the Cure Wounds spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Concordant / of Concordance",
+        "desc": "The bearer has advantage on saving throws vs. Psychic Dissonance when travelling the Outer Planes. (DMG p. 59) ",
+        "rating": 0
+    },
+    {
+        "name": "Conjurer's / of the Conjurer",
+        "desc": "The bearer may cast Prestidigitation once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Corrosive / of Dissolving",
+        "desc": "Contains 1d4 unreplenishable charges of the Acid Splash spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Crawling / of Vermin",
+        "desc": "The crawling things of the earth, such as insects, snakes, and vermin, are attracted to this item. When placed on the ground, such creatures will scurry toward the item like moths drawn to the flame. ",
+        "rating": 0
+    },
+    {
+        "name": "Dancer's / of the Dancer",
+        "desc": "The bearer gains a +1 bonus to Dexterity (Acrobatics) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Defensive / of Defence",
+        "desc": "Whenever the bearer takes a dodge action, they may move an additional 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Delver's / of the Delver",
+        "desc": "While underground, the bearer of this item always knows the item's depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward. ",
+        "rating": 0
+    },
+    {
+        "name": "Desperate / of Last Chances",
+        "desc": "The bearer has advantage on perception checks when searching for items long lost in the the Swamp of Oblivion on the Plane of Earth. (DMG p. 54) ",
+        "rating": 0
+    },
+    {
+        "name": "Druid's / of the Druid",
+        "desc": "The bearer gains a +1 bonus to Intelligence (Nature) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Drunkard's / of Taverns",
+        "desc": "The bearer always knows the direction to the closest alcoholic beverage. ",
+        "rating": 0
+    },
+    {
+        "name": "Dynamic / of the Dynamo",
+        "desc": "The bearer has +1 to Charisma saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Eavesdropper's / of Eavesdropping",
+        "desc": "As long as it is on the same plane, the bearer can hear through this item as if they were present. ",
+        "rating": 0
+    },
+    {
+        "name": "Elysian / of Elysium",
+        "desc": "When on the plane of Elysium, the bearer has advantage on saving throws against the effects of Overwhelming Joy (DMG p. 60) ",
+        "rating": 0
+    },
+    {
+        "name": "Etherbound / of Ethereal Shores",
+        "desc": "The bearer can see creatures in the Border Ethereal that overlap with their plane as clearly as if they were fully in the bearer's plane. Such creatures appear as apparitions or ghosts. ",
+        "rating": 0
+    },
+    {
+        "name": "Exalting / of Exaltation",
+        "desc": "Contains 1d4 unreplenishable charges of the Bless spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Expeditious / of Expedience",
+        "desc": "Contains 1d4 unreplenishable charges of the Expeditious Retreat spell. ",
+        "rating": 0
+    },
+    {
+        "name": "False / of Falsehoods",
+        "desc": "The bearer gains a +1 bonus to Charisma (Deception) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Fathoming / of Tongues",
+        "desc": "Contains 1d4 unreplenishable charges of the Comprehend Languages spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Favored / of the Favored",
+        "desc": "Once per day, the bearer may roll a saving throw with advantage. ",
+        "rating": 0
+    },
+    {
+        "name": "Feathered / of Feathers",
+        "desc": "Contains 1d4 unreplenishable charges of the Feather Fall spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Feybound / of the Fey",
+        "desc": "The bearer knows the general direction to the closest Fey Crossing within a 60 mile radius. (DMG p. 50) ",
+        "rating": 0
+    },
+    {
+        "name": "First / of Speed",
+        "desc": "The bearer gain a +1 bonus to initiative rolls ",
+        "rating": 0
+    },
+    {
+        "name": "Forgiven / of Forgiveness",
+        "desc": "When on the plane of Mount Celestia, the bearer of this item can receive the benefits of Blessed Beneficence regardless of their alignment. ",
+        "rating": 0
+    },
+    {
+        "name": "Fortune Teller's / of the Fortune Teller",
+        "desc": "Every time you are hit by a monster, you glimpse a random image of its future or past. ",
+        "rating": 0
+    },
+    {
+        "name": "Friendly / of Friendship",
+        "desc": "Contains 1d4 unreplenishable charges of the Animal Friendship spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Gehennan / of Gehenna",
+        "desc": "When on the plane of Gehenna, the bearer has advantage on saving throws against Cruel Hindrance. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Gracious / of Grace",
+        "desc": "The bearer may cast Spare the Dying once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Grim / of Coercion",
+        "desc": "The bearer gains a +1 bonus to Charisma (Intimidation) checks if the target can see this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Hadean / of Hades",
+        "desc": "When on the plane of Hades, the bearer has advantage on saving throws against Vile Transformation. (DMG p. 63) ",
+        "rating": 0
+    },
+    {
+        "name": "Harmonious / of Harmony",
+        "desc": "Attuning to this item takes only 1 minute. ",
+        "rating": 0
+    },
+    {
+        "name": "Healing / of Healing",
+        "desc": "This item contains 4 weak healing nodes. As an action, a character can use one node to heal 1d4 hit points at touch range. The item regains 1d4 charges at sunrise. ",
+        "rating": 0
+    },
+    {
+        "name": "Hellish / of the Nine Hells",
+        "desc": "When in the Nine Hells, the bearer has advantage on saving throws against Pervasive Evil. (DMG p. 64) ",
+        "rating": 0
+    },
+    {
+        "name": "Heroic / of Heroes",
+        "desc": "The bearer has advantage on saving throws vs. fear. ",
+        "rating": 0
+    },
+    {
+        "name": "Histrionic / of Histrionics",
+        "desc": "the bearer gains +1 to Charisma (Performance) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Holy / of Faith",
+        "desc": "When the bearer of this item rolls hit dice, they can choose to re-roll them and take the second result. ",
+        "rating": 0
+    },
+    {
+        "name": "Iconic / of Symbols",
+        "desc": "The item is inscribed with holy symbols of the God of the DM's choice. A cleric or paladin that serves that god may use this item as a divine focus. ",
+        "rating": 0
+    },
+    {
+        "name": "Inquisitor's / of the Inquisitor",
+        "desc": "The bearer gains a +1 bonus to Intelligence (Investigation) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Inspired / of Inspiration",
+        "desc": "The bearer regains their Constitution modifier in temporary hit points whenever they gain or use inspiration. ",
+        "rating": 0
+    },
+    {
+        "name": "Leaping / of Leaping",
+        "desc": "Contains 1d4 unreplenishable charges of the Jump spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Liar's / of Lies",
+        "desc": "Contains 1d4 unreplenishable charges of the Silent Image spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Limbo / of Limbo",
+        "desc": "When on the plane of Limbo, the bearer has advantage to Intelligence checks to alter or move non-magical objects within the plane. (DMG p. 61-62) ",
+        "rating": 0
+    },
+    {
+        "name": "Locating / of Locating",
+        "desc": "Once attuned, the bearer always knows the exact location of this item ",
+        "rating": 0
+    },
+    {
+        "name": "Loquacious / of the Silver Tongue",
+        "desc": "The bearer gains +1 to Charisma (Persuasion) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Malediction / of Malediction",
+        "desc": "Contains 1d4 unreplenishable charges of the Bane spell(1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Manipulating / of Manipulation",
+        "desc": "The bearer may cast Mage Hand once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Master's / of Servants",
+        "desc": "Contains 1d4 unreplenishable charges of the Unseen Servant spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Maverick / of the Maverick",
+        "desc": "The bearer has a +1 bonus to any skill check involving gambling and games of chance (Insight, Sleight of Hand, Investigation, etc). ",
+        "rating": 0
+    },
+    {
+        "name": "Messenger / of Messages",
+        "desc": "The bearer may cast Message once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Meteoric / of Falling Stars",
+        "desc": "Contains 1 unreplenishable charge of Scorching Ray (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Mindful / of Mindfulness",
+        "desc": "The bearer gains a +1 bonus to Wisdom saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Miraculous / of Miracles",
+        "desc": "The bearer may cast Thaumaturgy once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Mocking / of Mockery",
+        "desc": "The bearer may cast Vicious Mockery once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Natural / of Nature",
+        "desc": "Contains 1d4 unreplenishable charges of the Locate Animals or Plants spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Neutralizing / of Neutrality",
+        "desc": "Contains 1d4 unreplenishable charges of the Protection from Good and Evil spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Nimble / of Agility",
+        "desc": "The bearer gains a +1 bonus to Dexterity saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Nourishing / of Nourishment",
+        "desc": "The bearer rarely feels hungry, and only needs to consume one-fifth the usual amount of food. ",
+        "rating": 0
+    },
+    {
+        "name": "Pandemonium / of Pandemonium",
+        "desc": "When on the plane of Pandemonium, the bearer has advantage on saving throws against the Mad Winds. (DMG p. 62) ",
+        "rating": 0
+    },
+    {
+        "name": "Preacher's / of the Preacher",
+        "desc": "The bearer may extend the range of their Channel Divinity by 5 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Projecting / of Projection",
+        "desc": "The bearer can send messages mentally to willing characters within 30 feet. This communication is one-way only. ",
+        "rating": 0
+    },
+    {
+        "name": "Protective / of Protection",
+        "desc": "The bearer may cast Blade Ward once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Reaper's / of the Reaper",
+        "desc": "The bearer has advantage on death saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Renaissance / of the Renaissance",
+        "desc": "Once per day, the bearer may gain +1 to any skill check. ",
+        "rating": 0
+    },
+    {
+        "name": "Revealing / of Revelation",
+        "desc": "Contains 1d4 unreplenishable charges of the Detect Magic spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Riutal / of Rituals",
+        "desc": "Whenever the bearer casts a spell as a ritual, they have advantage to maintain concentration during the ritual. ",
+        "rating": 0
+    },
+    {
+        "name": "Sacred / of the Sacred",
+        "desc": "The bearer may increase their Lay on Hands hit point pool by 5. ",
+        "rating": 0
+    },
+    {
+        "name": "Sagacious / of Acumen",
+        "desc": "The bearer gains +1 to Wisdom (Insight) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Sage's / of the Sage",
+        "desc": "The bearer gains a +1 bonus to Intelligence (History) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Secret / of Secrets",
+        "desc": "Contains 1d4 unreplenishable charges of the Illusory Script spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Sentinel / of the Sentinel",
+        "desc": "Faintly glows when creatures of a certain race (DMs choice) are within a 100 foot radius. ",
+        "rating": 0
+    },
+    {
+        "name": "Shading / of Shade",
+        "desc": "The bearer suffers no harm in temperatures as high as 120 degrees Fahrenheit. ",
+        "rating": 0
+    },
+    {
+        "name": "Shadowbound / of the Shadowfell",
+        "desc": "The bearer knows the general direction to the closest Shadow Crossing within a 60 mile radius. They have advantage on saving throws vs. Shadowfell Dispair (DMG p. 51-52) ",
+        "rating": 0
+    },
+    {
+        "name": "Shepherd's / of the Shepherd",
+        "desc": "The bearer gains a +1 bonus to (Wisdom) Animal Handling checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Shielding / of Shielding",
+        "desc": "This item contains 1d4 unreplenishable charges of the Shield spell. ",
+        "rating": 0
+    },
+    {
+        "name": "Shifting / of Shifting",
+        "desc": "The bearer may change minor aspects of the physical appearance of this item. ",
+        "rating": 0
+    },
+    {
+        "name": "Silent / of the Night",
+        "desc": "The bearer gains a +1 bonus to Dexterity (Stealth) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Smith's / of Reparations",
+        "desc": "The bearer may cast Mending once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Sojourner's / of the Sojouner",
+        "desc": "A poem, story, or map that describes a long-forgotten treasure is etched on the surface of the item. ",
+        "rating": 0
+    },
+    {
+        "name": "Solemn / of Solemnity",
+        "desc": "The bearer may spend an action removing all the failed death saving throws from a target within 5 feet of them. The target is still not stabilized. ",
+        "rating": 0
+    },
+    {
+        "name": "Sparkling / of Lights",
+        "desc": "The bearer may cast Dancing Lights once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Striding / of Strides",
+        "desc": "Contains 1d4 unreplenishable charges of the Longstrider spell (1st level). ",
+        "rating": 0
+    },
+    {
+        "name": "Surgeon's / of the Surgeon",
+        "desc": "The bearer gains a +1 bonus to Wisdom (Medicine) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Tenacious / of the Tenacious",
+        "desc": "When the bearer takes a long rest, they gain back one additional hit die. ",
+        "rating": 0
+    },
+    {
+        "name": "Tracker's / of the Tracker",
+        "desc": "The bearer gains a +1 to Wisdom (Survival) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Translucent / of Translucence",
+        "desc": "The bearer gains an extra level one spell slot, which recovers only after a full moon rises. ",
+        "rating": 0
+    },
+    {
+        "name": "Trickster's / of Trickery",
+        "desc": "The bearer may cast Minor Illusion once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "True / of Truth",
+        "desc": "The bearer may cast True Strike once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Unbroken / of Heart",
+        "desc": "The bearer gains a +1 bonus to Constitution saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Verdant / of Druidcraft",
+        "desc": "The bearer may cast Druidcraft once per day. ",
+        "rating": 0
+    },
+    {
+        "name": "Victorious / of Victory",
+        "desc": "Whenever the bearer kills a creature they gain temporary hit points equal to the creature's CR. ",
+        "rating": 0
+    },
+    {
+        "name": "Vigilant / of Vigilance",
+        "desc": "The bearer gains +2 to their Passive Perception. ",
+        "rating": 0
+    },
+    {
+        "name": "Vigorous / of Vigor",
+        "desc": "The bearer gains a +1 bonus to Strength saving throws. ",
+        "rating": 0
+    },
+    {
+        "name": "Vital / of Vitality",
+        "desc": "The bearer's maximum hit points increases by their constitution modifier while attuned to this item. These hit points are lost when the bearer unattunes the item. ",
+        "rating": 0
+    },
+    {
+        "name": "War Leader's / of the War Leader",
+        "desc": "The bearer can use an action to amplify their voice so that it clearly carries for up to 300 feet. ",
+        "rating": 0
+    },
+    {
+        "name": "Waterborne / of the Sea",
+        "desc": "The item floats on water or other liquids. Its bearer has advantage on Strength (Athletics) checks to swim. ",
+        "rating": 0
+    },
+    {
+        "name": "Windborne / of the Labyrinth Wind",
+        "desc": "When in the Plane of Air, the bearer can navigate the Labyrinth Wind intuitively, and knows the path to the nearest Earth Mote within 60 miles. ",
+        "rating": 0
+    },
+    {
+        "name": "Wizard's / of the Wizard",
+        "desc": "The bearer gains a +1 to Intelligence (Arcana) checks. ",
+        "rating": 0
+    },
+    {
+        "name": "Wrathful / of Ysgard",
+        "desc": "When on the plane of Ysgard, the bearer is unaffected by Immortal Wrath. (DMG p. 61)",
+        "rating": 0
+    }
+]

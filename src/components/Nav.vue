@@ -7,7 +7,7 @@
                 </div>
             </div>
             <span class="logo-text">Grimbi's Grimoire</span>
-            <span class="page-text">{{page}}</span>
+            <span v-if="page" class="page-text">{{page}}</span>
         </span>
     </div>
 </template>
