@@ -1,4 +1,4 @@
-# spell-cards-5e
+# Grimbi's Grimoire
 
 ## Project setup
 ```
